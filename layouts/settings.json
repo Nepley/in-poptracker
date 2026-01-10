@@ -1,0 +1,24 @@
+{
+	"settings_layout": {
+		"type": "array",
+		"orientation": "horizontal",
+		"margin": "0, 0",
+		"max_width": "100%",
+		"content": [
+			{
+				"type": "itemgrid",
+				"item_size": 16,
+				"badge_font_size": 10,
+				"item_margin": "1, 2",
+				"rows": [
+					["both_stage_4", "difficulty_check", "extra_stage_included", "include_last_spell"],
+					["teams", "solo", "stages", "spell_practice"],
+					["spell_practice_illusion_team", "spell_practice_magic_team", "spell_practice_devil_team", "spell_practice_nether_team"],
+					["lives_3_4" , "lives_5_6", "lives_extra", "spell_card_goal"],
+					["bombs_3_4" , "bombs_5_6", "bombs_extra", "final_spell_card"],
+					["lower_difficulty_3_4" , "lower_difficulty_5_6", "include_lunatic", ""]
+				]
+			}
+		]
+	}
+}

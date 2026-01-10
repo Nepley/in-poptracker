@@ -1,0 +1,26 @@
+[
+	{
+		"name": "team-stages",
+		"location_size": 12,
+		"location_border_thickness": 1,
+		"img": "/images/bg.png"
+	},
+	{
+		"name": "team-spell-practice",
+		"location_size": 12,
+		"location_border_thickness": 1,
+		"img": "/images/bg_sp.png"
+	},
+	{
+		"name": "solo-stages",
+		"location_size": 12,
+		"location_border_thickness": 1,
+		"img": "/images/bg.png"
+	},
+	{
+		"name": "solo-spell-practice",
+		"location_size": 12,
+		"location_border_thickness": 1,
+		"img": "/images/bg_sp.png"
+	}
+]

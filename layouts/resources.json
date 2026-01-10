@@ -1,0 +1,349 @@
+{
+	"resources_layout": {
+		"type": "array",
+		"orientation": "horizontal",
+		"margin": "0, 0",
+		"max_width": "100%",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "vertical",
+				"margin": "0, 0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"item_size": "4, 4",
+						"item_margin": "2, 2",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"rows": [
+							[
+								"lives",
+								"bombs",
+								"lower_difficulty",
+								"time",
+								"power_points",
+								"time_points",
+								"",
+								"",
+								"",
+								"",
+								"treasures",
+								"spell_card_count"
+							],
+							[
+								"illusion_team",
+								"magic_team",
+								"devil_team",
+								"nether_team",
+								"reimu",
+								"yukari",
+								"marisa",
+								"alice",
+								"sakuya",
+								"remilia",
+								"youmu",
+								"yuyuko"
+							]
+						]
+					},
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"margin": "2, 2",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"illusion_team_stage_1",
+										"illusion_team_stage_2",
+										"illusion_team_stage_3"
+									],
+									[
+										"illusion_team_stage_4_a",
+										"illusion_team_stage_4_b",
+										"illusion_team_stage_5"
+									],
+									[
+										"illusion_team_stage_6_a",
+										"illusion_team_stage_6_b",
+										"illusion_team_extra_stage"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"magic_team_stage_1",
+										"magic_team_stage_2",
+										"magic_team_stage_3"
+									],
+									[
+										"magic_team_stage_4_a",
+										"magic_team_stage_4_b",
+										"magic_team_stage_5"
+									],
+									[
+										"magic_team_stage_6_a",
+										"magic_team_stage_6_b",
+										"magic_team_extra_stage"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"devil_team_stage_1",
+										"devil_team_stage_2",
+										"devil_team_stage_3"
+									],
+									[
+										"devil_team_stage_4_a",
+										"devil_team_stage_4_b",
+										"devil_team_stage_5"
+									],
+									[
+										"devil_team_stage_6_a",
+										"devil_team_stage_6_b",
+										"devil_team_extra_stage"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"nether_team_stage_1",
+										"nether_team_stage_2",
+										"nether_team_stage_3"
+									],
+									[
+										"nether_team_stage_4_a",
+										"nether_team_stage_4_b",
+										"nether_team_stage_5"
+									],
+									[
+										"nether_team_stage_6_a",
+										"nether_team_stage_6_b",
+										"nether_team_extra_stage"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"reimu_stage_1",
+										"reimu_stage_2",
+										"reimu_stage_3"
+									],
+									[
+										"reimu_stage_4_a",
+										"reimu_stage_4_b",
+										"reimu_stage_5"
+									],
+									[
+										"reimu_stage_6_a",
+										"reimu_stage_6_b",
+										"reimu_extra_stage"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"yukari_stage_1",
+										"yukari_stage_2",
+										"yukari_stage_3"
+									],
+									[
+										"yukari_stage_4_a",
+										"yukari_stage_4_b",
+										"yukari_stage_5"
+									],
+									[
+										"yukari_stage_6_a",
+										"yukari_stage_6_b",
+										"yukari_extra_stage"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"marisa_stage_1",
+										"marisa_stage_2",
+										"marisa_stage_3"
+									],
+									[
+										"marisa_stage_4_a",
+										"marisa_stage_4_b",
+										"marisa_stage_5"
+									],
+									[
+										"marisa_stage_6_a",
+										"marisa_stage_6_b",
+										"marisa_extra_stage"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"alice_stage_1",
+										"alice_stage_2",
+										"alice_stage_3"
+									],
+									[
+										"alice_stage_4_a",
+										"alice_stage_4_b",
+										"alice_stage_5"
+									],
+									[
+										"alice_stage_6_a",
+										"alice_stage_6_b",
+										"alice_extra_stage"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"sakuya_stage_1",
+										"sakuya_stage_2",
+										"sakuya_stage_3"
+									],
+									[
+										"sakuya_stage_4_a",
+										"sakuya_stage_4_b",
+										"sakuya_stage_5"
+									],
+									[
+										"sakuya_stage_6_a",
+										"sakuya_stage_6_b",
+										"sakuya_extra_stage"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"remilia_stage_1",
+										"remilia_stage_2",
+										"remilia_stage_3"
+									],
+									[
+										"remilia_stage_4_a",
+										"remilia_stage_4_b",
+										"remilia_stage_5"
+									],
+									[
+										"remilia_stage_6_a",
+										"remilia_stage_6_b",
+										"remilia_extra_stage"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"youmu_stage_1",
+										"youmu_stage_2",
+										"youmu_stage_3"
+									],
+									[
+										"youmu_stage_4_a",
+										"youmu_stage_4_b",
+										"youmu_stage_5"
+									],
+									[
+										"youmu_stage_6_a",
+										"youmu_stage_6_b",
+										"youmu_extra_stage"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"item_size": 14,
+								"item_margin": "0, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"rows": [
+									[
+										"yuyuko_stage_1",
+										"yuyuko_stage_2",
+										"yuyuko_stage_3"
+									],
+									[
+										"yuyuko_stage_4_a",
+										"yuyuko_stage_4_b",
+										"yuyuko_stage_5"
+									],
+									[
+										"yuyuko_stage_6_a",
+										"yuyuko_stage_6_b",
+										"yuyuko_extra_stage"
+									]
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,131 @@
+{
+	"map_layout": {
+		"type": "tabbed",
+		"tabs": [
+			{
+				"title": "Teams",
+				"content": {
+				"type": "layout",
+				"key": "teams"
+				}
+			},
+			{
+				"title": "Solo",
+				"content": {
+				"type": "layout",
+				"key": "solo"
+				}
+			},
+			{
+				"title": "All",
+				"content": {
+				"type": "layout",
+				"key": "all"
+				}
+			}
+		]
+	},
+	"teams": {
+		"type": "tabbed",
+		"tabs": [
+			{
+				"title": "Stages",
+				"content": {
+					"type": "map",
+					"maps": [
+						"team-stages"
+					]
+				}
+			},
+			{
+				"title": "Spell Practice",
+				"content": {
+					"type": "map",
+					"maps": [
+						"team-spell-practice"
+					]
+				}
+			},
+			{
+				"title": "All",
+				"content": {
+					"type": "map",
+					"maps": [
+						"team-stages",
+						"team-spell-practice"
+					]
+				}
+			}
+		]
+	},
+	"solo": {
+		"type": "tabbed",
+		"tabs": [
+			{
+				"title": "Stages",
+				"content": {
+					"type": "map",
+					"maps": [
+						"solo-stages"
+					]
+				}
+			},
+			{
+				"title": "Spell Practice",
+				"content": {
+					"type": "map",
+					"maps": [
+						"solo-spell-practice"
+					]
+				}
+			},
+			{
+				"title": "All",
+				"content": {
+					"type": "map",
+					"maps": [
+						"solo-stages",
+						"solo-spell-practice"
+					]
+				}
+			}
+		]
+	},
+	"all": {
+		"type": "tabbed",
+		"tabs": [
+			{
+				"title": "Stages",
+				"content": {
+					"type": "map",
+					"maps": [
+						"team-stages",
+						"solo-stages"
+					]
+				}
+			},
+			{
+				"title": "Spell Practice",
+				"content": {
+					"type": "map",
+					"maps": [
+						"team-spell-practice",
+						"solo-spell-practice"
+					]
+				}
+			},
+			{
+				"title": "All",
+				"content": {
+					"type": "map",
+					"maps": [
+						"team-stages",
+						"solo-stages",
+						"team-spell-practice",
+						"solo-spell-practice"
+					]
+				}
+			}
+		]
+	}
+}

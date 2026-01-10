@@ -1,0 +1,2381 @@
+[
+	{
+		"name": "teamHasDifficulty",
+		"chest_unopened_img": "/images/ui/life.png",
+		"chest_opened_img": "/images/ui/grey_star.png",
+		"visibility_rules": ["teams, stages, $teamHasDifficulty"],
+		"children": [
+			{
+				"name": "[Illusion Team] Stage 1",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 240,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Illusion Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Illusion Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_1, time"]
+					},
+					{
+						"name": "[Illusion Team] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 2",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 240,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Illusion Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Illusion Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_2, time"]
+					},
+					{
+						"name": "[Illusion Team] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 3",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 240,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Illusion Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Illusion Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Illusion Team] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 4A",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 240,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Illusion Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Illusion Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Illusion Team] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 4B",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 240,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Illusion Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Illusion Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Illusion Team] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 5",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 240,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Illusion Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Illusion Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Illusion Team] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 6A",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 240,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Illusion Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Illusion Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Illusion Team] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 6B",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 240,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Illusion Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Illusion Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Illusion Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Illusion Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Illusion Team] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["illusion_team, illusion_team_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Illusion Team] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 240,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Illusion Team] Keine - Midboss 2",
+						"access_rules": ["illusion_team, illusion_team_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Illusion Team] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Illusion Team] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["illusion_team, illusion_team_extra_stage, [$canExtra]"]
+					}
+				]
+			},
+
+			{
+				"name": "[Magic Team] Stage 1",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 412,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Magic Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Magic Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Magic Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Magic Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_1, time"]
+					},
+					{
+						"name": "[Magic Team] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 2",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 412,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Magic Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Magic Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Magic Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Magic Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_2, time"]
+					},
+					{
+						"name": "[Magic Team] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 3",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 412,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Magic Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Magic Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Magic Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Magic Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Magic Team] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 4A",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 412,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Magic Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Magic Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Magic Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Magic Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Magic Team] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 4B",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 412,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Magic Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Magic Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Magic Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Magic Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Magic Team] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 5",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 412,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Magic Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Magic Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Magic Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Magic Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Magic Team] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 6A",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 412,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Magic Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Magic Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Magic Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Magic Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Magic Team] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 6B",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 412,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Magic Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Magic Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Magic Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Magic Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Magic Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Magic Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Magic Team] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["magic_team, magic_team_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Magic Team] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 412,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Magic Team] Keine - Midboss 2",
+						"access_rules": ["magic_team, magic_team_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Magic Team] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Magic Team] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["magic_team, magic_team_extra_stage, [$canExtra]"]
+					}
+				]
+			},
+
+			{
+				"name": "[Devil Team] Stage 1",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 584,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Devil Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Devil Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Devil Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Devil Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_1, time"]
+					},
+					{
+						"name": "[Devil Team] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 2",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 584,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Devil Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Devil Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Devil Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Devil Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_2, time"]
+					},
+					{
+						"name": "[Devil Team] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 3",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 584,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Devil Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Devil Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Devil Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Devil Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Devil Team] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 4A",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 584,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Devil Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Devil Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Devil Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Devil Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Devil Team] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 4B",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 584,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Devil Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Devil Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Devil Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Devil Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Devil Team] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 5",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 584,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Devil Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Devil Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Devil Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Devil Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Devil Team] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 6A",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 584,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Devil Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Devil Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Devil Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Devil Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Devil Team] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 6B",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 584,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Devil Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Devil Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Devil Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Devil Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Devil Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Devil Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Devil Team] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["devil_team, devil_team_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Devil Team] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 584,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Devil Team] Keine - Midboss 2",
+						"access_rules": ["devil_team, devil_team_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Devil Team] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Devil Team] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["devil_team, devil_team_extra_stage, [$canExtra]"]
+					}
+				]
+			},
+
+			{
+				"name": "[Nether Team] Stage 1",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 756,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Nether Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Nether Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Nether Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Nether Team] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_1, time"]
+					},
+					{
+						"name": "[Nether Team] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 2",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 756,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Nether Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Nether Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Nether Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Nether Team] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_2, time"]
+					},
+					{
+						"name": "[Nether Team] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 3",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 756,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Nether Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Nether Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Nether Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Nether Team] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Nether Team] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 4A",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 756,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Nether Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Nether Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Nether Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Nether Team] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Nether Team] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 4B",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 756,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Nether Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Nether Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Nether Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Nether Team] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Nether Team] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 5",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 756,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Nether Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Nether Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Nether Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Nether Team] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Nether Team] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 6A",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 756,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Nether Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Nether Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Nether Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Nether Team] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Nether Team] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 6B",
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 756,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Nether Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Nether Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Nether Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Nether Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Nether Team] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Nether Team] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Nether Team] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["nether_team, nether_team_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Nether Team] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "team-stages",
+						"x": 756,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Nether Team] Keine - Midboss 2",
+						"access_rules": ["nether_team, nether_team_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Nether Team] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Nether Team] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["nether_team, nether_team_extra_stage, [$canExtra]"]
+					}
+				]
+			}
+		]
+	}
+]

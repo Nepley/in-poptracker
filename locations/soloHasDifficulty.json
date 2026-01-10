@@ -1,0 +1,4753 @@
+[
+	{
+		"name": "soloHasDifficulty",
+		"chest_unopened_img": "/images/ui/life.png",
+		"chest_opened_img": "/images/ui/grey_star.png",
+		"visibility_rules": ["solo, stages, $soloHasDifficulty"],
+		"children": [
+			{
+				"name": "[Reimu] Stage 1",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 220,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Reimu] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Reimu] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Reimu] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Reimu] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_1, time"]
+					},
+					{
+						"name": "[Reimu] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Reimu] Stage 2",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 220,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Reimu] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Reimu] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Reimu] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Reimu] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_2, time"]
+					},
+					{
+						"name": "[Reimu] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Reimu] Stage 3",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 220,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Reimu] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Reimu] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Reimu] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Reimu] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Reimu] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Reimu] Stage 4A",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 220,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Reimu] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Reimu] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Reimu] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Reimu] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Reimu] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Reimu] Stage 4B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 220,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Reimu] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Reimu] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Reimu] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Reimu] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Reimu] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Reimu] Stage 5",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 220,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Reimu] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Reimu] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Reimu] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Reimu] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Reimu] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Reimu] Stage 6A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 220,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Reimu] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Reimu] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Reimu] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Reimu] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Reimu] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Reimu] Stage 6B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 220,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Reimu] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Reimu] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Reimu] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Reimu] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Reimu] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Reimu] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Reimu] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["reimu, reimu_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Reimu] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Reimu] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 220,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Reimu] Keine - Midboss 2",
+						"access_rules": ["reimu, reimu_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Reimu] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Reimu] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["reimu, reimu_extra_stage, [$canExtra]"]
+					}
+				]
+			},
+
+			{
+				"name": "[Yukari] Stage 1",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 260,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yukari] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Yukari] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Yukari] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yukari] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_1, time"]
+					},
+					{
+						"name": "[Yukari] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Yukari] Stage 2",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 260,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yukari] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Yukari] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Yukari] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yukari] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_2, time"]
+					},
+					{
+						"name": "[Yukari] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Yukari] Stage 3",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 260,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yukari] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yukari] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yukari] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yukari] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Yukari] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Yukari] Stage 4A",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 260,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yukari] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yukari] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yukari] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yukari] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Yukari] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Yukari] Stage 4B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 260,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yukari] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yukari] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yukari] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yukari] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Yukari] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Yukari] Stage 5",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 260,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yukari] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yukari] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yukari] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yukari] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Yukari] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Yukari] Stage 6A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 260,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yukari] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yukari] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yukari] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Yukari] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Yukari] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Yukari] Stage 6B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 260,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yukari] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yukari] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yukari] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yukari] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Yukari] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Yukari] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Yukari] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yukari, yukari_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Yukari] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Yukari] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 260,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Yukari] Keine - Midboss 2",
+						"access_rules": ["yukari, yukari_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Yukari] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Yukari] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["yukari, yukari_extra_stage, [$canExtra]"]
+					}
+				]
+			},
+
+			{
+				"name": "[Marisa] Stage 1",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 392,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Marisa] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Marisa] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Marisa] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Marisa] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_1, time"]
+					},
+					{
+						"name": "[Marisa] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Marisa] Stage 2",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 392,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Marisa] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Marisa] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Marisa] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Marisa] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_2, time"]
+					},
+					{
+						"name": "[Marisa] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Marisa] Stage 3",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 392,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Marisa] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Marisa] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Marisa] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Marisa] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Marisa] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Marisa] Stage 4A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 392,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Marisa] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Marisa] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Marisa] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Marisa] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Marisa] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Marisa] Stage 4B",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 392,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Marisa] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Marisa] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Marisa] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Marisa] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Marisa] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Marisa] Stage 5",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 392,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Marisa] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Marisa] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Marisa] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Marisa] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Marisa] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Marisa] Stage 6A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 392,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Marisa] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Marisa] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Marisa] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Marisa] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Marisa] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Marisa] Stage 6B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 392,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Marisa] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Marisa] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Marisa] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Marisa] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Marisa] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Marisa] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Marisa] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["marisa, marisa_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Marisa] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Marisa] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 392,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Marisa] Keine - Midboss 2",
+						"access_rules": ["marisa, marisa_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Marisa] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Marisa] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["marisa, marisa_extra_stage, [$canExtra]"]
+					}
+				]
+			},
+
+			{
+				"name": "[Alice] Stage 1",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 432,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Alice] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Alice] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Alice] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Alice] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Alice] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Alice] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Alice] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["alice, alice_stage_1, time"]
+					},
+					{
+						"name": "[Alice] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Alice] Stage 2",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 432,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Alice] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Alice] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Alice] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Alice] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Alice] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Alice] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Alice] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["alice, alice_stage_2, time"]
+					},
+					{
+						"name": "[Alice] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Alice] Stage 3",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 432,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Alice] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Alice] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Alice] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Alice] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Alice] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Alice] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Alice] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["alice, alice_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Alice] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Alice] Stage 4A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 432,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Alice] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Alice] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Alice] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Alice] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Alice] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Alice] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Alice] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Alice] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Alice] Stage 4B",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 432,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Alice] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Alice] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Alice] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Alice] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Alice] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Alice] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Alice] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Alice] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Alice] Stage 5",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 432,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Alice] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Alice] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Alice] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Alice] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["alice, alice_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Alice] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Alice] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Alice] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["alice, alice_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Alice] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Alice] Stage 6A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 432,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Alice] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Alice] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Alice] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Alice] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Alice] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Alice] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Alice] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Alice] Stage 6B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 432,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Alice] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Alice] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Alice] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Alice] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Alice] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Alice] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Alice] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Alice] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["alice, alice_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Alice] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Alice] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 432,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Alice] Keine - Midboss 2",
+						"access_rules": ["alice, alice_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Alice] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Alice] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["alice, alice_extra_stage, [$canExtra]"]
+					}
+				]
+			},
+
+			{
+				"name": "[Sakuya] Stage 1",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 564,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Sakuya] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Sakuya] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Sakuya] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Sakuya] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_1, time"]
+					},
+					{
+						"name": "[Sakuya] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Sakuya] Stage 2",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 564,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Sakuya] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Sakuya] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Sakuya] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Sakuya] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_2, time"]
+					},
+					{
+						"name": "[Sakuya] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Sakuya] Stage 3",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 564,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Sakuya] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Sakuya] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Sakuya] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Sakuya] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Sakuya] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Sakuya] Stage 4A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 564,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Sakuya] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Sakuya] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Sakuya] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Sakuya] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Sakuya] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Sakuya] Stage 4B",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 564,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Sakuya] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Sakuya] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Sakuya] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Sakuya] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Sakuya] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Sakuya] Stage 5",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 564,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Sakuya] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Sakuya] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Sakuya] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Sakuya] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Sakuya] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Sakuya] Stage 6A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 564,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Sakuya] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Sakuya] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Sakuya] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Sakuya] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Sakuya] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Sakuya] Stage 6B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 564,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Sakuya] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Sakuya] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Sakuya] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Sakuya] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Sakuya] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Sakuya] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Sakuya] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["sakuya, sakuya_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Sakuya] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Sakuya] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 564,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Sakuya] Keine - Midboss 2",
+						"access_rules": ["sakuya, sakuya_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Sakuya] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Sakuya] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["sakuya, sakuya_extra_stage, [$canExtra]"]
+					}
+				]
+			},
+
+			{
+				"name": "[Remilia] Stage 1",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 604,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Remilia] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Remilia] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Remilia] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Remilia] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_1, time"]
+					},
+					{
+						"name": "[Remilia] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Remilia] Stage 2",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 604,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Remilia] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Remilia] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Remilia] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Remilia] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_2, time"]
+					},
+					{
+						"name": "[Remilia] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Remilia] Stage 3",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 604,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Remilia] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Remilia] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Remilia] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Remilia] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Remilia] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Remilia] Stage 4A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 604,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Remilia] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Remilia] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Remilia] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Remilia] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Remilia] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Remilia] Stage 4B",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 604,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Remilia] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Remilia] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Remilia] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Remilia] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Remilia] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Remilia] Stage 5",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 604,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Remilia] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Remilia] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Remilia] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Remilia] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Remilia] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Remilia] Stage 6A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 604,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Remilia] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Remilia] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Remilia] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Remilia] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Remilia] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Remilia] Stage 6B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 604,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Remilia] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Remilia] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Remilia] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Remilia] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Remilia] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Remilia] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Remilia] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["remilia, remilia_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Remilia] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Remilia] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 604,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Remilia] Keine - Midboss 2",
+						"access_rules": ["remilia, remilia_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Remilia] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Remilia] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["remilia, remilia_extra_stage, [$canExtra]"]
+					}
+				]
+			},
+
+			{
+				"name": "[Youmu] Stage 1",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 736,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Youmu] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Youmu] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Youmu] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Youmu] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_1, time"]
+					},
+					{
+						"name": "[Youmu] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Youmu] Stage 2",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 736,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Youmu] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Youmu] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Youmu] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Youmu] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_2, time"]
+					},
+					{
+						"name": "[Youmu] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Youmu] Stage 3",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 736,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Youmu] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Youmu] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Youmu] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Youmu] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Youmu] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Youmu] Stage 4A",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 736,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Youmu] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Youmu] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Youmu] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Youmu] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Youmu] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Youmu] Stage 4B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 736,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Youmu] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Youmu] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Youmu] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Youmu] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Youmu] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Youmu] Stage 5",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 736,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Youmu] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Youmu] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Youmu] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Youmu] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Youmu] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Youmu] Stage 6A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 736,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Youmu] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Youmu] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Youmu] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Youmu] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Youmu] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Youmu] Stage 6B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 736,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Youmu] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Youmu] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Youmu] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Youmu] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Youmu] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Youmu] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Youmu] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["youmu, youmu_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Youmu] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Youmu] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 736,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Youmu] Keine - Midboss 2",
+						"access_rules": ["youmu, youmu_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Youmu] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Youmu] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["youmu, youmu_extra_stage, [$canExtra]"]
+					}
+				]
+			},
+
+			{
+				"name": "[Yuyuko] Stage 1",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 776,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yuyuko] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Easy][Yuyuko] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_1, $canEasy"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_1, $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_1, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Wriggle - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Wriggle Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_1, $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Wriggle - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_1, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Wriggle - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Wriggle Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_1"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Wriggle - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_1, time"]
+					},
+					{
+						"name": "[Yuyuko] Stage 1 Clear",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_1"]
+					}
+				]
+			},
+			{
+				"name": "[Yuyuko] Stage 2",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 776,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yuyuko] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Easy][Yuyuko] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_2, $canEasy"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_2, $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_2, $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Mystia - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Mystia Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_2, $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Mystia - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_2, $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Mystia - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Mystia Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_2"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Mystia - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_2, time"]
+					},
+					{
+						"name": "[Yuyuko] Stage 2 Clear",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_2"]
+					}
+				]
+			},
+			{
+				"name": "[Yuyuko] Stage 3",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 776,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yuyuko] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yuyuko] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Keine - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Keine Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Keine - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Keine - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Keine Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Keine - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], time"]
+					},
+					{
+						"name": "[Yuyuko] Stage 3 Clear",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Yuyuko] Stage 4A",
+				"visibility_rules": ["both_stage_4"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 776,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yuyuko] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yuyuko] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Reimu - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Reimu Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Reimu - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Reimu - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Reimu Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Reimu - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], time"]
+					},
+					{
+						"name": "[Yuyuko] Stage 4A Clear",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Yuyuko] Stage 4B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 776,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yuyuko] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yuyuko] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Marisa - Midboss",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Marisa Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Marisa - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Marisa - Midboss",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Marisa Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34]"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Marisa - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], time"]
+					},
+					{
+						"name": "[Yuyuko] Stage 4B Clear",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34]"]
+					}
+				]
+			},
+			{
+				"name": "[Yuyuko] Stage 5",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 776,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yuyuko] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yuyuko] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canNormal, time"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Tewi Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Reisen Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Reisen - Last Spell",
+						"visibility_rules": ["$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canHard, time"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Tewi Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Reisen Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Reisen - Last Spell",
+						"visibility_rules": ["include_lunatic", "$lastSpell"],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], time"]
+					},
+					{
+						"name": "[Yuyuko] Stage 5 Clear",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Yuyuko] Stage 6A",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 776,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yuyuko] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yuyuko] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_a, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_a, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Eirin - Midboss 1",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Eirin Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_a, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Eirin - Midboss 1",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Eirin Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_6_a, [$canStage56]"]
+					},
+					{
+						"name": "[Yuyuko] Stage 6A Clear",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_a, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Yuyuko] Stage 6B",
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 776,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Easy][Yuyuko] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Easy][Yuyuko] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_b, [$canStage56], $canEasy"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Normal][Yuyuko] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_b, [$canStage56], $canNormal"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Eirin - Midboss 2",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Hard][Yuyuko] Kaguya Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_b, [$canStage56], $canHard"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Eirin - Midboss 2",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Lunatic][Yuyuko] Kaguya Defeated",
+						"visibility_rules": ["include_lunatic"],
+						"access_rules": ["yuyuko, yuyuko_stage_6_b, [$canStage56]"]
+					},
+					{
+						"name": "[Yuyuko] Stage 6B Clear",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_stage_6_b, [$canStage56]"]
+					}
+				]
+			},
+			{
+				"name": "[Yuyuko] Stage Extra",
+				"visibility_rules": ["$extraStage"],
+				"map_locations": [
+					{
+						"map": "solo-stages",
+						"x": 776,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Yuyuko] Keine - Midboss 2",
+						"access_rules": ["yuyuko, yuyuko_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Yuyuko] Mokou Defeated",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_extra_stage, [$canExtra]"]
+					},
+					{
+						"name": "[Yuyuko] Stage Extra Clear",
+						"visibility_rules": [],
+						"access_rules": ["yuyuko, yuyuko_extra_stage, [$canExtra]"]
+					}
+				]
+			}
+		]
+	}
+]

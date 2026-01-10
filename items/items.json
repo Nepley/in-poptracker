@@ -1,0 +1,2428 @@
+[
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "illusion_team_stage_1",
+		"name": "[Illusion Team] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "illusion_team_stage_2",
+		"name": "[Illusion Team] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "illusion_team_stage_3",
+		"name": "[Illusion Team] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "illusion_team_stage_4_a",
+		"name": "[Illusion Team] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "illusion_team_stage_4_b",
+		"name": "[Illusion Team] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "illusion_team_stage_5",
+		"name": "[Illusion Team] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "illusion_team_stage_6_a",
+		"name": "[Illusion Team] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "illusion_team_stage_6_b",
+		"name": "[Illusion Team] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "magic_team_stage_1",
+		"name": "[Magic Team] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "magic_team_stage_2",
+		"name": "[Magic Team] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "magic_team_stage_3",
+		"name": "[Magic Team] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "magic_team_stage_4_a",
+		"name": "[Magic Team] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "magic_team_stage_4_b",
+		"name": "[Magic Team] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "magic_team_stage_5",
+		"name": "[Magic Team] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "magic_team_stage_6_a",
+		"name": "[Magic Team] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "magic_team_stage_6_b",
+		"name": "[Magic Team] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "devil_team_stage_1",
+		"name": "[Devil Team] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "devil_team_stage_2",
+		"name": "[Devil Team] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "devil_team_stage_3",
+		"name": "[Devil Team] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "devil_team_stage_4_a",
+		"name": "[Devil Team] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "devil_team_stage_4_b",
+		"name": "[Devil Team] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "devil_team_stage_5",
+		"name": "[Devil Team] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "devil_team_stage_6_a",
+		"name": "[Devil Team] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "devil_team_stage_6_b",
+		"name": "[Devil Team] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "nether_team_stage_1",
+		"name": "[Nether Team] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "nether_team_stage_2",
+		"name": "[Nether Team] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "nether_team_stage_3",
+		"name": "[Nether Team] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "nether_team_stage_4_a",
+		"name": "[Nether Team] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "nether_team_stage_4_b",
+		"name": "[Nether Team] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "nether_team_stage_5",
+		"name": "[Nether Team] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "nether_team_stage_6_a",
+		"name": "[Nether Team] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "nether_team_stage_6_b",
+		"name": "[Nether Team] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "reimu_stage_1",
+		"name": "[Reimu] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "reimu_stage_2",
+		"name": "[Reimu] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "reimu_stage_3",
+		"name": "[Reimu] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "reimu_stage_4_a",
+		"name": "[Reimu] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "reimu_stage_4_b",
+		"name": "[Reimu] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "reimu_stage_5",
+		"name": "[Reimu] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "reimu_stage_6_a",
+		"name": "[Reimu] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "reimu_stage_6_b",
+		"name": "[Reimu] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "yukari_stage_1",
+		"name": "[Yukari] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "yukari_stage_2",
+		"name": "[Yukari] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "yukari_stage_3",
+		"name": "[Yukari] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "yukari_stage_4_a",
+		"name": "[Yukari] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "yukari_stage_4_b",
+		"name": "[Yukari] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "yukari_stage_5",
+		"name": "[Yukari] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "yukari_stage_6_a",
+		"name": "[Yukari] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "yukari_stage_6_b",
+		"name": "[Yukari] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "marisa_stage_1",
+		"name": "[Marisa] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "marisa_stage_2",
+		"name": "[Marisa] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "marisa_stage_3",
+		"name": "[Marisa] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "marisa_stage_4_a",
+		"name": "[Marisa] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "marisa_stage_4_b",
+		"name": "[Marisa] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "marisa_stage_5",
+		"name": "[Marisa] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "marisa_stage_6_a",
+		"name": "[Marisa] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "marisa_stage_6_b",
+		"name": "[Marisa] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "alice_stage_1",
+		"name": "[Alice] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "alice_stage_2",
+		"name": "[Alice] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "alice_stage_3",
+		"name": "[Alice] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "alice_stage_4_a",
+		"name": "[Alice] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "alice_stage_4_b",
+		"name": "[Alice] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "alice_stage_5",
+		"name": "[Alice] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "alice_stage_6_a",
+		"name": "[Alice] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "alice_stage_6_b",
+		"name": "[Alice] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "sakuya_stage_1",
+		"name": "[Sakuya] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "sakuya_stage_2",
+		"name": "[Sakuya] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "sakuya_stage_3",
+		"name": "[Sakuya] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "sakuya_stage_4_a",
+		"name": "[Sakuya] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "sakuya_stage_4_b",
+		"name": "[Sakuya] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "sakuya_stage_5",
+		"name": "[Sakuya] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "sakuya_stage_6_a",
+		"name": "[Sakuya] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "sakuya_stage_6_b",
+		"name": "[Sakuya] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "remilia_stage_1",
+		"name": "[Remilia] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "remilia_stage_2",
+		"name": "[Remilia] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "remilia_stage_3",
+		"name": "[Remilia] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "remilia_stage_4_a",
+		"name": "[Remilia] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "remilia_stage_4_b",
+		"name": "[Remilia] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "remilia_stage_5",
+		"name": "[Remilia] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "remilia_stage_6_a",
+		"name": "[Remilia] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "remilia_stage_6_b",
+		"name": "[Remilia] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "youmu_stage_1",
+		"name": "[Youmu] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "youmu_stage_2",
+		"name": "[Youmu] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "youmu_stage_3",
+		"name": "[Youmu] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "youmu_stage_4_a",
+		"name": "[Youmu] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "youmu_stage_4_b",
+		"name": "[Youmu] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "youmu_stage_5",
+		"name": "[Youmu] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "youmu_stage_6_a",
+		"name": "[Youmu] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "youmu_stage_6_b",
+		"name": "[Youmu] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "yuyuko_stage_1",
+		"name": "[Yuyuko] Stage 1",
+		"initial_active_state": true
+	},
+	{
+		"img": "/images/items/Numbers/2.png",
+		"type": "toggle",
+		"codes": "yuyuko_stage_2",
+		"name": "[Yuyuko] Stage 2"
+	},
+	{
+		"img": "/images/items/Numbers/3.png",
+		"type": "toggle",
+		"codes": "yuyuko_stage_3",
+		"name": "[Yuyuko] Stage 3"
+	},
+	{
+		"img": "/images/items/Numbers/4a.png",
+		"type": "toggle",
+		"codes": "yuyuko_stage_4_a",
+		"name": "[Yuyuko] Stage 4A"
+	},
+	{
+		"img": "/images/items/Numbers/4b.png",
+		"type": "toggle",
+		"codes": "yuyuko_stage_4_b",
+		"name": "[Yuyuko] Stage 4B"
+	},
+	{
+		"img": "/images/items/Numbers/5.png",
+		"type": "toggle",
+		"codes": "yuyuko_stage_5",
+		"name": "[Yuyuko] Stage 5"
+	},
+	{
+		"img": "/images/items/Numbers/6a.png",
+		"type": "toggle",
+		"codes": "yuyuko_stage_6_a",
+		"name": "[Yuyuko] Stage 6A"
+	},
+	{
+		"img": "/images/items/Numbers/6b.png",
+		"type": "toggle",
+		"codes": "yuyuko_stage_6_b",
+		"name": "[Yuyuko] Stage 6B"
+	},
+
+	{
+		"img": "/images/items/Numbers/1.png",
+		"type": "toggle",
+		"codes": "magic_team_stage_1",
+		"name": "[Magic Team] Stage 1",
+		"initial_active_state": true
+	},
+
+	{
+		"name": "Difficulties",
+		"type": "progressive",
+		"codes": "lower_difficulty",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Difficulties/lunatic.png",
+					"codes": "lunatic",
+					"inherit_codes": false,
+					"name": "Lunatic" 
+				},
+				{
+					"img": "/images/items/Difficulties/hard.png",
+					"codes": "hard",
+					"inherit_codes": false,
+					"name": "Hard" 
+				},
+				{
+					"img": "/images/items/Difficulties/normal.png",
+					"codes": "normal",
+					"inherit_codes": false,
+					"name": "Normal" 
+				},
+				{
+					"img": "/images/items/Difficulties/easy.png",
+					"codes": "easy",
+					"inherit_codes": false,
+					"name": "Easy" 
+				}
+		]
+	},
+	{
+		"name": "[Illusion Team] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "illusion_team_extra_stage"
+	},
+	{
+		"name": "[Magic Team] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "magic_team_extra_stage"
+	},
+	{
+		"name": "[Devil Team] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "devil_team_extra_stage"
+	},
+	{
+		"name": "[Nether Team] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "nether_team_extra_stage"
+	},
+	{
+		"name": "[Reimu] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "reimu_extra_stage"
+	},
+	{
+		"name": "[Yukari] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "yukari_extra_stage"
+	},
+	{
+		"name": "[Marisa] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "marisa_extra_stage"
+	},
+	{
+		"name": "[Alice] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "alice_extra_stage"
+	},
+	{
+		"name": "[Sakuya] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "sakuya_extra_stage"
+	},
+	{
+		"name": "[Remilia] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "remilia_extra_stage"
+	},
+	{
+		"name": "[Youmu] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "youmu_extra_stage"
+	},
+	{
+		"name": "[Yuyuko] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "yuyuko_extra_stage"
+	},
+	{
+		"name": "Lives",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/life_up.png",
+		"codes": "lives"
+	},
+	{
+		"name": "Bombs",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/bomb_up.png",
+		"codes": "bombs"
+	},
+	{
+		"name": "Power Points",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 128,
+		"img": "/images/items/power_point.png",
+		"codes": "power_points"
+	},
+	{
+		"name": "Time Points",
+		"type": "consumable",
+		"min_quantity": 0,
+		"img": "/images/items/time_point.png",
+		"codes": "time_points"
+	},
+	{
+		"name": "Time",
+		"type": "toggle",
+		"img": "/images/items/moon.png",
+		"codes": "time"
+	},
+	{
+		"name": "Illusion Team",
+		"type": "toggle",
+		"img": "/images/items/illusion.png",
+		"codes": "illusion_team"
+	},
+	{
+		"name": "Magic Team",
+		"type": "toggle",
+		"img": "/images/items/magic.png",
+		"codes": "magic_team"
+	},
+	{
+		"name": "Devil Team",
+		"type": "toggle",
+		"img": "/images/items/devil.png",
+		"codes": "devil_team"
+	},
+	{
+		"name": "Nether Team",
+		"type": "toggle",
+		"img": "/images/items/nether.png",
+		"codes": "nether_team"
+	},
+	{
+		"name": "Reimu",
+		"type": "toggle",
+		"img": "/images/items/reimu.png",
+		"codes": "reimu",
+		"initial_active_state": true
+	},
+	{
+		"name": "Yukari",
+		"type": "toggle",
+		"img": "/images/items/yukari.png",
+		"codes": "yukari",
+		"initial_active_state": true
+	},
+	{
+		"name": "Marisa",
+		"type": "toggle",
+		"img": "/images/items/marisa.png",
+		"codes": "marisa",
+		"initial_active_state": true
+	},
+	{
+		"name": "Alice",
+		"type": "toggle",
+		"img": "/images/items/alice.png",
+		"codes": "alice",
+		"initial_active_state": true
+	},
+	{
+		"name": "Sakuya",
+		"type": "toggle",
+		"img": "/images/items/sakuya.png",
+		"codes": "sakuya",
+		"initial_active_state": true
+	},
+	{
+		"name": "Remilia",
+		"type": "toggle",
+		"img": "/images/items/remilia.png",
+		"codes": "remilia",
+		"initial_active_state": true
+	},
+	{
+		"name": "Youmu",
+		"type": "toggle",
+		"img": "/images/items/youmu.png",
+		"codes": "youmu",
+		"initial_active_state": true
+	},
+	{
+		"name": "Yuyuko",
+		"type": "toggle",
+		"img": "/images/items/yuyuko.png",
+		"codes": "yuyuko",
+		"initial_active_state": true
+	},
+
+	{
+		"name": "Difficulty checks",
+		"type": "toggle",
+		"img": "/images/items/difficulty_check.png",
+		"codes": "difficulty_check"
+	},
+	{
+		"name": "Extra stage included",
+		"type": "progressive",
+		"codes": "extra_stage_included",
+		"allow_disabled": true,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "/images/items/progressive_extra.png",
+				"codes": "extra_progressive",
+				"inherit_codes": false,
+				"name": "Extra stage included - Progressive" 
+			},
+			{
+				"img": "/images/items/Difficulties/extra.png",
+				"codes": "extra_apart",
+				"inherit_codes": false,
+				"name": "Extra stage included - Apart" 
+			}
+		]
+	},
+	{
+		"name": "Lives for Stages 3 and 4",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/life_up.png",
+		"codes": "lives_3_4"
+	},
+	{
+		"name": "Bombs for Stages 3 and 4",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/bomb_up.png",
+		"codes": "bombs_3_4"
+	},
+	{
+		"name": "Difficulties for Stages 3 and 4",
+		"type": "progressive",
+		"codes": "lower_difficulty_3_4",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Difficulties/lunatic.png",
+					"codes": "lunatic",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 3 and 4" 
+				},
+				{
+					"img": "/images/items/Difficulties/hard.png",
+					"codes": "hard",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 3 and 4" 
+				},
+				{
+					"img": "/images/items/Difficulties/normal.png",
+					"codes": "normal",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 3 and 4" 
+				},
+				{
+					"img": "/images/items/Difficulties/easy.png",
+					"codes": "easy",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 3 and 4" 
+				}
+		]
+	},
+	{
+		"name": "Lives for Stages 5 and 6",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/life_up.png",
+		"codes": "lives_5_6"
+	},
+	{
+		"name": "Bombs for Stages 5 and 6",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/bomb_up.png",
+		"codes": "bombs_5_6"
+	},
+	{
+		"name": "Difficulties for Stages 5 and 6",
+		"type": "progressive",
+		"codes": "lower_difficulty_5_6",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Difficulties/lunatic.png",
+					"codes": "lunatic",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 5 and 6" 
+				},
+				{
+					"img": "/images/items/Difficulties/hard.png",
+					"codes": "hard",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 5 and 6" 
+				},
+				{
+					"img": "/images/items/Difficulties/normal.png",
+					"codes": "normal",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 5 and 6" 
+				},
+				{
+					"img": "/images/items/Difficulties/easy.png",
+					"codes": "easy",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 5 and 6" 
+				}
+		]
+	},
+	{
+		"name": "Lives for Stages Extra",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/life_up.png",
+		"codes": "lives_extra"
+	},
+	{
+		"name": "Bombs for Stages Extra",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/bomb_up.png",
+		"codes": "bombs_extra"
+	},
+	{
+		"name": "Include Lunatic",
+		"type": "toggle",
+		"img": "/images/items/include_lunatic.png",
+		"codes": "include_lunatic",
+		"initial_active_state": true
+	},
+	{
+		"name": "Include Last Spell",
+		"type": "toggle",
+		"img": "/images/items/last_spell.png",
+		"codes": "include_last_spell"
+	},
+	{
+		"name": "Spell Practice Illusion Team",
+		"type": "toggle",
+		"img": "/images/items/yukari.png",
+		"codes": "spell_practice_illusion_team",
+		"initial_active_state": true
+	},
+	{
+		"name": "Spell Practice Magic Team",
+		"type": "toggle",
+		"img": "/images/items/alice.png",
+		"codes": "spell_practice_magic_team",
+		"initial_active_state": true
+	},
+	{
+		"name": "Spell Practice Devil Team",
+		"type": "toggle",
+		"img": "/images/items/remilia.png",
+		"codes": "spell_practice_devil_team",
+		"initial_active_state": true
+	},
+	{
+		"name": "Spell Practice Nether Team",
+		"type": "toggle",
+		"img": "/images/items/yuyuko.png",
+		"codes": "spell_practice_nether_team",
+		"initial_active_state": true
+	},
+	{
+		"name": "Both Stage 4",
+		"type": "toggle",
+		"img": "/images/items/Numbers/4.png",
+		"codes": "both_stage_4",
+		"initial_active_state": true
+	},
+	{
+		"name": "Stages",
+		"type": "toggle",
+		"img": "/images/items/Numbers/1.png",
+		"codes": "stages",
+		"initial_active_state": true
+	},
+	{
+		"name": "Spell Practice",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "spell_practice",
+		"initial_active_state": true
+	},
+	{
+		"name": "Teams",
+		"type": "toggle",
+		"img": "/images/items/illusion.png",
+		"codes": "teams",
+		"initial_active_state": true
+	},
+	{
+		"name": "Solo",
+		"type": "toggle",
+		"img": "/images/items/reimu.png",
+		"codes": "solo",
+		"initial_active_state": true
+	},
+	{
+		"name": "[Treasure Goal] Final Spell Card",
+		"type": "consumable",
+		"img": "/images/items/life.png",
+		"min_quantity": 1,
+		"max_quantity": 222,
+		"codes": "final_spell_card"
+	},
+	{
+		"name": "Spell Card Goal",
+		"type": "progressive",
+		"codes": "spell_card_goal",
+		"allow_disabled": true,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "/images/items/treasure.png",
+				"codes": "treasure_goal",
+				"inherit_codes": false,
+				"name": "Treasure Goal" 
+			},
+			{
+				"img": "/images/items/life.png",
+				"codes": "spell_card_count_goal",
+				"inherit_codes": false,
+				"name": "Spell Card Count Goal" 
+			}
+		]
+	},
+	{
+		"name": "Treasures",
+		"type": "consumable",
+		"img": "/images/items/treasure.png",
+		"min_quantity": 0,
+		"max_quantity": 5,
+		"codes": "treasures"
+	},
+	{
+		"name": "Spell Card Count",
+		"type": "consumable",
+		"img": "/images/items/life.png",
+		"min_quantity": 0,
+		"max_quantity": 222,
+		"codes": "spell_card_count"
+	},
+
+	{
+		"name": "001 - Firefly Sign \"Earthly Meteor\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_001"
+	},
+	{
+		"name": "002 - Firefly Sign \"Earthly Comet\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_002"
+	},
+	{
+		"name": "003 - Lamp Sign \"Firefly Phenomenon\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_003"
+	},
+	{
+		"name": "004 - Lamp Sign \"Firefly Phenomenon\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_004"
+	},
+	{
+		"name": "005 - Lamp Sign \"Firefly Phenomenon\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_005"
+	},
+	{
+		"name": "006 - Lamp Sign \"Firefly Phenomenon\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_006"
+	},
+	{
+		"name": "007 - Wriggle Sign \"Little Bug\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_007"
+	},
+	{
+		"name": "008 - Wriggle Sign \"Little Bug Storm\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_008"
+	},
+	{
+		"name": "009 - Wriggle Sign \"Nightbug Storm\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_009"
+	},
+	{
+		"name": "010 - Wriggle Sign \"Nightbug Tornado\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_010"
+	},
+	{
+		"name": "011 - Hidden Bug \"Endless Night Seclusion\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_011"
+	},
+	{
+		"name": "012 - Hidden Bug \"Endless Night Seclusion\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_012"
+	},
+	{
+		"name": "013 - Hidden Bug \"Endless Night Seclusion\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_013"
+	},
+	{
+		"name": "014 - Vocal Sign \"Hooting in the Night\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_014"
+	},
+	{
+		"name": "015 - Vocal Sign \"Hooting in the Night\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_015"
+	},
+	{
+		"name": "016 - Vocal Sign \"Howl of the Horned Owl\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_016"
+	},
+	{
+		"name": "017 - Vocal Sign \"Howl of the Horned Owl\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_017"
+	},
+	{
+		"name": "018 - Moth Sign \"Hawk Moth's Insect Curse\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_018"
+	},
+	{
+		"name": "019 - Moth Sign \"Hawk Moth's Insect Curse\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_019"
+	},
+	{
+		"name": "020 - Toxin Sign \"Poisonous Moth's Scales\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_020"
+	},
+	{
+		"name": "021 - Deadly Toxin Sign \"Poisonous Moth's Dance in the Dark\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_021"
+	},
+	{
+		"name": "022 - Hawk Sign \"Ill Starred Dive\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_022"
+	},
+	{
+		"name": "023 - Hawk Sign \"Ill Starred Dive\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_023"
+	},
+	{
+		"name": "024 - Hawk Sign \"Ill Starred Dive\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_024"
+	},
+	{
+		"name": "025 - Hawk Sign \"Ill Starred Dive\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_025"
+	},
+	{
+		"name": "026 - Night-Blindness \"Song of the Night Sparrow\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_026"
+	},
+	{
+		"name": "027 - Night-Blindness \"Song of the Night Sparrow\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_027"
+	},
+	{
+		"name": "028 - Night-Blindness \"Song of the Night Sparrow\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_028"
+	},
+	{
+		"name": "029 - Night-Blindness \"Song of the Night Sparrow\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_029"
+	},
+	{
+		"name": "030 - Night-Sparrow \"Midnight Chorus Master\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_030"
+	},
+	{
+		"name": "031 - Night-Sparrow \"Midnight Chorus Master\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_031"
+	},
+	{
+		"name": "032 - Night-Sparrow \"Midnight Chorus Master\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_032"
+	},
+	{
+		"name": "033 - Spiritual Birth \"First Pyramid\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_033"
+	},
+	{
+		"name": "034 - Spiritual Birth \"First Pyramid\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_034"
+	},
+	{
+		"name": "035 - Spiritual Birth \"First Pyramid\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_035"
+	},
+	{
+		"name": "036 - Spiritual Birth \"First Pyramid\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_036"
+	},
+	{
+		"name": "037 - Origin Sign \"Ephemerality 137\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_037"
+	},
+	{
+		"name": "038 - Origin Sign \"Ephemerality 137\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_038"
+	},
+	{
+		"name": "039 - Origin Sign \"Ephemerality 137\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_039"
+	},
+	{
+		"name": "040 - Ambition Sign \"Buretsu Crisis\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_040"
+	},
+	{
+		"name": "041 - Ambition Sign \"Masakado Crisis\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_041"
+	},
+	{
+		"name": "042 - Ambition Sign \"Yoshimitsu Crisis\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_042"
+	},
+	{
+		"name": "043 - Ambition Sign \"General Headquarters Crisis\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_043"
+	},
+	{
+		"name": "044 - Land Sign \"Three Sacred Treasures - Sword\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_044"
+	},
+	{
+		"name": "045 - Land Sign \"Three Sacred Treasures - Orb\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_045"
+	},
+	{
+		"name": "046 - Land Sign \"Three Sacred Treasures - Mirror\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_046"
+	},
+	{
+		"name": "047 - Land Sign \"Three Sacred Treasures - Country\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_047"
+	},
+	{
+		"name": "048 - Ending Sign \"Phantasmal Emperor\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_048"
+	},
+	{
+		"name": "049 - Ending Sign \"Phantasmal Emperor\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_049"
+	},
+	{
+		"name": "050 - Pseudo-History \"The Legend of Gensokyo\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_050"
+	},
+	{
+		"name": "051 - Pseudo-History \"The Legend of Gensokyo\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_051"
+	},
+	{
+		"name": "052 - Future \"Gods' Realm\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_052"
+	},
+	{
+		"name": "053 - Future \"Gods' Realm\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_053"
+	},
+	{
+		"name": "054 - Future \"Gods' Realm\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_054"
+	},
+	{
+		"name": "055 - Dream Sign \"Duplex Barrier\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_055"
+	},
+	{
+		"name": "056 - Dream Sign \"Duplex Barrier\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_056"
+	},
+	{
+		"name": "057 - Dream Land \"Great Duplex Barrier\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_057"
+	},
+	{
+		"name": "058 - Dream Land \"Great Duplex Barrier\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_058"
+	},
+	{
+		"name": "059 - Spirit Sign \"Fantasy Seal -Spread-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_059"
+	},
+	{
+		"name": "060 - Spirit Sign \"Fantasy Seal -Spread-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_060"
+	},
+	{
+		"name": "061 - Scattered Sign \"Fantasy Seal -Worn-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_061"
+	},
+	{
+		"name": "062 - Scattered Sign \"Fantasy Seal -Worn-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_062"
+	},
+	{
+		"name": "063 - Dream Sign \"Evil-Sealing Circle\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_063"
+	},
+	{
+		"name": "064 - Dream Sign \"Evil-Sealing Circle\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_064"
+	},
+	{
+		"name": "065 - Divine Arts \"Omnidirectional Oni-Binding Circle\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_065"
+	},
+	{
+		"name": "066 - Divine Arts \"Omnidirectional Dragon-Slaying Circle\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_066"
+	},
+	{
+		"name": "067 - Spirit Sign \"Fantasy Seal -Concentrate-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_067"
+	},
+	{
+		"name": "068 - Spirit Sign \"Fantasy Seal -Concentrate-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_068"
+	},
+	{
+		"name": "069 - Migrating Spirit \"Fantasy Seal -Marred-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_069"
+	},
+	{
+		"name": "070 - Migrating Spirit \"Fantasy Seal -Marred-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_070"
+	},
+	{
+		"name": "071 - Boundary \"Duplex Danmaku Barrier\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_071"
+	},
+	{
+		"name": "072 - Boundary \"Duplex Danmaku Barrier\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_072"
+	},
+	{
+		"name": "073 - Great Barrier \"Hakurei Danmaku Barrier\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_073"
+	},
+	{
+		"name": "074 - Great Barrier \"Hakurei Danmaku Barrier\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_074"
+	},
+	{
+		"name": "075 - Divine Spirit \"Fantasy Seal -Blink-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_075"
+	},
+	{
+		"name": "076 - Divine Spirit \"Fantasy Seal -Blink-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_076"
+	},
+	{
+		"name": "077 - Divine Spirit \"Fantasy Seal -Blink-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_077"
+	},
+	{
+		"name": "078 - Magic Sign \"Milky Way\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_078"
+	},
+	{
+		"name": "079 - Magic Sign \"Milky Way\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_079"
+	},
+	{
+		"name": "080 - Magic Space \"Asteroid Belt\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_080"
+	},
+	{
+		"name": "081 - Magic Space \"Asteroid Belt\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_081"
+	},
+	{
+		"name": "082 - Magic Sign \"Stardust Reverie\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_082"
+	},
+	{
+		"name": "083 - Magic Sign \"Stardust Reverie\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_083"
+	},
+	{
+		"name": "084 - Black Magic \"Event Horizon\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_084"
+	},
+	{
+		"name": "085 - Black Magic \"Event Horizon\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_085"
+	},
+	{
+		"name": "086 - Love Sign \"Non-Directional Laser\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_086"
+	},
+	{
+		"name": "087 - Love Sign \"Non-Directional Laser\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_087"
+	},
+	{
+		"name": "088 - Love Storm \"Starlight Typhoon\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_088"
+	},
+	{
+		"name": "089 - Love Storm \"Starlight Typhoon\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_089"
+	},
+	{
+		"name": "090 - Love Sign \"Master Spark\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_090"
+	},
+	{
+		"name": "091 - Love Sign \"Master Spark\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_091"
+	},
+	{
+		"name": "092 - Loving Heart \"Double Spark\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_092"
+	},
+	{
+		"name": "093 - Loving Heart \"Double Spark\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_093"
+	},
+	{
+		"name": "094 - Light Sign \"Earthlight Ray\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_094"
+	},
+	{
+		"name": "095 - Light Sign \"Earthlight Ray\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_095"
+	},
+	{
+		"name": "096 - Light Blast \"Shoot the Moon\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_096"
+	},
+	{
+		"name": "097 - Light Blast \"Shoot the Moon\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_097"
+	},
+	{
+		"name": "098 - Magicannon \"Final Spark\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_098"
+	},
+	{
+		"name": "099 - Magicannon \"Final Spark\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_099"
+	},
+	{
+		"name": "100 - Magicannon \"Final Master Spark\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_100"
+	},
+	{
+		"name": "101 - Wave Sign \"Red-Eyed Hypnosis (Mind Shaker)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_101"
+	},
+	{
+		"name": "102 - Wave Sign \"Red-Eyed Hypnosis (Mind Shaker)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_102"
+	},
+	{
+		"name": "103 - Illusion Wave \"Red-Eyed Hypnosis (Mind Blowing)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_103"
+	},
+	{
+		"name": "104 - Illusion Wave \"Red-Eyed Hypnosis (Mind Blowing)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_104"
+	},
+	{
+		"name": "105 - Lunatic Sign \"Hallucination Tuning (Visionary Tuning)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_105"
+	},
+	{
+		"name": "106 - Lunatic Sign \"Hallucination Tuning (Visionary Tuning)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_106"
+	},
+	{
+		"name": "107 - Lunatic Gaze \"Lunatic Stare Tuning (Illusion Seeker)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_107"
+	},
+	{
+		"name": "108 - Lunatic Gaze \"Lunatic Stare Tuning (Illusion Seeker)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_108"
+	},
+	{
+		"name": "109 - Loafing Sign \"Life & Spirit Stopping (Idling Wave)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_109"
+	},
+	{
+		"name": "110 - Loafing Sign \"Life & Spirit Stopping (Idling Wave)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_110"
+	},
+	{
+		"name": "111 - Indolence \"Life & Spirit Stopping (Mind Stopper)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_111"
+	},
+	{
+		"name": "112 - Indolence \"Life & Spirit Stopping (Mind Stopper)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_112"
+	},
+	{
+		"name": "113 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_113"
+	},
+	{
+		"name": "114 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_114"
+	},
+	{
+		"name": "115 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_115"
+	},
+	{
+		"name": "116 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_116"
+	},
+	{
+		"name": "117 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_117"
+	},
+	{
+		"name": "118 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_118"
+	},
+	{
+		"name": "119 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_119"
+	},
+	{
+		"name": "120 - Spacesphere \"Earth in a Pot\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_120"
+	},
+	{
+		"name": "121 - Spacesphere \"Earth in a Pot\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_121"
+	},
+	{
+		"name": "122 - Spacesphere \"Earth in a Pot\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_122"
+	},
+	{
+		"name": "123 - Spacesphere \"Earth in a Pot\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_123"
+	},
+	{
+		"name": "124 - Awakened God \"Memories of the Age of the Gods\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_124"
+	},
+	{
+		"name": "125 - Awakened God \"Memories of the Age of the Gods\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_125"
+	},
+	{
+		"name": "126 - God Sign \"Genealogy of the Celestials\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_126"
+	},
+	{
+		"name": "127 - God Sign \"Genealogy of the Celestials\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_127"
+	},
+	{
+		"name": "128 - Revival \"Seimei Yugi -Life Game-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_128"
+	},
+	{
+		"name": "129 - Revival \"Seimei Yugi -Life Game-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_129"
+	},
+	{
+		"name": "130 - Resurrection \"Rising Game\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_130"
+	},
+	{
+		"name": "131 - Resurrection \"Rising Game\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_131"
+	},
+	{
+		"name": "132 - Leading God \"Omoikane's Device\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_132"
+	},
+	{
+		"name": "133 - Leading God \"Omoikane's Device\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_133"
+	},
+	{
+		"name": "134 - Mind of God \"Omoikane's Brain\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_134"
+	},
+	{
+		"name": "135 - Mind of God \"Omoikane's Brain\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_135"
+	},
+	{
+		"name": "136 - Curse of the Heavens \"Apollo 13\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_136"
+	},
+	{
+		"name": "137 - Curse of the Heavens \"Apollo 13\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_137"
+	},
+	{
+		"name": "138 - Curse of the Heavens \"Apollo 13\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_138"
+	},
+	{
+		"name": "139 - Curse of the Heavens \"Apollo 13\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_139"
+	},
+	{
+		"name": "140 - Esoterica \"Astronomical Cover-Up\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_140"
+	},
+	{
+		"name": "141 - Esoterica \"Astronomical Cover-Up\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_141"
+	},
+	{
+		"name": "142 - Esoterica \"Astronomical Cover-Up\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_142"
+	},
+	{
+		"name": "143 - Esoterica \"Astronomical Cover-Up\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_143"
+	},
+	{
+		"name": "144 - Forbidden Elixir \"Hourai Elixir\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_144"
+	},
+	{
+		"name": "145 - Forbidden Elixir \"Hourai Elixir\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_145"
+	},
+	{
+		"name": "146 - Forbidden Elixir \"Hourai Elixir\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_146"
+	},
+	{
+		"name": "147 - Forbidden Elixir \"Hourai Elixir\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_147"
+	},
+	{
+		"name": "148 - Medicine Sign \"Galaxy in a Pot\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_148"
+	},
+	{
+		"name": "149 - Medicine Sign \"Galaxy in a Pot\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_149"
+	},
+	{
+		"name": "150 - Medicine Sign \"Galaxy in a Pot\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_150"
+	},
+	{
+		"name": "151 - Medicine Sign \"Galaxy in a Pot\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_151"
+	},
+	{
+		"name": "152 - Impossible Request \"Dragon's Neck's Jewel -Five-Colored Shots-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_152"
+	},
+	{
+		"name": "153 - Impossible Request \"Dragon's Neck's Jewel -Five-Colored Shots-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_153"
+	},
+	{
+		"name": "154 - Divine Treasure \"Brilliant Dragon Bullet\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_154"
+	},
+	{
+		"name": "155 - Divine Treasure \"Brilliant Dragon Bullet\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_155"
+	},
+	{
+		"name": "156 - Impossible Request \"Buddha's Stone Bowl -Indomitable Will-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_156"
+	},
+	{
+		"name": "157 - Impossible Request \"Buddha's Stone Bowl -Indomitable Will-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_157"
+	},
+	{
+		"name": "158 - Divine Treasure \"Buddhist Diamond\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_158"
+	},
+	{
+		"name": "159 - Divine Treasure \"Buddhist Diamond\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_159"
+	},
+	{
+		"name": "160 - Impossible Request \"Robe of Fire Rat -Patient Mind-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_160"
+	},
+	{
+		"name": "161 - Impossible Request \"Robe of Fire Rat -Patient Mind-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_161"
+	},
+	{
+		"name": "162 - Divine Treasure \"Salamander Shield\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_162"
+	},
+	{
+		"name": "163 - Divine Treasure \"Salamander Shield\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_163"
+	},
+	{
+		"name": "164 - Impossible Request \"Swallow's Cowrie Shell -Everlasting Life-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_164"
+	},
+	{
+		"name": "165 - Impossible Request \"Swallow's Cowrie Shell -Everlasting Life-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_165"
+	},
+	{
+		"name": "166 - Divine Treasure \"Life Spring Infinity\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_166"
+	},
+	{
+		"name": "167 - Divine Treasure \"Life Spring Infinity\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_167"
+	},
+	{
+		"name": "168 - Impossible Request \"Bullet Branch of Hourai -Rainbow Danmaku-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_168"
+	},
+	{
+		"name": "169 - Impossible Request \"Bullet Branch of Hourai -Rainbow Danmaku-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_169"
+	},
+	{
+		"name": "170 - Divine Treasure \"Jeweled Branch of Hourai -Dreamlike Paradise-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_170"
+	},
+	{
+		"name": "171 - Divine Treasure \"Jeweled Branch of Hourai -Dreamlike Paradise-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_171"
+	},
+	{
+		"name": "172 - End of Imperishable Night -New Moon-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_172"
+	},
+	{
+		"name": "173 - End of Imperishable Night -Crescent Moon-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_173"
+	},
+	{
+		"name": "174 - End of Imperishable Night -1st Quarter's Moon-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_174"
+	},
+	{
+		"name": "175 - End of Imperishable Night -Matsuyoi-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_175"
+	},
+	{
+		"name": "176 - End of Imperishable Night -11 o'Clock-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_176"
+	},
+	{
+		"name": "177 - End of Imperishable Night -Half of Midnight-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_177"
+	},
+	{
+		"name": "178 - End of Imperishable Night -Midnight-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_178"
+	},
+	{
+		"name": "179 - End of Imperishable Night -Half Past Midnight-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_179"
+	},
+	{
+		"name": "180 - End of Imperishable Night -1 o'Clock-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_180"
+	},
+	{
+		"name": "181 - End of Imperishable Night -Half Past 1-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_181"
+	},
+	{
+		"name": "182 - End of Imperishable Night -Dead of Night-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_182"
+	},
+	{
+		"name": "183 - End of Imperishable Night -Half Past 2-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_183"
+	},
+	{
+		"name": "184 - End of Imperishable Night -3 o'Clock-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_184"
+	},
+	{
+		"name": "185 - End of Imperishable Night -Half Past 3-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_185"
+	},
+	{
+		"name": "186 - End of Imperishable Night -4 o'Clock-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_186"
+	},
+	{
+		"name": "187 - End of Imperishable Night -Half Past 4-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_187"
+	},
+	{
+		"name": "188 - End of Imperishable Night -Morning Mist-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_188"
+	},
+	{
+		"name": "189 - End of Imperishable Night -Dawn-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_189"
+	},
+	{
+		"name": "190 - End of Imperishable Night -Morning Star-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_190"
+	},
+	{
+		"name": "191 - End of Imperishable Night -Rising World-",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_191"
+	},
+	{
+		"name": "192 - Past \"Old History of an Untrodden Land -Old History-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_192"
+	},
+	{
+		"name": "193 - Reincarnation \"Ichijou Returning Bridge\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_193"
+	},
+	{
+		"name": "194 - Future \"New History of Fantasy -Next History-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_194"
+	},
+	{
+		"name": "195 - Statute of Limitations \"Curse of Tsuki no Iwakasa\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_195"
+	},
+	{
+		"name": "196 - Undying \"Fire Bird -Feng Wing Ascension-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_196"
+	},
+	{
+		"name": "197 - Fujiwara \"Wounds of Metsuzai Temple\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_197"
+	},
+	{
+		"name": "198 - Undying \"Xu Fu's Dimension\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_198"
+	},
+	{
+		"name": "199 - Expiation \"Honest Man's Death\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_199"
+	},
+	{
+		"name": "200 - Hollow Being \"Wu\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_200"
+	},
+	{
+		"name": "201 - Inextinguishable \"Phoenix's Tail\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_201"
+	},
+	{
+		"name": "202 - Hourai \"South Wind, Clear Sky -Fujiyama Volcano-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_202"
+	},
+	{
+		"name": "203 - \"Possessed by Phoenix\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_203"
+	},
+	{
+		"name": "204 - \"Hourai Doll\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_204"
+	},
+	{
+		"name": "205 - \"Imperishable Shooting\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_205"
+	},
+	{
+		"name": "206 - \"Unseasonal Butterfly Storm\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_206"
+	},
+	{
+		"name": "207 - \"Blind Nightbird\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_207"
+	},
+	{
+		"name": "208 - \"Emperor of the Land of the Rising Sun\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_208"
+	},
+	{
+		"name": "209 - \"Stare of the Hazy Phantom Moon (Lunatic Red Eyes)\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_209"
+	},
+	{
+		"name": "210 - \"Heaven Spider's Butterfly-Capturing Web\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_210"
+	},
+	{
+		"name": "211 - \"Hourai's Sea of Trees\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_211"
+	},
+	{
+		"name": "212 - \"Phoenix Rebirth\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_212"
+	},
+	{
+		"name": "213 - \"Ancient Duper\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_213"
+	},
+	{
+		"name": "214 - \"Total Purification\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_214"
+	},
+	{
+		"name": "215 - \"Fantasy Nature\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_215"
+	},
+	{
+		"name": "216 - \"Blazing Star\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_216"
+	},
+	{
+		"name": "217 - \"Deflation World\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_217"
+	},
+	{
+		"name": "218 - \"Matsuyoi-Reflecting Satellite Slash\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_218"
+	},
+	{
+		"name": "219 - \"The Phantom of the Grand Guignol\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_219"
+	},
+	{
+		"name": "220 - \"Scarlet Destiny\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_220"
+	},
+	{
+		"name": "221 - \"Saigyouji Parinirvana\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_221"
+	},
+	{
+		"name": "222 - \"Profound Danmaku Barrier -Phantasm, Foam, and Shadow-\"",
+		"type": "toggle",
+		"img": "/images/items/bomb.png",
+		"codes": "sc_222"
+	}
+]

@@ -1,0 +1,5938 @@
+[
+	{
+		"name": "teamSpellPractice",
+		"chest_unopened_img": "/images/ui/life.png",
+		"chest_opened_img": "/images/ui/grey_star.png",
+		"visibility_rules": ["teams, spell_practice"],
+		"children": [
+			{
+				"name": "[Illusion Team] Stage 1",
+				"visibility_rules": ["spell_practice_illusion_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 240,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Illusion Team] 001 - Firefly Sign \"Earthly Meteor\"",
+						"access_rules": [
+							"illusion_team, sc_001"
+						]
+					},
+					{
+						"name": "[Illusion Team] 002 - Firefly Sign \"Earthly Comet\"",
+						"access_rules": [
+							"illusion_team, sc_002"
+						]
+					},
+					{
+						"name": "[Illusion Team] 003 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"illusion_team, sc_003"
+						]
+					},
+					{
+						"name": "[Illusion Team] 004 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"illusion_team, sc_004"
+						]
+					},
+					{
+						"name": "[Illusion Team] 005 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"illusion_team, sc_005"
+						]
+					},
+					{
+						"name": "[Illusion Team] 006 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"illusion_team, sc_006"
+						]
+					},
+					{
+						"name": "[Illusion Team] 007 - Wriggle Sign \"Little Bug\"",
+						"access_rules": [
+							"illusion_team, sc_007"
+						]
+					},
+					{
+						"name": "[Illusion Team] 008 - Wriggle Sign \"Little Bug Storm\"",
+						"access_rules": [
+							"illusion_team, sc_008"
+						]
+					},
+					{
+						"name": "[Illusion Team] 009 - Wriggle Sign \"Nightbug Storm\"",
+						"access_rules": [
+							"illusion_team, sc_009"
+						]
+					},
+					{
+						"name": "[Illusion Team] 010 - Wriggle Sign \"Nightbug Tornado\"",
+						"access_rules": [
+							"illusion_team, sc_010"
+						]
+					},
+					{
+						"name": "[Illusion Team] 011 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"illusion_team, sc_011"
+						]
+					},
+					{
+						"name": "[Illusion Team] 012 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"illusion_team, sc_012"
+						]
+					},
+					{
+						"name": "[Illusion Team] 013 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"illusion_team, sc_013"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 2",
+				"visibility_rules": ["spell_practice_illusion_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 240,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Illusion Team] 014 - Vocal Sign \"Hooting in the Night\"",
+						"access_rules": [
+							"illusion_team, sc_014"
+						]
+					},
+					{
+						"name": "[Illusion Team] 015 - Vocal Sign \"Hooting in the Night\"",
+						"access_rules": [
+							"illusion_team, sc_015"
+						]
+					},
+					{
+						"name": "[Illusion Team] 016 - Vocal Sign \"Howl of the Horned Owl\"",
+						"access_rules": [
+							"illusion_team, sc_016"
+						]
+					},
+					{
+						"name": "[Illusion Team] 017 - Vocal Sign \"Howl of the Horned Owl\"",
+						"access_rules": [
+							"illusion_team, sc_017"
+						]
+					},
+					{
+						"name": "[Illusion Team] 018 - Moth Sign \"Hawk Moth's Insect Curse\"",
+						"access_rules": [
+							"illusion_team, sc_018"
+						]
+					},
+					{
+						"name": "[Illusion Team] 019 - Moth Sign \"Hawk Moth's Insect Curse\"",
+						"access_rules": [
+							"illusion_team, sc_019"
+						]
+					},
+					{
+						"name": "[Illusion Team] 020 - Toxin Sign \"Poisonous Moth's Scales\"",
+						"access_rules": [
+							"illusion_team, sc_020"
+						]
+					},
+					{
+						"name": "[Illusion Team] 021 - Deadly Toxin Sign \"Poisonous Moth's Dance in the Dark\"",
+						"access_rules": [
+							"illusion_team, sc_021"
+						]
+					},
+					{
+						"name": "[Illusion Team] 022 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"illusion_team, sc_022"
+						]
+					},
+					{
+						"name": "[Illusion Team] 023 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"illusion_team, sc_023"
+						]
+					},
+					{
+						"name": "[Illusion Team] 024 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"illusion_team, sc_024"
+						]
+					},
+					{
+						"name": "[Illusion Team] 025 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"illusion_team, sc_025"
+						]
+					},
+					{
+						"name": "[Illusion Team] 026 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"illusion_team, sc_026"
+						]
+					},
+					{
+						"name": "[Illusion Team] 027 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"illusion_team, sc_027"
+						]
+					},
+					{
+						"name": "[Illusion Team] 028 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"illusion_team, sc_028"
+						]
+					},
+					{
+						"name": "[Illusion Team] 029 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"illusion_team, sc_029"
+						]
+					},
+					{
+						"name": "[Illusion Team] 030 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"illusion_team, sc_030"
+						]
+					},
+					{
+						"name": "[Illusion Team] 031 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"illusion_team, sc_031"
+						]
+					},
+					{
+						"name": "[Illusion Team] 032 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"illusion_team, sc_032"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 3",
+				"visibility_rules": ["spell_practice_illusion_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 240,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Illusion Team] 033 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"illusion_team, sc_033"
+						]
+					},
+					{
+						"name": "[Illusion Team] 034 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"illusion_team, sc_034"
+						]
+					},
+					{
+						"name": "[Illusion Team] 035 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"illusion_team, sc_035"
+						]
+					},
+					{
+						"name": "[Illusion Team] 036 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"illusion_team, sc_036"
+						]
+					},
+					{
+						"name": "[Illusion Team] 037 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"illusion_team, sc_037"
+						]
+					},
+					{
+						"name": "[Illusion Team] 038 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"illusion_team, sc_038"
+						]
+					},
+					{
+						"name": "[Illusion Team] 039 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"illusion_team, sc_039"
+						]
+					},
+					{
+						"name": "[Illusion Team] 040 - Ambition Sign \"Buretsu Crisis\"",
+						"access_rules": [
+							"illusion_team, sc_040"
+						]
+					},
+					{
+						"name": "[Illusion Team] 041 - Ambition Sign \"Masakado Crisis\"",
+						"access_rules": [
+							"illusion_team, sc_041"
+						]
+					},
+					{
+						"name": "[Illusion Team] 042 - Ambition Sign \"Yoshimitsu Crisis\"",
+						"access_rules": [
+							"illusion_team, sc_042"
+						]
+					},
+					{
+						"name": "[Illusion Team] 043 - Ambition Sign \"General Headquarters Crisis\"",
+						"access_rules": [
+							"illusion_team, sc_043"
+						]
+					},
+					{
+						"name": "[Illusion Team] 044 - Land Sign \"Three Sacred Treasures - Sword\"",
+						"access_rules": [
+							"illusion_team, sc_044"
+						]
+					},
+					{
+						"name": "[Illusion Team] 045 - Land Sign \"Three Sacred Treasures - Orb\"",
+						"access_rules": [
+							"illusion_team, sc_045"
+						]
+					},
+					{
+						"name": "[Illusion Team] 046 - Land Sign \"Three Sacred Treasures - Mirror\"",
+						"access_rules": [
+							"illusion_team, sc_046"
+						]
+					},
+					{
+						"name": "[Illusion Team] 047 - Land Sign \"Three Sacred Treasures - Country\"",
+						"access_rules": [
+							"illusion_team, sc_047"
+						]
+					},
+					{
+						"name": "[Illusion Team] 048 - Ending Sign \"Phantasmal Emperor\"",
+						"access_rules": [
+							"illusion_team, sc_048"
+						]
+					},
+					{
+						"name": "[Illusion Team] 049 - Ending Sign \"Phantasmal Emperor\"",
+						"access_rules": [
+							"illusion_team, sc_049"
+						]
+					},
+					{
+						"name": "[Illusion Team] 050 - Pseudo-History \"The Legend of Gensokyo\"",
+						"access_rules": [
+							"illusion_team, sc_050"
+						]
+					},
+					{
+						"name": "[Illusion Team] 051 - Pseudo-History \"The Legend of Gensokyo\"",
+						"access_rules": [
+							"illusion_team, sc_051"
+						]
+					},
+					{
+						"name": "[Illusion Team] 052 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"illusion_team, sc_052"
+						]
+					},
+					{
+						"name": "[Illusion Team] 053 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"illusion_team, sc_053"
+						]
+					},
+					{
+						"name": "[Illusion Team] 054 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"illusion_team, sc_054"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 4A",
+				"visibility_rules": ["spell_practice_illusion_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 240,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Illusion Team] 055 - Dream Sign \"Duplex Barrier\"",
+						"access_rules": [
+							"illusion_team, sc_055"
+						]
+					},
+					{
+						"name": "[Illusion Team] 056 - Dream Sign \"Duplex Barrier\"",
+						"access_rules": [
+							"illusion_team, sc_056"
+						]
+					},
+					{
+						"name": "[Illusion Team] 057 - Dream Land \"Great Duplex Barrier\"",
+						"access_rules": [
+							"illusion_team, sc_057"
+						]
+					},
+					{
+						"name": "[Illusion Team] 058 - Dream Land \"Great Duplex Barrier\"",
+						"access_rules": [
+							"illusion_team, sc_058"
+						]
+					},
+					{
+						"name": "[Illusion Team] 059 - Spirit Sign \"Fantasy Seal -Spread-\"",
+						"access_rules": [
+							"illusion_team, sc_059"
+						]
+					},
+					{
+						"name": "[Illusion Team] 060 - Spirit Sign \"Fantasy Seal -Spread-\"",
+						"access_rules": [
+							"illusion_team, sc_060"
+						]
+					},
+					{
+						"name": "[Illusion Team] 061 - Scattered Sign \"Fantasy Seal -Worn-\"",
+						"access_rules": [
+							"illusion_team, sc_061"
+						]
+					},
+					{
+						"name": "[Illusion Team] 062 - Scattered Sign \"Fantasy Seal -Worn-\"",
+						"access_rules": [
+							"illusion_team, sc_062"
+						]
+					},
+					{
+						"name": "[Illusion Team] 063 - Dream Sign \"Evil-Sealing Circle\"",
+						"access_rules": [
+							"illusion_team, sc_063"
+						]
+					},
+					{
+						"name": "[Illusion Team] 064 - Dream Sign \"Evil-Sealing Circle\"",
+						"access_rules": [
+							"illusion_team, sc_064"
+						]
+					},
+					{
+						"name": "[Illusion Team] 065 - Divine Arts \"Omnidirectional Oni-Binding Circle\"",
+						"access_rules": [
+							"illusion_team, sc_065"
+						]
+					},
+					{
+						"name": "[Illusion Team] 066 - Divine Arts \"Omnidirectional Dragon-Slaying Circle\"",
+						"access_rules": [
+							"illusion_team, sc_066"
+						]
+					},
+					{
+						"name": "[Illusion Team] 067 - Spirit Sign \"Fantasy Seal -Concentrate-\"",
+						"access_rules": [
+							"illusion_team, sc_067"
+						]
+					},
+					{
+						"name": "[Illusion Team] 068 - Spirit Sign \"Fantasy Seal -Concentrate-\"",
+						"access_rules": [
+							"illusion_team, sc_068"
+						]
+					},
+					{
+						"name": "[Illusion Team] 069 - Migrating Spirit \"Fantasy Seal -Marred-\"",
+						"access_rules": [
+							"illusion_team, sc_069"
+						]
+					},
+					{
+						"name": "[Illusion Team] 070 - Migrating Spirit \"Fantasy Seal -Marred-\"",
+						"access_rules": [
+							"illusion_team, sc_070"
+						]
+					},
+					{
+						"name": "[Illusion Team] 071 - Boundary \"Duplex Danmaku Barrier\"",
+						"access_rules": [
+							"illusion_team, sc_071"
+						]
+					},
+					{
+						"name": "[Illusion Team] 072 - Boundary \"Duplex Danmaku Barrier\"",
+						"access_rules": [
+							"illusion_team, sc_072"
+						]
+					},
+					{
+						"name": "[Illusion Team] 073 - Great Barrier \"Hakurei Danmaku Barrier\"",
+						"access_rules": [
+							"illusion_team, sc_073"
+						]
+					},
+					{
+						"name": "[Illusion Team] 074 - Great Barrier \"Hakurei Danmaku Barrier\"",
+						"access_rules": [
+							"illusion_team, sc_074"
+						]
+					},
+					{
+						"name": "[Illusion Team] 075 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"illusion_team, sc_075"
+						]
+					},
+					{
+						"name": "[Illusion Team] 076 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"illusion_team, sc_076"
+						]
+					},
+					{
+						"name": "[Illusion Team] 077 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"illusion_team, sc_077"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 4B",
+				"visibility_rules": ["spell_practice_illusion_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 240,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Illusion Team] 078 - Magic Sign \"Milky Way\"",
+						"access_rules": [
+							"illusion_team, sc_078"
+						]
+					},
+					{
+						"name": "[Illusion Team] 079 - Magic Sign \"Milky Way\"",
+						"access_rules": [
+							"illusion_team, sc_079"
+						]
+					},
+					{
+						"name": "[Illusion Team] 080 - Magic Space \"Asteroid Belt\"",
+						"access_rules": [
+							"illusion_team, sc_080"
+						]
+					},
+					{
+						"name": "[Illusion Team] 081 - Magic Space \"Asteroid Belt\"",
+						"access_rules": [
+							"illusion_team, sc_081"
+						]
+					},
+					{
+						"name": "[Illusion Team] 082 - Magic Sign \"Stardust Reverie\"",
+						"access_rules": [
+							"illusion_team, sc_082"
+						]
+					},
+					{
+						"name": "[Illusion Team] 083 - Magic Sign \"Stardust Reverie\"",
+						"access_rules": [
+							"illusion_team, sc_083"
+						]
+					},
+					{
+						"name": "[Illusion Team] 084 - Black Magic \"Event Horizon\"",
+						"access_rules": [
+							"illusion_team, sc_084"
+						]
+					},
+					{
+						"name": "[Illusion Team] 085 - Black Magic \"Event Horizon\"",
+						"access_rules": [
+							"illusion_team, sc_085"
+						]
+					},
+					{
+						"name": "[Illusion Team] 086 - Love Sign \"Non-Directional Laser\"",
+						"access_rules": [
+							"illusion_team, sc_086"
+						]
+					},
+					{
+						"name": "[Illusion Team] 087 - Love Sign \"Non-Directional Laser\"",
+						"access_rules": [
+							"illusion_team, sc_087"
+						]
+					},
+					{
+						"name": "[Illusion Team] 088 - Love Storm \"Starlight Typhoon\"",
+						"access_rules": [
+							"illusion_team, sc_088"
+						]
+					},
+					{
+						"name": "[Illusion Team] 089 - Love Storm \"Starlight Typhoon\"",
+						"access_rules": [
+							"illusion_team, sc_089"
+						]
+					},
+					{
+						"name": "[Illusion Team] 090 - Love Sign \"Master Spark\"",
+						"access_rules": [
+							"illusion_team, sc_090"
+						]
+					},
+					{
+						"name": "[Illusion Team] 091 - Love Sign \"Master Spark\"",
+						"access_rules": [
+							"illusion_team, sc_091"
+						]
+					},
+					{
+						"name": "[Illusion Team] 092 - Loving Heart \"Double Spark\"",
+						"access_rules": [
+							"illusion_team, sc_092"
+						]
+					},
+					{
+						"name": "[Illusion Team] 093 - Loving Heart \"Double Spark\"",
+						"access_rules": [
+							"illusion_team, sc_093"
+						]
+					},
+					{
+						"name": "[Illusion Team] 094 - Light Sign \"Earthlight Ray\"",
+						"access_rules": [
+							"illusion_team, sc_094"
+						]
+					},
+					{
+						"name": "[Illusion Team] 095 - Light Sign \"Earthlight Ray\"",
+						"access_rules": [
+							"illusion_team, sc_095"
+						]
+					},
+					{
+						"name": "[Illusion Team] 096 - Light Blast \"Shoot the Moon\"",
+						"access_rules": [
+							"illusion_team, sc_096"
+						]
+					},
+					{
+						"name": "[Illusion Team] 097 - Light Blast \"Shoot the Moon\"",
+						"access_rules": [
+							"illusion_team, sc_097"
+						]
+					},
+					{
+						"name": "[Illusion Team] 098 - Magicannon \"Final Spark\"",
+						"access_rules": [
+							"illusion_team, sc_098"
+						]
+					},
+					{
+						"name": "[Illusion Team] 099 - Magicannon \"Final Spark\"",
+						"access_rules": [
+							"illusion_team, sc_099"
+						]
+					},
+					{
+						"name": "[Illusion Team] 100 - Magicannon \"Final Master Spark\"",
+						"access_rules": [
+							"illusion_team, sc_100"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 5",
+				"visibility_rules": ["spell_practice_illusion_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 240,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Illusion Team] 101 - Wave Sign \"Red-Eyed Hypnosis (Mind Shaker)\"",
+						"access_rules": [
+							"illusion_team, sc_101"
+						]
+					},
+					{
+						"name": "[Illusion Team] 102 - Wave Sign \"Red-Eyed Hypnosis (Mind Shaker)\"",
+						"access_rules": [
+							"illusion_team, sc_102"
+						]
+					},
+					{
+						"name": "[Illusion Team] 103 - Illusion Wave \"Red-Eyed Hypnosis (Mind Blowing)\"",
+						"access_rules": [
+							"illusion_team, sc_103"
+						]
+					},
+					{
+						"name": "[Illusion Team] 104 - Illusion Wave \"Red-Eyed Hypnosis (Mind Blowing)\"",
+						"access_rules": [
+							"illusion_team, sc_104"
+						]
+					},
+					{
+						"name": "[Illusion Team] 105 - Lunatic Sign \"Hallucination Tuning (Visionary Tuning)\"",
+						"access_rules": [
+							"illusion_team, sc_105"
+						]
+					},
+					{
+						"name": "[Illusion Team] 106 - Lunatic Sign \"Hallucination Tuning (Visionary Tuning)\"",
+						"access_rules": [
+							"illusion_team, sc_106"
+						]
+					},
+					{
+						"name": "[Illusion Team] 107 - Lunatic Gaze \"Lunatic Stare Tuning (Illusion Seeker)\"",
+						"access_rules": [
+							"illusion_team, sc_107"
+						]
+					},
+					{
+						"name": "[Illusion Team] 108 - Lunatic Gaze \"Lunatic Stare Tuning (Illusion Seeker)\"",
+						"access_rules": [
+							"illusion_team, sc_108"
+						]
+					},
+					{
+						"name": "[Illusion Team] 109 - Loafing Sign \"Life & Spirit Stopping (Idling Wave)\"",
+						"access_rules": [
+							"illusion_team, sc_109"
+						]
+					},
+					{
+						"name": "[Illusion Team] 110 - Loafing Sign \"Life & Spirit Stopping (Idling Wave)\"",
+						"access_rules": [
+							"illusion_team, sc_110"
+						]
+					},
+					{
+						"name": "[Illusion Team] 111 - Indolence \"Life & Spirit Stopping (Mind Stopper)\"",
+						"access_rules": [
+							"illusion_team, sc_111"
+						]
+					},
+					{
+						"name": "[Illusion Team] 112 - Indolence \"Life & Spirit Stopping (Mind Stopper)\"",
+						"access_rules": [
+							"illusion_team, sc_112"
+						]
+					},
+					{
+						"name": "[Illusion Team] 113 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"illusion_team, sc_113"
+						]
+					},
+					{
+						"name": "[Illusion Team] 114 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"illusion_team, sc_114"
+						]
+					},
+					{
+						"name": "[Illusion Team] 115 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"illusion_team, sc_115"
+						]
+					},
+					{
+						"name": "[Illusion Team] 116 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"illusion_team, sc_116"
+						]
+					},
+					{
+						"name": "[Illusion Team] 117 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"illusion_team, sc_117"
+						]
+					},
+					{
+						"name": "[Illusion Team] 118 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"illusion_team, sc_118"
+						]
+					},
+					{
+						"name": "[Illusion Team] 119 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"illusion_team, sc_119"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 6A",
+				"visibility_rules": ["spell_practice_illusion_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 240,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Illusion Team] 120 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"illusion_team, sc_120"
+						]
+					},
+					{
+						"name": "[Illusion Team] 121 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"illusion_team, sc_121"
+						]
+					},
+					{
+						"name": "[Illusion Team] 122 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"illusion_team, sc_122"
+						]
+					},
+					{
+						"name": "[Illusion Team] 123 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"illusion_team, sc_123"
+						]
+					},
+					{
+						"name": "[Illusion Team] 124 - Awakened God \"Memories of the Age of the Gods\"",
+						"access_rules": [
+							"illusion_team, sc_124"
+						]
+					},
+					{
+						"name": "[Illusion Team] 125 - Awakened God \"Memories of the Age of the Gods\"",
+						"access_rules": [
+							"illusion_team, sc_125"
+						]
+					},
+					{
+						"name": "[Illusion Team] 126 - God Sign \"Genealogy of the Celestials\"",
+						"access_rules": [
+							"illusion_team, sc_126"
+						]
+					},
+					{
+						"name": "[Illusion Team] 127 - God Sign \"Genealogy of the Celestials\"",
+						"access_rules": [
+							"illusion_team, sc_127"
+						]
+					},
+					{
+						"name": "[Illusion Team] 128 - Revival \"Seimei Yugi -Life Game-\"",
+						"access_rules": [
+							"illusion_team, sc_128"
+						]
+					},
+					{
+						"name": "[Illusion Team] 129 - Revival \"Seimei Yugi -Life Game-\"",
+						"access_rules": [
+							"illusion_team, sc_129"
+						]
+					},
+					{
+						"name": "[Illusion Team] 130 - Resurrection \"Rising Game\"",
+						"access_rules": [
+							"illusion_team, sc_130"
+						]
+					},
+					{
+						"name": "[Illusion Team] 131 - Resurrection \"Rising Game\"",
+						"access_rules": [
+							"illusion_team, sc_131"
+						]
+					},
+					{
+						"name": "[Illusion Team] 132 - Leading God \"Omoikane's Device\"",
+						"access_rules": [
+							"illusion_team, sc_132"
+						]
+					},
+					{
+						"name": "[Illusion Team] 133 - Leading God \"Omoikane's Device\"",
+						"access_rules": [
+							"illusion_team, sc_133"
+						]
+					},
+					{
+						"name": "[Illusion Team] 134 - Mind of God \"Omoikane's Brain\"",
+						"access_rules": [
+							"illusion_team, sc_134"
+						]
+					},
+					{
+						"name": "[Illusion Team] 135 - Mind of God \"Omoikane's Brain\"",
+						"access_rules": [
+							"illusion_team, sc_135"
+						]
+					},
+					{
+						"name": "[Illusion Team] 136 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"illusion_team, sc_136"
+						]
+					},
+					{
+						"name": "[Illusion Team] 137 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"illusion_team, sc_137"
+						]
+					},
+					{
+						"name": "[Illusion Team] 138 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"illusion_team, sc_138"
+						]
+					},
+					{
+						"name": "[Illusion Team] 139 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"illusion_team, sc_139"
+						]
+					},
+					{
+						"name": "[Illusion Team] 140 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"illusion_team, sc_140"
+						]
+					},
+					{
+						"name": "[Illusion Team] 141 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"illusion_team, sc_141"
+						]
+					},
+					{
+						"name": "[Illusion Team] 142 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"illusion_team, sc_142"
+						]
+					},
+					{
+						"name": "[Illusion Team] 143 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"illusion_team, sc_143"
+						]
+					},
+					{
+						"name": "[Illusion Team] 144 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"illusion_team, sc_144"
+						]
+					},
+					{
+						"name": "[Illusion Team] 145 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"illusion_team, sc_145"
+						]
+					},
+					{
+						"name": "[Illusion Team] 146 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"illusion_team, sc_146"
+						]
+					},
+					{
+						"name": "[Illusion Team] 147 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"illusion_team, sc_147"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage 6B",
+				"visibility_rules": ["spell_practice_illusion_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 240,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Illusion Team] 148 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"illusion_team, sc_148"
+						]
+					},
+					{
+						"name": "[Illusion Team] 149 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"illusion_team, sc_149"
+						]
+					},
+					{
+						"name": "[Illusion Team] 150 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"illusion_team, sc_150"
+						]
+					},
+					{
+						"name": "[Illusion Team] 151 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"illusion_team, sc_151"
+						]
+					},
+					{
+						"name": "[Illusion Team] 152 - Impossible Request \"Dragon's Neck's Jewel -Five-Colored Shots-\"",
+						"access_rules": [
+							"illusion_team, sc_152"
+						]
+					},
+					{
+						"name": "[Illusion Team] 153 - Impossible Request \"Dragon's Neck's Jewel -Five-Colored Shots-\"",
+						"access_rules": [
+							"illusion_team, sc_153"
+						]
+					},
+					{
+						"name": "[Illusion Team] 154 - Divine Treasure \"Brilliant Dragon Bullet\"",
+						"access_rules": [
+							"illusion_team, sc_154"
+						]
+					},
+					{
+						"name": "[Illusion Team] 155 - Divine Treasure \"Brilliant Dragon Bullet\"",
+						"access_rules": [
+							"illusion_team, sc_155"
+						]
+					},
+					{
+						"name": "[Illusion Team] 156 - Impossible Request \"Buddha's Stone Bowl -Indomitable Will-\"",
+						"access_rules": [
+							"illusion_team, sc_156"
+						]
+					},
+					{
+						"name": "[Illusion Team] 157 - Impossible Request \"Buddha's Stone Bowl -Indomitable Will-\"",
+						"access_rules": [
+							"illusion_team, sc_157"
+						]
+					},
+					{
+						"name": "[Illusion Team] 158 - Divine Treasure \"Buddhist Diamond\"",
+						"access_rules": [
+							"illusion_team, sc_158"
+						]
+					},
+					{
+						"name": "[Illusion Team] 159 - Divine Treasure \"Buddhist Diamond\"",
+						"access_rules": [
+							"illusion_team, sc_159"
+						]
+					},
+					{
+						"name": "[Illusion Team] 160 - Impossible Request \"Robe of Fire Rat -Patient Mind-\"",
+						"access_rules": [
+							"illusion_team, sc_160"
+						]
+					},
+					{
+						"name": "[Illusion Team] 161 - Impossible Request \"Robe of Fire Rat -Patient Mind-\"",
+						"access_rules": [
+							"illusion_team, sc_161"
+						]
+					},
+					{
+						"name": "[Illusion Team] 162 - Divine Treasure \"Salamander Shield\"",
+						"access_rules": [
+							"illusion_team, sc_162"
+						]
+					},
+					{
+						"name": "[Illusion Team] 163 - Divine Treasure \"Salamander Shield\"",
+						"access_rules": [
+							"illusion_team, sc_163"
+						]
+					},
+					{
+						"name": "[Illusion Team] 164 - Impossible Request \"Swallow's Cowrie Shell -Everlasting Life-\"",
+						"access_rules": [
+							"illusion_team, sc_164"
+						]
+					},
+					{
+						"name": "[Illusion Team] 165 - Impossible Request \"Swallow's Cowrie Shell -Everlasting Life-\"",
+						"access_rules": [
+							"illusion_team, sc_165"
+						]
+					},
+					{
+						"name": "[Illusion Team] 166 - Divine Treasure \"Life Spring Infinity\"",
+						"access_rules": [
+							"illusion_team, sc_166"
+						]
+					},
+					{
+						"name": "[Illusion Team] 167 - Divine Treasure \"Life Spring Infinity\"",
+						"access_rules": [
+							"illusion_team, sc_167"
+						]
+					},
+					{
+						"name": "[Illusion Team] 168 - Impossible Request \"Bullet Branch of Hourai -Rainbow Danmaku-\"",
+						"access_rules": [
+							"illusion_team, sc_168"
+						]
+					},
+					{
+						"name": "[Illusion Team] 169 - Impossible Request \"Bullet Branch of Hourai -Rainbow Danmaku-\"",
+						"access_rules": [
+							"illusion_team, sc_169"
+						]
+					},
+					{
+						"name": "[Illusion Team] 170 - Divine Treasure \"Jeweled Branch of Hourai -Dreamlike Paradise-\"",
+						"access_rules": [
+							"illusion_team, sc_170"
+						]
+					},
+					{
+						"name": "[Illusion Team] 171 - Divine Treasure \"Jeweled Branch of Hourai -Dreamlike Paradise-\"",
+						"access_rules": [
+							"illusion_team, sc_171"
+						]
+					},
+					{
+						"name": "[Illusion Team] 172 - End of Imperishable Night -New Moon-",
+						"access_rules": [
+							"illusion_team, sc_172"
+						]
+					},
+					{
+						"name": "[Illusion Team] 173 - End of Imperishable Night -Crescent Moon-",
+						"access_rules": [
+							"illusion_team, sc_173"
+						]
+					},
+					{
+						"name": "[Illusion Team] 174 - End of Imperishable Night -1st Quarter's Moon-",
+						"access_rules": [
+							"illusion_team, sc_174"
+						]
+					},
+					{
+						"name": "[Illusion Team] 175 - End of Imperishable Night -Matsuyoi-",
+						"access_rules": [
+							"illusion_team, sc_175"
+						]
+					},
+					{
+						"name": "[Illusion Team] 176 - End of Imperishable Night -11 o'Clock-",
+						"access_rules": [
+							"illusion_team, sc_176"
+						]
+					},
+					{
+						"name": "[Illusion Team] 177 - End of Imperishable Night -Half of Midnight-",
+						"access_rules": [
+							"illusion_team, sc_177"
+						]
+					},
+					{
+						"name": "[Illusion Team] 178 - End of Imperishable Night -Midnight-",
+						"access_rules": [
+							"illusion_team, sc_178"
+						]
+					},
+					{
+						"name": "[Illusion Team] 179 - End of Imperishable Night -Half Past Midnight-",
+						"access_rules": [
+							"illusion_team, sc_179"
+						]
+					},
+					{
+						"name": "[Illusion Team] 180 - End of Imperishable Night -1 o'Clock-",
+						"access_rules": [
+							"illusion_team, sc_180"
+						]
+					},
+					{
+						"name": "[Illusion Team] 181 - End of Imperishable Night -Half Past 1-",
+						"access_rules": [
+							"illusion_team, sc_181"
+						]
+					},
+					{
+						"name": "[Illusion Team] 182 - End of Imperishable Night -Dead of Night-",
+						"access_rules": [
+							"illusion_team, sc_182"
+						]
+					},
+					{
+						"name": "[Illusion Team] 183 - End of Imperishable Night -Half Past 2-",
+						"access_rules": [
+							"illusion_team, sc_183"
+						]
+					},
+					{
+						"name": "[Illusion Team] 184 - End of Imperishable Night -3 o'Clock-",
+						"access_rules": [
+							"illusion_team, sc_184"
+						]
+					},
+					{
+						"name": "[Illusion Team] 185 - End of Imperishable Night -Half Past 3-",
+						"access_rules": [
+							"illusion_team, sc_185"
+						]
+					},
+					{
+						"name": "[Illusion Team] 186 - End of Imperishable Night -4 o'Clock-",
+						"access_rules": [
+							"illusion_team, sc_186"
+						]
+					},
+					{
+						"name": "[Illusion Team] 187 - End of Imperishable Night -Half Past 4-",
+						"access_rules": [
+							"illusion_team, sc_187"
+						]
+					},
+					{
+						"name": "[Illusion Team] 188 - End of Imperishable Night -Morning Mist-",
+						"access_rules": [
+							"illusion_team, sc_188"
+						]
+					},
+					{
+						"name": "[Illusion Team] 189 - End of Imperishable Night -Dawn-",
+						"access_rules": [
+							"illusion_team, sc_189"
+						]
+					},
+					{
+						"name": "[Illusion Team] 190 - End of Imperishable Night -Morning Star-",
+						"access_rules": [
+							"illusion_team, sc_190"
+						]
+					},
+					{
+						"name": "[Illusion Team] 191 - End of Imperishable Night -Rising World-",
+						"access_rules": [
+							"illusion_team, sc_191"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Stage Extra",
+				"visibility_rules": ["spell_practice_illusion_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 240,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Illusion Team] 192 - Past \"Old History of an Untrodden Land -Old History-\"",
+						"access_rules": [
+							"illusion_team, sc_192"
+						]
+					},
+					{
+						"name": "[Illusion Team] 193 - Reincarnation \"Ichijou Returning Bridge\"",
+						"access_rules": [
+							"illusion_team, sc_193"
+						]
+					},
+					{
+						"name": "[Illusion Team] 194 - Future \"New History of Fantasy -Next History-\"",
+						"access_rules": [
+							"illusion_team, sc_194"
+						]
+					},
+					{
+						"name": "[Illusion Team] 195 - Statute of Limitations \"Curse of Tsuki no Iwakasa\"",
+						"access_rules": [
+							"illusion_team, sc_195"
+						]
+					},
+					{
+						"name": "[Illusion Team] 196 - Undying \"Fire Bird -Feng Wing Ascension-\"",
+						"access_rules": [
+							"illusion_team, sc_196"
+						]
+					},
+					{
+						"name": "[Illusion Team] 197 - Fujiwara \"Wounds of Metsuzai Temple\"",
+						"access_rules": [
+							"illusion_team, sc_197"
+						]
+					},
+					{
+						"name": "[Illusion Team] 198 - Undying \"Xu Fu's Dimension\"",
+						"access_rules": [
+							"illusion_team, sc_198"
+						]
+					},
+					{
+						"name": "[Illusion Team] 199 - Expiation \"Honest Man's Death\"",
+						"access_rules": [
+							"illusion_team, sc_199"
+						]
+					},
+					{
+						"name": "[Illusion Team] 200 - Hollow Being \"Wu\"",
+						"access_rules": [
+							"illusion_team, sc_200"
+						]
+					},
+					{
+						"name": "[Illusion Team] 201 - Inextinguishable \"Phoenix's Tail\"",
+						"access_rules": [
+							"illusion_team, sc_201"
+						]
+					},
+					{
+						"name": "[Illusion Team] 202 - Hourai \"South Wind, Clear Sky -Fujiyama Volcano-\"",
+						"access_rules": [
+							"illusion_team, sc_202"
+						]
+					},
+					{
+						"name": "[Illusion Team] 203 - \"Possessed by Phoenix\"",
+						"access_rules": [
+							"illusion_team, sc_203"
+						]
+					},
+					{
+						"name": "[Illusion Team] 204 - \"Hourai Doll\"",
+						"access_rules": [
+							"illusion_team, sc_204"
+						]
+					},
+					{
+						"name": "[Illusion Team] 205 - \"Imperishable Shooting\"",
+						"access_rules": [
+							"illusion_team, sc_205"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Illusion Team] Last Word",
+				"visibility_rules": ["spell_practice_illusion_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 240,
+						"y": 320,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Illusion Team] 206 - \"Unseasonal Butterfly Storm\"",
+						"access_rules": [
+							"illusion_team, sc_206"
+						]
+					},
+					{
+						"name": "[Illusion Team] 207 - \"Blind Nightbird\"",
+						"access_rules": [
+							"illusion_team, sc_207"
+						]
+					},
+					{
+						"name": "[Illusion Team] 208 - \"Emperor of the Land of the Rising Sun\"",
+						"access_rules": [
+							"illusion_team, sc_208"
+						]
+					},
+					{
+						"name": "[Illusion Team] 209 - \"Stare of the Hazy Phantom Moon (Lunatic Red Eyes)\"",
+						"access_rules": [
+							"illusion_team, sc_209"
+						]
+					},
+					{
+						"name": "[Illusion Team] 210 - \"Heaven Spider's Butterfly-Capturing Web\"",
+						"access_rules": [
+							"illusion_team, sc_210"
+						]
+					},
+					{
+						"name": "[Illusion Team] 211 - \"Hourai's Sea of Trees\"",
+						"access_rules": [
+							"illusion_team, sc_211"
+						]
+					},
+					{
+						"name": "[Illusion Team] 212 - \"Phoenix Rebirth\"",
+						"access_rules": [
+							"illusion_team, sc_212"
+						]
+					},
+					{
+						"name": "[Illusion Team] 213 - \"Ancient Duper\"",
+						"access_rules": [
+							"illusion_team, sc_213"
+						]
+					},
+					{
+						"name": "[Illusion Team] 214 - \"Total Purification\"",
+						"access_rules": [
+							"illusion_team, sc_214"
+						]
+					},
+					{
+						"name": "[Illusion Team] 215 - \"Fantasy Nature\"",
+						"access_rules": [
+							"illusion_team, sc_215"
+						]
+					},
+					{
+						"name": "[Illusion Team] 216 - \"Blazing Star\"",
+						"access_rules": [
+							"illusion_team, sc_216"
+						]
+					},
+					{
+						"name": "[Illusion Team] 217 - \"Deflation World\"",
+						"access_rules": [
+							"illusion_team, sc_217"
+						]
+					},
+					{
+						"name": "[Illusion Team] 218 - \"Matsuyoi-Reflecting Satellite Slash\"",
+						"access_rules": [
+							"illusion_team, sc_218"
+						]
+					},
+					{
+						"name": "[Illusion Team] 219 - \"The Phantom of the Grand Guignol\"",
+						"access_rules": [
+							"illusion_team, sc_219"
+						]
+					},
+					{
+						"name": "[Illusion Team] 220 - \"Scarlet Destiny\"",
+						"access_rules": [
+							"illusion_team, sc_220"
+						]
+					},
+					{
+						"name": "[Illusion Team] 221 - \"Saigyouji Parinirvana\"",
+						"access_rules": [
+							"illusion_team, sc_221"
+						]
+					},
+					{
+						"name": "[Illusion Team] 222 - \"Profound Danmaku Barrier -Phantasm, Foam, and Shadow-\"",
+						"access_rules": [
+							"illusion_team, sc_222"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 1",
+				"visibility_rules": ["spell_practice_magic_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 412,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Magic Team] 001 - Firefly Sign \"Earthly Meteor\"",
+						"access_rules": [
+							"magic_team, sc_001"
+						]
+					},
+					{
+						"name": "[Magic Team] 002 - Firefly Sign \"Earthly Comet\"",
+						"access_rules": [
+							"magic_team, sc_002"
+						]
+					},
+					{
+						"name": "[Magic Team] 003 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"magic_team, sc_003"
+						]
+					},
+					{
+						"name": "[Magic Team] 004 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"magic_team, sc_004"
+						]
+					},
+					{
+						"name": "[Magic Team] 005 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"magic_team, sc_005"
+						]
+					},
+					{
+						"name": "[Magic Team] 006 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"magic_team, sc_006"
+						]
+					},
+					{
+						"name": "[Magic Team] 007 - Wriggle Sign \"Little Bug\"",
+						"access_rules": [
+							"magic_team, sc_007"
+						]
+					},
+					{
+						"name": "[Magic Team] 008 - Wriggle Sign \"Little Bug Storm\"",
+						"access_rules": [
+							"magic_team, sc_008"
+						]
+					},
+					{
+						"name": "[Magic Team] 009 - Wriggle Sign \"Nightbug Storm\"",
+						"access_rules": [
+							"magic_team, sc_009"
+						]
+					},
+					{
+						"name": "[Magic Team] 010 - Wriggle Sign \"Nightbug Tornado\"",
+						"access_rules": [
+							"magic_team, sc_010"
+						]
+					},
+					{
+						"name": "[Magic Team] 011 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"magic_team, sc_011"
+						]
+					},
+					{
+						"name": "[Magic Team] 012 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"magic_team, sc_012"
+						]
+					},
+					{
+						"name": "[Magic Team] 013 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"magic_team, sc_013"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 2",
+				"visibility_rules": ["spell_practice_magic_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 412,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Magic Team] 014 - Vocal Sign \"Hooting in the Night\"",
+						"access_rules": [
+							"magic_team, sc_014"
+						]
+					},
+					{
+						"name": "[Magic Team] 015 - Vocal Sign \"Hooting in the Night\"",
+						"access_rules": [
+							"magic_team, sc_015"
+						]
+					},
+					{
+						"name": "[Magic Team] 016 - Vocal Sign \"Howl of the Horned Owl\"",
+						"access_rules": [
+							"magic_team, sc_016"
+						]
+					},
+					{
+						"name": "[Magic Team] 017 - Vocal Sign \"Howl of the Horned Owl\"",
+						"access_rules": [
+							"magic_team, sc_017"
+						]
+					},
+					{
+						"name": "[Magic Team] 018 - Moth Sign \"Hawk Moth's Insect Curse\"",
+						"access_rules": [
+							"magic_team, sc_018"
+						]
+					},
+					{
+						"name": "[Magic Team] 019 - Moth Sign \"Hawk Moth's Insect Curse\"",
+						"access_rules": [
+							"magic_team, sc_019"
+						]
+					},
+					{
+						"name": "[Magic Team] 020 - Toxin Sign \"Poisonous Moth's Scales\"",
+						"access_rules": [
+							"magic_team, sc_020"
+						]
+					},
+					{
+						"name": "[Magic Team] 021 - Deadly Toxin Sign \"Poisonous Moth's Dance in the Dark\"",
+						"access_rules": [
+							"magic_team, sc_021"
+						]
+					},
+					{
+						"name": "[Magic Team] 022 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"magic_team, sc_022"
+						]
+					},
+					{
+						"name": "[Magic Team] 023 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"magic_team, sc_023"
+						]
+					},
+					{
+						"name": "[Magic Team] 024 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"magic_team, sc_024"
+						]
+					},
+					{
+						"name": "[Magic Team] 025 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"magic_team, sc_025"
+						]
+					},
+					{
+						"name": "[Magic Team] 026 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"magic_team, sc_026"
+						]
+					},
+					{
+						"name": "[Magic Team] 027 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"magic_team, sc_027"
+						]
+					},
+					{
+						"name": "[Magic Team] 028 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"magic_team, sc_028"
+						]
+					},
+					{
+						"name": "[Magic Team] 029 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"magic_team, sc_029"
+						]
+					},
+					{
+						"name": "[Magic Team] 030 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"magic_team, sc_030"
+						]
+					},
+					{
+						"name": "[Magic Team] 031 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"magic_team, sc_031"
+						]
+					},
+					{
+						"name": "[Magic Team] 032 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"magic_team, sc_032"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 3",
+				"visibility_rules": ["spell_practice_magic_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 412,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Magic Team] 033 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"magic_team, sc_033"
+						]
+					},
+					{
+						"name": "[Magic Team] 034 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"magic_team, sc_034"
+						]
+					},
+					{
+						"name": "[Magic Team] 035 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"magic_team, sc_035"
+						]
+					},
+					{
+						"name": "[Magic Team] 036 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"magic_team, sc_036"
+						]
+					},
+					{
+						"name": "[Magic Team] 037 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"magic_team, sc_037"
+						]
+					},
+					{
+						"name": "[Magic Team] 038 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"magic_team, sc_038"
+						]
+					},
+					{
+						"name": "[Magic Team] 039 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"magic_team, sc_039"
+						]
+					},
+					{
+						"name": "[Magic Team] 040 - Ambition Sign \"Buretsu Crisis\"",
+						"access_rules": [
+							"magic_team, sc_040"
+						]
+					},
+					{
+						"name": "[Magic Team] 041 - Ambition Sign \"Masakado Crisis\"",
+						"access_rules": [
+							"magic_team, sc_041"
+						]
+					},
+					{
+						"name": "[Magic Team] 042 - Ambition Sign \"Yoshimitsu Crisis\"",
+						"access_rules": [
+							"magic_team, sc_042"
+						]
+					},
+					{
+						"name": "[Magic Team] 043 - Ambition Sign \"General Headquarters Crisis\"",
+						"access_rules": [
+							"magic_team, sc_043"
+						]
+					},
+					{
+						"name": "[Magic Team] 044 - Land Sign \"Three Sacred Treasures - Sword\"",
+						"access_rules": [
+							"magic_team, sc_044"
+						]
+					},
+					{
+						"name": "[Magic Team] 045 - Land Sign \"Three Sacred Treasures - Orb\"",
+						"access_rules": [
+							"magic_team, sc_045"
+						]
+					},
+					{
+						"name": "[Magic Team] 046 - Land Sign \"Three Sacred Treasures - Mirror\"",
+						"access_rules": [
+							"magic_team, sc_046"
+						]
+					},
+					{
+						"name": "[Magic Team] 047 - Land Sign \"Three Sacred Treasures - Country\"",
+						"access_rules": [
+							"magic_team, sc_047"
+						]
+					},
+					{
+						"name": "[Magic Team] 048 - Ending Sign \"Phantasmal Emperor\"",
+						"access_rules": [
+							"magic_team, sc_048"
+						]
+					},
+					{
+						"name": "[Magic Team] 049 - Ending Sign \"Phantasmal Emperor\"",
+						"access_rules": [
+							"magic_team, sc_049"
+						]
+					},
+					{
+						"name": "[Magic Team] 050 - Pseudo-History \"The Legend of Gensokyo\"",
+						"access_rules": [
+							"magic_team, sc_050"
+						]
+					},
+					{
+						"name": "[Magic Team] 051 - Pseudo-History \"The Legend of Gensokyo\"",
+						"access_rules": [
+							"magic_team, sc_051"
+						]
+					},
+					{
+						"name": "[Magic Team] 052 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"magic_team, sc_052"
+						]
+					},
+					{
+						"name": "[Magic Team] 053 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"magic_team, sc_053"
+						]
+					},
+					{
+						"name": "[Magic Team] 054 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"magic_team, sc_054"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 4A",
+				"visibility_rules": ["spell_practice_magic_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 412,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Magic Team] 055 - Dream Sign \"Duplex Barrier\"",
+						"access_rules": [
+							"magic_team, sc_055"
+						]
+					},
+					{
+						"name": "[Magic Team] 056 - Dream Sign \"Duplex Barrier\"",
+						"access_rules": [
+							"magic_team, sc_056"
+						]
+					},
+					{
+						"name": "[Magic Team] 057 - Dream Land \"Great Duplex Barrier\"",
+						"access_rules": [
+							"magic_team, sc_057"
+						]
+					},
+					{
+						"name": "[Magic Team] 058 - Dream Land \"Great Duplex Barrier\"",
+						"access_rules": [
+							"magic_team, sc_058"
+						]
+					},
+					{
+						"name": "[Magic Team] 059 - Spirit Sign \"Fantasy Seal -Spread-\"",
+						"access_rules": [
+							"magic_team, sc_059"
+						]
+					},
+					{
+						"name": "[Magic Team] 060 - Spirit Sign \"Fantasy Seal -Spread-\"",
+						"access_rules": [
+							"magic_team, sc_060"
+						]
+					},
+					{
+						"name": "[Magic Team] 061 - Scattered Sign \"Fantasy Seal -Worn-\"",
+						"access_rules": [
+							"magic_team, sc_061"
+						]
+					},
+					{
+						"name": "[Magic Team] 062 - Scattered Sign \"Fantasy Seal -Worn-\"",
+						"access_rules": [
+							"magic_team, sc_062"
+						]
+					},
+					{
+						"name": "[Magic Team] 063 - Dream Sign \"Evil-Sealing Circle\"",
+						"access_rules": [
+							"magic_team, sc_063"
+						]
+					},
+					{
+						"name": "[Magic Team] 064 - Dream Sign \"Evil-Sealing Circle\"",
+						"access_rules": [
+							"magic_team, sc_064"
+						]
+					},
+					{
+						"name": "[Magic Team] 065 - Divine Arts \"Omnidirectional Oni-Binding Circle\"",
+						"access_rules": [
+							"magic_team, sc_065"
+						]
+					},
+					{
+						"name": "[Magic Team] 066 - Divine Arts \"Omnidirectional Dragon-Slaying Circle\"",
+						"access_rules": [
+							"magic_team, sc_066"
+						]
+					},
+					{
+						"name": "[Magic Team] 067 - Spirit Sign \"Fantasy Seal -Concentrate-\"",
+						"access_rules": [
+							"magic_team, sc_067"
+						]
+					},
+					{
+						"name": "[Magic Team] 068 - Spirit Sign \"Fantasy Seal -Concentrate-\"",
+						"access_rules": [
+							"magic_team, sc_068"
+						]
+					},
+					{
+						"name": "[Magic Team] 069 - Migrating Spirit \"Fantasy Seal -Marred-\"",
+						"access_rules": [
+							"magic_team, sc_069"
+						]
+					},
+					{
+						"name": "[Magic Team] 070 - Migrating Spirit \"Fantasy Seal -Marred-\"",
+						"access_rules": [
+							"magic_team, sc_070"
+						]
+					},
+					{
+						"name": "[Magic Team] 071 - Boundary \"Duplex Danmaku Barrier\"",
+						"access_rules": [
+							"magic_team, sc_071"
+						]
+					},
+					{
+						"name": "[Magic Team] 072 - Boundary \"Duplex Danmaku Barrier\"",
+						"access_rules": [
+							"magic_team, sc_072"
+						]
+					},
+					{
+						"name": "[Magic Team] 073 - Great Barrier \"Hakurei Danmaku Barrier\"",
+						"access_rules": [
+							"magic_team, sc_073"
+						]
+					},
+					{
+						"name": "[Magic Team] 074 - Great Barrier \"Hakurei Danmaku Barrier\"",
+						"access_rules": [
+							"magic_team, sc_074"
+						]
+					},
+					{
+						"name": "[Magic Team] 075 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"magic_team, sc_075"
+						]
+					},
+					{
+						"name": "[Magic Team] 076 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"magic_team, sc_076"
+						]
+					},
+					{
+						"name": "[Magic Team] 077 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"magic_team, sc_077"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 4B",
+				"visibility_rules": ["spell_practice_magic_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 412,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Magic Team] 078 - Magic Sign \"Milky Way\"",
+						"access_rules": [
+							"magic_team, sc_078"
+						]
+					},
+					{
+						"name": "[Magic Team] 079 - Magic Sign \"Milky Way\"",
+						"access_rules": [
+							"magic_team, sc_079"
+						]
+					},
+					{
+						"name": "[Magic Team] 080 - Magic Space \"Asteroid Belt\"",
+						"access_rules": [
+							"magic_team, sc_080"
+						]
+					},
+					{
+						"name": "[Magic Team] 081 - Magic Space \"Asteroid Belt\"",
+						"access_rules": [
+							"magic_team, sc_081"
+						]
+					},
+					{
+						"name": "[Magic Team] 082 - Magic Sign \"Stardust Reverie\"",
+						"access_rules": [
+							"magic_team, sc_082"
+						]
+					},
+					{
+						"name": "[Magic Team] 083 - Magic Sign \"Stardust Reverie\"",
+						"access_rules": [
+							"magic_team, sc_083"
+						]
+					},
+					{
+						"name": "[Magic Team] 084 - Black Magic \"Event Horizon\"",
+						"access_rules": [
+							"magic_team, sc_084"
+						]
+					},
+					{
+						"name": "[Magic Team] 085 - Black Magic \"Event Horizon\"",
+						"access_rules": [
+							"magic_team, sc_085"
+						]
+					},
+					{
+						"name": "[Magic Team] 086 - Love Sign \"Non-Directional Laser\"",
+						"access_rules": [
+							"magic_team, sc_086"
+						]
+					},
+					{
+						"name": "[Magic Team] 087 - Love Sign \"Non-Directional Laser\"",
+						"access_rules": [
+							"magic_team, sc_087"
+						]
+					},
+					{
+						"name": "[Magic Team] 088 - Love Storm \"Starlight Typhoon\"",
+						"access_rules": [
+							"magic_team, sc_088"
+						]
+					},
+					{
+						"name": "[Magic Team] 089 - Love Storm \"Starlight Typhoon\"",
+						"access_rules": [
+							"magic_team, sc_089"
+						]
+					},
+					{
+						"name": "[Magic Team] 090 - Love Sign \"Master Spark\"",
+						"access_rules": [
+							"magic_team, sc_090"
+						]
+					},
+					{
+						"name": "[Magic Team] 091 - Love Sign \"Master Spark\"",
+						"access_rules": [
+							"magic_team, sc_091"
+						]
+					},
+					{
+						"name": "[Magic Team] 092 - Loving Heart \"Double Spark\"",
+						"access_rules": [
+							"magic_team, sc_092"
+						]
+					},
+					{
+						"name": "[Magic Team] 093 - Loving Heart \"Double Spark\"",
+						"access_rules": [
+							"magic_team, sc_093"
+						]
+					},
+					{
+						"name": "[Magic Team] 094 - Light Sign \"Earthlight Ray\"",
+						"access_rules": [
+							"magic_team, sc_094"
+						]
+					},
+					{
+						"name": "[Magic Team] 095 - Light Sign \"Earthlight Ray\"",
+						"access_rules": [
+							"magic_team, sc_095"
+						]
+					},
+					{
+						"name": "[Magic Team] 096 - Light Blast \"Shoot the Moon\"",
+						"access_rules": [
+							"magic_team, sc_096"
+						]
+					},
+					{
+						"name": "[Magic Team] 097 - Light Blast \"Shoot the Moon\"",
+						"access_rules": [
+							"magic_team, sc_097"
+						]
+					},
+					{
+						"name": "[Magic Team] 098 - Magicannon \"Final Spark\"",
+						"access_rules": [
+							"magic_team, sc_098"
+						]
+					},
+					{
+						"name": "[Magic Team] 099 - Magicannon \"Final Spark\"",
+						"access_rules": [
+							"magic_team, sc_099"
+						]
+					},
+					{
+						"name": "[Magic Team] 100 - Magicannon \"Final Master Spark\"",
+						"access_rules": [
+							"magic_team, sc_100"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 5",
+				"visibility_rules": ["spell_practice_magic_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 412,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Magic Team] 101 - Wave Sign \"Red-Eyed Hypnosis (Mind Shaker)\"",
+						"access_rules": [
+							"magic_team, sc_101"
+						]
+					},
+					{
+						"name": "[Magic Team] 102 - Wave Sign \"Red-Eyed Hypnosis (Mind Shaker)\"",
+						"access_rules": [
+							"magic_team, sc_102"
+						]
+					},
+					{
+						"name": "[Magic Team] 103 - Illusion Wave \"Red-Eyed Hypnosis (Mind Blowing)\"",
+						"access_rules": [
+							"magic_team, sc_103"
+						]
+					},
+					{
+						"name": "[Magic Team] 104 - Illusion Wave \"Red-Eyed Hypnosis (Mind Blowing)\"",
+						"access_rules": [
+							"magic_team, sc_104"
+						]
+					},
+					{
+						"name": "[Magic Team] 105 - Lunatic Sign \"Hallucination Tuning (Visionary Tuning)\"",
+						"access_rules": [
+							"magic_team, sc_105"
+						]
+					},
+					{
+						"name": "[Magic Team] 106 - Lunatic Sign \"Hallucination Tuning (Visionary Tuning)\"",
+						"access_rules": [
+							"magic_team, sc_106"
+						]
+					},
+					{
+						"name": "[Magic Team] 107 - Lunatic Gaze \"Lunatic Stare Tuning (Illusion Seeker)\"",
+						"access_rules": [
+							"magic_team, sc_107"
+						]
+					},
+					{
+						"name": "[Magic Team] 108 - Lunatic Gaze \"Lunatic Stare Tuning (Illusion Seeker)\"",
+						"access_rules": [
+							"magic_team, sc_108"
+						]
+					},
+					{
+						"name": "[Magic Team] 109 - Loafing Sign \"Life & Spirit Stopping (Idling Wave)\"",
+						"access_rules": [
+							"magic_team, sc_109"
+						]
+					},
+					{
+						"name": "[Magic Team] 110 - Loafing Sign \"Life & Spirit Stopping (Idling Wave)\"",
+						"access_rules": [
+							"magic_team, sc_110"
+						]
+					},
+					{
+						"name": "[Magic Team] 111 - Indolence \"Life & Spirit Stopping (Mind Stopper)\"",
+						"access_rules": [
+							"magic_team, sc_111"
+						]
+					},
+					{
+						"name": "[Magic Team] 112 - Indolence \"Life & Spirit Stopping (Mind Stopper)\"",
+						"access_rules": [
+							"magic_team, sc_112"
+						]
+					},
+					{
+						"name": "[Magic Team] 113 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"magic_team, sc_113"
+						]
+					},
+					{
+						"name": "[Magic Team] 114 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"magic_team, sc_114"
+						]
+					},
+					{
+						"name": "[Magic Team] 115 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"magic_team, sc_115"
+						]
+					},
+					{
+						"name": "[Magic Team] 116 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"magic_team, sc_116"
+						]
+					},
+					{
+						"name": "[Magic Team] 117 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"magic_team, sc_117"
+						]
+					},
+					{
+						"name": "[Magic Team] 118 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"magic_team, sc_118"
+						]
+					},
+					{
+						"name": "[Magic Team] 119 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"magic_team, sc_119"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 6A",
+				"visibility_rules": ["spell_practice_magic_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 412,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Magic Team] 120 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"magic_team, sc_120"
+						]
+					},
+					{
+						"name": "[Magic Team] 121 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"magic_team, sc_121"
+						]
+					},
+					{
+						"name": "[Magic Team] 122 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"magic_team, sc_122"
+						]
+					},
+					{
+						"name": "[Magic Team] 123 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"magic_team, sc_123"
+						]
+					},
+					{
+						"name": "[Magic Team] 124 - Awakened God \"Memories of the Age of the Gods\"",
+						"access_rules": [
+							"magic_team, sc_124"
+						]
+					},
+					{
+						"name": "[Magic Team] 125 - Awakened God \"Memories of the Age of the Gods\"",
+						"access_rules": [
+							"magic_team, sc_125"
+						]
+					},
+					{
+						"name": "[Magic Team] 126 - God Sign \"Genealogy of the Celestials\"",
+						"access_rules": [
+							"magic_team, sc_126"
+						]
+					},
+					{
+						"name": "[Magic Team] 127 - God Sign \"Genealogy of the Celestials\"",
+						"access_rules": [
+							"magic_team, sc_127"
+						]
+					},
+					{
+						"name": "[Magic Team] 128 - Revival \"Seimei Yugi -Life Game-\"",
+						"access_rules": [
+							"magic_team, sc_128"
+						]
+					},
+					{
+						"name": "[Magic Team] 129 - Revival \"Seimei Yugi -Life Game-\"",
+						"access_rules": [
+							"magic_team, sc_129"
+						]
+					},
+					{
+						"name": "[Magic Team] 130 - Resurrection \"Rising Game\"",
+						"access_rules": [
+							"magic_team, sc_130"
+						]
+					},
+					{
+						"name": "[Magic Team] 131 - Resurrection \"Rising Game\"",
+						"access_rules": [
+							"magic_team, sc_131"
+						]
+					},
+					{
+						"name": "[Magic Team] 132 - Leading God \"Omoikane's Device\"",
+						"access_rules": [
+							"magic_team, sc_132"
+						]
+					},
+					{
+						"name": "[Magic Team] 133 - Leading God \"Omoikane's Device\"",
+						"access_rules": [
+							"magic_team, sc_133"
+						]
+					},
+					{
+						"name": "[Magic Team] 134 - Mind of God \"Omoikane's Brain\"",
+						"access_rules": [
+							"magic_team, sc_134"
+						]
+					},
+					{
+						"name": "[Magic Team] 135 - Mind of God \"Omoikane's Brain\"",
+						"access_rules": [
+							"magic_team, sc_135"
+						]
+					},
+					{
+						"name": "[Magic Team] 136 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"magic_team, sc_136"
+						]
+					},
+					{
+						"name": "[Magic Team] 137 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"magic_team, sc_137"
+						]
+					},
+					{
+						"name": "[Magic Team] 138 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"magic_team, sc_138"
+						]
+					},
+					{
+						"name": "[Magic Team] 139 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"magic_team, sc_139"
+						]
+					},
+					{
+						"name": "[Magic Team] 140 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"magic_team, sc_140"
+						]
+					},
+					{
+						"name": "[Magic Team] 141 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"magic_team, sc_141"
+						]
+					},
+					{
+						"name": "[Magic Team] 142 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"magic_team, sc_142"
+						]
+					},
+					{
+						"name": "[Magic Team] 143 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"magic_team, sc_143"
+						]
+					},
+					{
+						"name": "[Magic Team] 144 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"magic_team, sc_144"
+						]
+					},
+					{
+						"name": "[Magic Team] 145 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"magic_team, sc_145"
+						]
+					},
+					{
+						"name": "[Magic Team] 146 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"magic_team, sc_146"
+						]
+					},
+					{
+						"name": "[Magic Team] 147 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"magic_team, sc_147"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage 6B",
+				"visibility_rules": ["spell_practice_magic_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 412,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Magic Team] 148 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"magic_team, sc_148"
+						]
+					},
+					{
+						"name": "[Magic Team] 149 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"magic_team, sc_149"
+						]
+					},
+					{
+						"name": "[Magic Team] 150 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"magic_team, sc_150"
+						]
+					},
+					{
+						"name": "[Magic Team] 151 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"magic_team, sc_151"
+						]
+					},
+					{
+						"name": "[Magic Team] 152 - Impossible Request \"Dragon's Neck's Jewel -Five-Colored Shots-\"",
+						"access_rules": [
+							"magic_team, sc_152"
+						]
+					},
+					{
+						"name": "[Magic Team] 153 - Impossible Request \"Dragon's Neck's Jewel -Five-Colored Shots-\"",
+						"access_rules": [
+							"magic_team, sc_153"
+						]
+					},
+					{
+						"name": "[Magic Team] 154 - Divine Treasure \"Brilliant Dragon Bullet\"",
+						"access_rules": [
+							"magic_team, sc_154"
+						]
+					},
+					{
+						"name": "[Magic Team] 155 - Divine Treasure \"Brilliant Dragon Bullet\"",
+						"access_rules": [
+							"magic_team, sc_155"
+						]
+					},
+					{
+						"name": "[Magic Team] 156 - Impossible Request \"Buddha's Stone Bowl -Indomitable Will-\"",
+						"access_rules": [
+							"magic_team, sc_156"
+						]
+					},
+					{
+						"name": "[Magic Team] 157 - Impossible Request \"Buddha's Stone Bowl -Indomitable Will-\"",
+						"access_rules": [
+							"magic_team, sc_157"
+						]
+					},
+					{
+						"name": "[Magic Team] 158 - Divine Treasure \"Buddhist Diamond\"",
+						"access_rules": [
+							"magic_team, sc_158"
+						]
+					},
+					{
+						"name": "[Magic Team] 159 - Divine Treasure \"Buddhist Diamond\"",
+						"access_rules": [
+							"magic_team, sc_159"
+						]
+					},
+					{
+						"name": "[Magic Team] 160 - Impossible Request \"Robe of Fire Rat -Patient Mind-\"",
+						"access_rules": [
+							"magic_team, sc_160"
+						]
+					},
+					{
+						"name": "[Magic Team] 161 - Impossible Request \"Robe of Fire Rat -Patient Mind-\"",
+						"access_rules": [
+							"magic_team, sc_161"
+						]
+					},
+					{
+						"name": "[Magic Team] 162 - Divine Treasure \"Salamander Shield\"",
+						"access_rules": [
+							"magic_team, sc_162"
+						]
+					},
+					{
+						"name": "[Magic Team] 163 - Divine Treasure \"Salamander Shield\"",
+						"access_rules": [
+							"magic_team, sc_163"
+						]
+					},
+					{
+						"name": "[Magic Team] 164 - Impossible Request \"Swallow's Cowrie Shell -Everlasting Life-\"",
+						"access_rules": [
+							"magic_team, sc_164"
+						]
+					},
+					{
+						"name": "[Magic Team] 165 - Impossible Request \"Swallow's Cowrie Shell -Everlasting Life-\"",
+						"access_rules": [
+							"magic_team, sc_165"
+						]
+					},
+					{
+						"name": "[Magic Team] 166 - Divine Treasure \"Life Spring Infinity\"",
+						"access_rules": [
+							"magic_team, sc_166"
+						]
+					},
+					{
+						"name": "[Magic Team] 167 - Divine Treasure \"Life Spring Infinity\"",
+						"access_rules": [
+							"magic_team, sc_167"
+						]
+					},
+					{
+						"name": "[Magic Team] 168 - Impossible Request \"Bullet Branch of Hourai -Rainbow Danmaku-\"",
+						"access_rules": [
+							"magic_team, sc_168"
+						]
+					},
+					{
+						"name": "[Magic Team] 169 - Impossible Request \"Bullet Branch of Hourai -Rainbow Danmaku-\"",
+						"access_rules": [
+							"magic_team, sc_169"
+						]
+					},
+					{
+						"name": "[Magic Team] 170 - Divine Treasure \"Jeweled Branch of Hourai -Dreamlike Paradise-\"",
+						"access_rules": [
+							"magic_team, sc_170"
+						]
+					},
+					{
+						"name": "[Magic Team] 171 - Divine Treasure \"Jeweled Branch of Hourai -Dreamlike Paradise-\"",
+						"access_rules": [
+							"magic_team, sc_171"
+						]
+					},
+					{
+						"name": "[Magic Team] 172 - End of Imperishable Night -New Moon-",
+						"access_rules": [
+							"magic_team, sc_172"
+						]
+					},
+					{
+						"name": "[Magic Team] 173 - End of Imperishable Night -Crescent Moon-",
+						"access_rules": [
+							"magic_team, sc_173"
+						]
+					},
+					{
+						"name": "[Magic Team] 174 - End of Imperishable Night -1st Quarter's Moon-",
+						"access_rules": [
+							"magic_team, sc_174"
+						]
+					},
+					{
+						"name": "[Magic Team] 175 - End of Imperishable Night -Matsuyoi-",
+						"access_rules": [
+							"magic_team, sc_175"
+						]
+					},
+					{
+						"name": "[Magic Team] 176 - End of Imperishable Night -11 o'Clock-",
+						"access_rules": [
+							"magic_team, sc_176"
+						]
+					},
+					{
+						"name": "[Magic Team] 177 - End of Imperishable Night -Half of Midnight-",
+						"access_rules": [
+							"magic_team, sc_177"
+						]
+					},
+					{
+						"name": "[Magic Team] 178 - End of Imperishable Night -Midnight-",
+						"access_rules": [
+							"magic_team, sc_178"
+						]
+					},
+					{
+						"name": "[Magic Team] 179 - End of Imperishable Night -Half Past Midnight-",
+						"access_rules": [
+							"magic_team, sc_179"
+						]
+					},
+					{
+						"name": "[Magic Team] 180 - End of Imperishable Night -1 o'Clock-",
+						"access_rules": [
+							"magic_team, sc_180"
+						]
+					},
+					{
+						"name": "[Magic Team] 181 - End of Imperishable Night -Half Past 1-",
+						"access_rules": [
+							"magic_team, sc_181"
+						]
+					},
+					{
+						"name": "[Magic Team] 182 - End of Imperishable Night -Dead of Night-",
+						"access_rules": [
+							"magic_team, sc_182"
+						]
+					},
+					{
+						"name": "[Magic Team] 183 - End of Imperishable Night -Half Past 2-",
+						"access_rules": [
+							"magic_team, sc_183"
+						]
+					},
+					{
+						"name": "[Magic Team] 184 - End of Imperishable Night -3 o'Clock-",
+						"access_rules": [
+							"magic_team, sc_184"
+						]
+					},
+					{
+						"name": "[Magic Team] 185 - End of Imperishable Night -Half Past 3-",
+						"access_rules": [
+							"magic_team, sc_185"
+						]
+					},
+					{
+						"name": "[Magic Team] 186 - End of Imperishable Night -4 o'Clock-",
+						"access_rules": [
+							"magic_team, sc_186"
+						]
+					},
+					{
+						"name": "[Magic Team] 187 - End of Imperishable Night -Half Past 4-",
+						"access_rules": [
+							"magic_team, sc_187"
+						]
+					},
+					{
+						"name": "[Magic Team] 188 - End of Imperishable Night -Morning Mist-",
+						"access_rules": [
+							"magic_team, sc_188"
+						]
+					},
+					{
+						"name": "[Magic Team] 189 - End of Imperishable Night -Dawn-",
+						"access_rules": [
+							"magic_team, sc_189"
+						]
+					},
+					{
+						"name": "[Magic Team] 190 - End of Imperishable Night -Morning Star-",
+						"access_rules": [
+							"magic_team, sc_190"
+						]
+					},
+					{
+						"name": "[Magic Team] 191 - End of Imperishable Night -Rising World-",
+						"access_rules": [
+							"magic_team, sc_191"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Stage Extra",
+				"visibility_rules": ["spell_practice_magic_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 412,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Magic Team] 192 - Past \"Old History of an Untrodden Land -Old History-\"",
+						"access_rules": [
+							"magic_team, sc_192"
+						]
+					},
+					{
+						"name": "[Magic Team] 193 - Reincarnation \"Ichijou Returning Bridge\"",
+						"access_rules": [
+							"magic_team, sc_193"
+						]
+					},
+					{
+						"name": "[Magic Team] 194 - Future \"New History of Fantasy -Next History-\"",
+						"access_rules": [
+							"magic_team, sc_194"
+						]
+					},
+					{
+						"name": "[Magic Team] 195 - Statute of Limitations \"Curse of Tsuki no Iwakasa\"",
+						"access_rules": [
+							"magic_team, sc_195"
+						]
+					},
+					{
+						"name": "[Magic Team] 196 - Undying \"Fire Bird -Feng Wing Ascension-\"",
+						"access_rules": [
+							"magic_team, sc_196"
+						]
+					},
+					{
+						"name": "[Magic Team] 197 - Fujiwara \"Wounds of Metsuzai Temple\"",
+						"access_rules": [
+							"magic_team, sc_197"
+						]
+					},
+					{
+						"name": "[Magic Team] 198 - Undying \"Xu Fu's Dimension\"",
+						"access_rules": [
+							"magic_team, sc_198"
+						]
+					},
+					{
+						"name": "[Magic Team] 199 - Expiation \"Honest Man's Death\"",
+						"access_rules": [
+							"magic_team, sc_199"
+						]
+					},
+					{
+						"name": "[Magic Team] 200 - Hollow Being \"Wu\"",
+						"access_rules": [
+							"magic_team, sc_200"
+						]
+					},
+					{
+						"name": "[Magic Team] 201 - Inextinguishable \"Phoenix's Tail\"",
+						"access_rules": [
+							"magic_team, sc_201"
+						]
+					},
+					{
+						"name": "[Magic Team] 202 - Hourai \"South Wind, Clear Sky -Fujiyama Volcano-\"",
+						"access_rules": [
+							"magic_team, sc_202"
+						]
+					},
+					{
+						"name": "[Magic Team] 203 - \"Possessed by Phoenix\"",
+						"access_rules": [
+							"magic_team, sc_203"
+						]
+					},
+					{
+						"name": "[Magic Team] 204 - \"Hourai Doll\"",
+						"access_rules": [
+							"magic_team, sc_204"
+						]
+					},
+					{
+						"name": "[Magic Team] 205 - \"Imperishable Shooting\"",
+						"access_rules": [
+							"magic_team, sc_205"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Magic Team] Last Word",
+				"visibility_rules": ["spell_practice_magic_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 412,
+						"y": 320,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Magic Team] 206 - \"Unseasonal Butterfly Storm\"",
+						"access_rules": [
+							"magic_team, sc_206"
+						]
+					},
+					{
+						"name": "[Magic Team] 207 - \"Blind Nightbird\"",
+						"access_rules": [
+							"magic_team, sc_207"
+						]
+					},
+					{
+						"name": "[Magic Team] 208 - \"Emperor of the Land of the Rising Sun\"",
+						"access_rules": [
+							"magic_team, sc_208"
+						]
+					},
+					{
+						"name": "[Magic Team] 209 - \"Stare of the Hazy Phantom Moon (Lunatic Red Eyes)\"",
+						"access_rules": [
+							"magic_team, sc_209"
+						]
+					},
+					{
+						"name": "[Magic Team] 210 - \"Heaven Spider's Butterfly-Capturing Web\"",
+						"access_rules": [
+							"magic_team, sc_210"
+						]
+					},
+					{
+						"name": "[Magic Team] 211 - \"Hourai's Sea of Trees\"",
+						"access_rules": [
+							"magic_team, sc_211"
+						]
+					},
+					{
+						"name": "[Magic Team] 212 - \"Phoenix Rebirth\"",
+						"access_rules": [
+							"magic_team, sc_212"
+						]
+					},
+					{
+						"name": "[Magic Team] 213 - \"Ancient Duper\"",
+						"access_rules": [
+							"magic_team, sc_213"
+						]
+					},
+					{
+						"name": "[Magic Team] 214 - \"Total Purification\"",
+						"access_rules": [
+							"magic_team, sc_214"
+						]
+					},
+					{
+						"name": "[Magic Team] 215 - \"Fantasy Nature\"",
+						"access_rules": [
+							"magic_team, sc_215"
+						]
+					},
+					{
+						"name": "[Magic Team] 216 - \"Blazing Star\"",
+						"access_rules": [
+							"magic_team, sc_216"
+						]
+					},
+					{
+						"name": "[Magic Team] 217 - \"Deflation World\"",
+						"access_rules": [
+							"magic_team, sc_217"
+						]
+					},
+					{
+						"name": "[Magic Team] 218 - \"Matsuyoi-Reflecting Satellite Slash\"",
+						"access_rules": [
+							"magic_team, sc_218"
+						]
+					},
+					{
+						"name": "[Magic Team] 219 - \"The Phantom of the Grand Guignol\"",
+						"access_rules": [
+							"magic_team, sc_219"
+						]
+					},
+					{
+						"name": "[Magic Team] 220 - \"Scarlet Destiny\"",
+						"access_rules": [
+							"magic_team, sc_220"
+						]
+					},
+					{
+						"name": "[Magic Team] 221 - \"Saigyouji Parinirvana\"",
+						"access_rules": [
+							"magic_team, sc_221"
+						]
+					},
+					{
+						"name": "[Magic Team] 222 - \"Profound Danmaku Barrier -Phantasm, Foam, and Shadow-\"",
+						"access_rules": [
+							"magic_team, sc_222"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 1",
+				"visibility_rules": ["spell_practice_devil_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 584,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Devil Team] 001 - Firefly Sign \"Earthly Meteor\"",
+						"access_rules": [
+							"devil_team, sc_001"
+						]
+					},
+					{
+						"name": "[Devil Team] 002 - Firefly Sign \"Earthly Comet\"",
+						"access_rules": [
+							"devil_team, sc_002"
+						]
+					},
+					{
+						"name": "[Devil Team] 003 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"devil_team, sc_003"
+						]
+					},
+					{
+						"name": "[Devil Team] 004 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"devil_team, sc_004"
+						]
+					},
+					{
+						"name": "[Devil Team] 005 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"devil_team, sc_005"
+						]
+					},
+					{
+						"name": "[Devil Team] 006 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"devil_team, sc_006"
+						]
+					},
+					{
+						"name": "[Devil Team] 007 - Wriggle Sign \"Little Bug\"",
+						"access_rules": [
+							"devil_team, sc_007"
+						]
+					},
+					{
+						"name": "[Devil Team] 008 - Wriggle Sign \"Little Bug Storm\"",
+						"access_rules": [
+							"devil_team, sc_008"
+						]
+					},
+					{
+						"name": "[Devil Team] 009 - Wriggle Sign \"Nightbug Storm\"",
+						"access_rules": [
+							"devil_team, sc_009"
+						]
+					},
+					{
+						"name": "[Devil Team] 010 - Wriggle Sign \"Nightbug Tornado\"",
+						"access_rules": [
+							"devil_team, sc_010"
+						]
+					},
+					{
+						"name": "[Devil Team] 011 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"devil_team, sc_011"
+						]
+					},
+					{
+						"name": "[Devil Team] 012 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"devil_team, sc_012"
+						]
+					},
+					{
+						"name": "[Devil Team] 013 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"devil_team, sc_013"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 2",
+				"visibility_rules": ["spell_practice_devil_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 584,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Devil Team] 014 - Vocal Sign \"Hooting in the Night\"",
+						"access_rules": [
+							"devil_team, sc_014"
+						]
+					},
+					{
+						"name": "[Devil Team] 015 - Vocal Sign \"Hooting in the Night\"",
+						"access_rules": [
+							"devil_team, sc_015"
+						]
+					},
+					{
+						"name": "[Devil Team] 016 - Vocal Sign \"Howl of the Horned Owl\"",
+						"access_rules": [
+							"devil_team, sc_016"
+						]
+					},
+					{
+						"name": "[Devil Team] 017 - Vocal Sign \"Howl of the Horned Owl\"",
+						"access_rules": [
+							"devil_team, sc_017"
+						]
+					},
+					{
+						"name": "[Devil Team] 018 - Moth Sign \"Hawk Moth's Insect Curse\"",
+						"access_rules": [
+							"devil_team, sc_018"
+						]
+					},
+					{
+						"name": "[Devil Team] 019 - Moth Sign \"Hawk Moth's Insect Curse\"",
+						"access_rules": [
+							"devil_team, sc_019"
+						]
+					},
+					{
+						"name": "[Devil Team] 020 - Toxin Sign \"Poisonous Moth's Scales\"",
+						"access_rules": [
+							"devil_team, sc_020"
+						]
+					},
+					{
+						"name": "[Devil Team] 021 - Deadly Toxin Sign \"Poisonous Moth's Dance in the Dark\"",
+						"access_rules": [
+							"devil_team, sc_021"
+						]
+					},
+					{
+						"name": "[Devil Team] 022 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"devil_team, sc_022"
+						]
+					},
+					{
+						"name": "[Devil Team] 023 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"devil_team, sc_023"
+						]
+					},
+					{
+						"name": "[Devil Team] 024 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"devil_team, sc_024"
+						]
+					},
+					{
+						"name": "[Devil Team] 025 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"devil_team, sc_025"
+						]
+					},
+					{
+						"name": "[Devil Team] 026 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"devil_team, sc_026"
+						]
+					},
+					{
+						"name": "[Devil Team] 027 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"devil_team, sc_027"
+						]
+					},
+					{
+						"name": "[Devil Team] 028 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"devil_team, sc_028"
+						]
+					},
+					{
+						"name": "[Devil Team] 029 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"devil_team, sc_029"
+						]
+					},
+					{
+						"name": "[Devil Team] 030 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"devil_team, sc_030"
+						]
+					},
+					{
+						"name": "[Devil Team] 031 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"devil_team, sc_031"
+						]
+					},
+					{
+						"name": "[Devil Team] 032 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"devil_team, sc_032"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 3",
+				"visibility_rules": ["spell_practice_devil_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 584,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Devil Team] 033 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"devil_team, sc_033"
+						]
+					},
+					{
+						"name": "[Devil Team] 034 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"devil_team, sc_034"
+						]
+					},
+					{
+						"name": "[Devil Team] 035 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"devil_team, sc_035"
+						]
+					},
+					{
+						"name": "[Devil Team] 036 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"devil_team, sc_036"
+						]
+					},
+					{
+						"name": "[Devil Team] 037 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"devil_team, sc_037"
+						]
+					},
+					{
+						"name": "[Devil Team] 038 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"devil_team, sc_038"
+						]
+					},
+					{
+						"name": "[Devil Team] 039 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"devil_team, sc_039"
+						]
+					},
+					{
+						"name": "[Devil Team] 040 - Ambition Sign \"Buretsu Crisis\"",
+						"access_rules": [
+							"devil_team, sc_040"
+						]
+					},
+					{
+						"name": "[Devil Team] 041 - Ambition Sign \"Masakado Crisis\"",
+						"access_rules": [
+							"devil_team, sc_041"
+						]
+					},
+					{
+						"name": "[Devil Team] 042 - Ambition Sign \"Yoshimitsu Crisis\"",
+						"access_rules": [
+							"devil_team, sc_042"
+						]
+					},
+					{
+						"name": "[Devil Team] 043 - Ambition Sign \"General Headquarters Crisis\"",
+						"access_rules": [
+							"devil_team, sc_043"
+						]
+					},
+					{
+						"name": "[Devil Team] 044 - Land Sign \"Three Sacred Treasures - Sword\"",
+						"access_rules": [
+							"devil_team, sc_044"
+						]
+					},
+					{
+						"name": "[Devil Team] 045 - Land Sign \"Three Sacred Treasures - Orb\"",
+						"access_rules": [
+							"devil_team, sc_045"
+						]
+					},
+					{
+						"name": "[Devil Team] 046 - Land Sign \"Three Sacred Treasures - Mirror\"",
+						"access_rules": [
+							"devil_team, sc_046"
+						]
+					},
+					{
+						"name": "[Devil Team] 047 - Land Sign \"Three Sacred Treasures - Country\"",
+						"access_rules": [
+							"devil_team, sc_047"
+						]
+					},
+					{
+						"name": "[Devil Team] 048 - Ending Sign \"Phantasmal Emperor\"",
+						"access_rules": [
+							"devil_team, sc_048"
+						]
+					},
+					{
+						"name": "[Devil Team] 049 - Ending Sign \"Phantasmal Emperor\"",
+						"access_rules": [
+							"devil_team, sc_049"
+						]
+					},
+					{
+						"name": "[Devil Team] 050 - Pseudo-History \"The Legend of Gensokyo\"",
+						"access_rules": [
+							"devil_team, sc_050"
+						]
+					},
+					{
+						"name": "[Devil Team] 051 - Pseudo-History \"The Legend of Gensokyo\"",
+						"access_rules": [
+							"devil_team, sc_051"
+						]
+					},
+					{
+						"name": "[Devil Team] 052 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"devil_team, sc_052"
+						]
+					},
+					{
+						"name": "[Devil Team] 053 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"devil_team, sc_053"
+						]
+					},
+					{
+						"name": "[Devil Team] 054 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"devil_team, sc_054"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 4A",
+				"visibility_rules": ["spell_practice_devil_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 584,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Devil Team] 055 - Dream Sign \"Duplex Barrier\"",
+						"access_rules": [
+							"devil_team, sc_055"
+						]
+					},
+					{
+						"name": "[Devil Team] 056 - Dream Sign \"Duplex Barrier\"",
+						"access_rules": [
+							"devil_team, sc_056"
+						]
+					},
+					{
+						"name": "[Devil Team] 057 - Dream Land \"Great Duplex Barrier\"",
+						"access_rules": [
+							"devil_team, sc_057"
+						]
+					},
+					{
+						"name": "[Devil Team] 058 - Dream Land \"Great Duplex Barrier\"",
+						"access_rules": [
+							"devil_team, sc_058"
+						]
+					},
+					{
+						"name": "[Devil Team] 059 - Spirit Sign \"Fantasy Seal -Spread-\"",
+						"access_rules": [
+							"devil_team, sc_059"
+						]
+					},
+					{
+						"name": "[Devil Team] 060 - Spirit Sign \"Fantasy Seal -Spread-\"",
+						"access_rules": [
+							"devil_team, sc_060"
+						]
+					},
+					{
+						"name": "[Devil Team] 061 - Scattered Sign \"Fantasy Seal -Worn-\"",
+						"access_rules": [
+							"devil_team, sc_061"
+						]
+					},
+					{
+						"name": "[Devil Team] 062 - Scattered Sign \"Fantasy Seal -Worn-\"",
+						"access_rules": [
+							"devil_team, sc_062"
+						]
+					},
+					{
+						"name": "[Devil Team] 063 - Dream Sign \"Evil-Sealing Circle\"",
+						"access_rules": [
+							"devil_team, sc_063"
+						]
+					},
+					{
+						"name": "[Devil Team] 064 - Dream Sign \"Evil-Sealing Circle\"",
+						"access_rules": [
+							"devil_team, sc_064"
+						]
+					},
+					{
+						"name": "[Devil Team] 065 - Divine Arts \"Omnidirectional Oni-Binding Circle\"",
+						"access_rules": [
+							"devil_team, sc_065"
+						]
+					},
+					{
+						"name": "[Devil Team] 066 - Divine Arts \"Omnidirectional Dragon-Slaying Circle\"",
+						"access_rules": [
+							"devil_team, sc_066"
+						]
+					},
+					{
+						"name": "[Devil Team] 067 - Spirit Sign \"Fantasy Seal -Concentrate-\"",
+						"access_rules": [
+							"devil_team, sc_067"
+						]
+					},
+					{
+						"name": "[Devil Team] 068 - Spirit Sign \"Fantasy Seal -Concentrate-\"",
+						"access_rules": [
+							"devil_team, sc_068"
+						]
+					},
+					{
+						"name": "[Devil Team] 069 - Migrating Spirit \"Fantasy Seal -Marred-\"",
+						"access_rules": [
+							"devil_team, sc_069"
+						]
+					},
+					{
+						"name": "[Devil Team] 070 - Migrating Spirit \"Fantasy Seal -Marred-\"",
+						"access_rules": [
+							"devil_team, sc_070"
+						]
+					},
+					{
+						"name": "[Devil Team] 071 - Boundary \"Duplex Danmaku Barrier\"",
+						"access_rules": [
+							"devil_team, sc_071"
+						]
+					},
+					{
+						"name": "[Devil Team] 072 - Boundary \"Duplex Danmaku Barrier\"",
+						"access_rules": [
+							"devil_team, sc_072"
+						]
+					},
+					{
+						"name": "[Devil Team] 073 - Great Barrier \"Hakurei Danmaku Barrier\"",
+						"access_rules": [
+							"devil_team, sc_073"
+						]
+					},
+					{
+						"name": "[Devil Team] 074 - Great Barrier \"Hakurei Danmaku Barrier\"",
+						"access_rules": [
+							"devil_team, sc_074"
+						]
+					},
+					{
+						"name": "[Devil Team] 075 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"devil_team, sc_075"
+						]
+					},
+					{
+						"name": "[Devil Team] 076 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"devil_team, sc_076"
+						]
+					},
+					{
+						"name": "[Devil Team] 077 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"devil_team, sc_077"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 4B",
+				"visibility_rules": ["spell_practice_devil_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 584,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Devil Team] 078 - Magic Sign \"Milky Way\"",
+						"access_rules": [
+							"devil_team, sc_078"
+						]
+					},
+					{
+						"name": "[Devil Team] 079 - Magic Sign \"Milky Way\"",
+						"access_rules": [
+							"devil_team, sc_079"
+						]
+					},
+					{
+						"name": "[Devil Team] 080 - Magic Space \"Asteroid Belt\"",
+						"access_rules": [
+							"devil_team, sc_080"
+						]
+					},
+					{
+						"name": "[Devil Team] 081 - Magic Space \"Asteroid Belt\"",
+						"access_rules": [
+							"devil_team, sc_081"
+						]
+					},
+					{
+						"name": "[Devil Team] 082 - Magic Sign \"Stardust Reverie\"",
+						"access_rules": [
+							"devil_team, sc_082"
+						]
+					},
+					{
+						"name": "[Devil Team] 083 - Magic Sign \"Stardust Reverie\"",
+						"access_rules": [
+							"devil_team, sc_083"
+						]
+					},
+					{
+						"name": "[Devil Team] 084 - Black Magic \"Event Horizon\"",
+						"access_rules": [
+							"devil_team, sc_084"
+						]
+					},
+					{
+						"name": "[Devil Team] 085 - Black Magic \"Event Horizon\"",
+						"access_rules": [
+							"devil_team, sc_085"
+						]
+					},
+					{
+						"name": "[Devil Team] 086 - Love Sign \"Non-Directional Laser\"",
+						"access_rules": [
+							"devil_team, sc_086"
+						]
+					},
+					{
+						"name": "[Devil Team] 087 - Love Sign \"Non-Directional Laser\"",
+						"access_rules": [
+							"devil_team, sc_087"
+						]
+					},
+					{
+						"name": "[Devil Team] 088 - Love Storm \"Starlight Typhoon\"",
+						"access_rules": [
+							"devil_team, sc_088"
+						]
+					},
+					{
+						"name": "[Devil Team] 089 - Love Storm \"Starlight Typhoon\"",
+						"access_rules": [
+							"devil_team, sc_089"
+						]
+					},
+					{
+						"name": "[Devil Team] 090 - Love Sign \"Master Spark\"",
+						"access_rules": [
+							"devil_team, sc_090"
+						]
+					},
+					{
+						"name": "[Devil Team] 091 - Love Sign \"Master Spark\"",
+						"access_rules": [
+							"devil_team, sc_091"
+						]
+					},
+					{
+						"name": "[Devil Team] 092 - Loving Heart \"Double Spark\"",
+						"access_rules": [
+							"devil_team, sc_092"
+						]
+					},
+					{
+						"name": "[Devil Team] 093 - Loving Heart \"Double Spark\"",
+						"access_rules": [
+							"devil_team, sc_093"
+						]
+					},
+					{
+						"name": "[Devil Team] 094 - Light Sign \"Earthlight Ray\"",
+						"access_rules": [
+							"devil_team, sc_094"
+						]
+					},
+					{
+						"name": "[Devil Team] 095 - Light Sign \"Earthlight Ray\"",
+						"access_rules": [
+							"devil_team, sc_095"
+						]
+					},
+					{
+						"name": "[Devil Team] 096 - Light Blast \"Shoot the Moon\"",
+						"access_rules": [
+							"devil_team, sc_096"
+						]
+					},
+					{
+						"name": "[Devil Team] 097 - Light Blast \"Shoot the Moon\"",
+						"access_rules": [
+							"devil_team, sc_097"
+						]
+					},
+					{
+						"name": "[Devil Team] 098 - Magicannon \"Final Spark\"",
+						"access_rules": [
+							"devil_team, sc_098"
+						]
+					},
+					{
+						"name": "[Devil Team] 099 - Magicannon \"Final Spark\"",
+						"access_rules": [
+							"devil_team, sc_099"
+						]
+					},
+					{
+						"name": "[Devil Team] 100 - Magicannon \"Final Master Spark\"",
+						"access_rules": [
+							"devil_team, sc_100"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 5",
+				"visibility_rules": ["spell_practice_devil_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 584,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Devil Team] 101 - Wave Sign \"Red-Eyed Hypnosis (Mind Shaker)\"",
+						"access_rules": [
+							"devil_team, sc_101"
+						]
+					},
+					{
+						"name": "[Devil Team] 102 - Wave Sign \"Red-Eyed Hypnosis (Mind Shaker)\"",
+						"access_rules": [
+							"devil_team, sc_102"
+						]
+					},
+					{
+						"name": "[Devil Team] 103 - Illusion Wave \"Red-Eyed Hypnosis (Mind Blowing)\"",
+						"access_rules": [
+							"devil_team, sc_103"
+						]
+					},
+					{
+						"name": "[Devil Team] 104 - Illusion Wave \"Red-Eyed Hypnosis (Mind Blowing)\"",
+						"access_rules": [
+							"devil_team, sc_104"
+						]
+					},
+					{
+						"name": "[Devil Team] 105 - Lunatic Sign \"Hallucination Tuning (Visionary Tuning)\"",
+						"access_rules": [
+							"devil_team, sc_105"
+						]
+					},
+					{
+						"name": "[Devil Team] 106 - Lunatic Sign \"Hallucination Tuning (Visionary Tuning)\"",
+						"access_rules": [
+							"devil_team, sc_106"
+						]
+					},
+					{
+						"name": "[Devil Team] 107 - Lunatic Gaze \"Lunatic Stare Tuning (Illusion Seeker)\"",
+						"access_rules": [
+							"devil_team, sc_107"
+						]
+					},
+					{
+						"name": "[Devil Team] 108 - Lunatic Gaze \"Lunatic Stare Tuning (Illusion Seeker)\"",
+						"access_rules": [
+							"devil_team, sc_108"
+						]
+					},
+					{
+						"name": "[Devil Team] 109 - Loafing Sign \"Life & Spirit Stopping (Idling Wave)\"",
+						"access_rules": [
+							"devil_team, sc_109"
+						]
+					},
+					{
+						"name": "[Devil Team] 110 - Loafing Sign \"Life & Spirit Stopping (Idling Wave)\"",
+						"access_rules": [
+							"devil_team, sc_110"
+						]
+					},
+					{
+						"name": "[Devil Team] 111 - Indolence \"Life & Spirit Stopping (Mind Stopper)\"",
+						"access_rules": [
+							"devil_team, sc_111"
+						]
+					},
+					{
+						"name": "[Devil Team] 112 - Indolence \"Life & Spirit Stopping (Mind Stopper)\"",
+						"access_rules": [
+							"devil_team, sc_112"
+						]
+					},
+					{
+						"name": "[Devil Team] 113 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"devil_team, sc_113"
+						]
+					},
+					{
+						"name": "[Devil Team] 114 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"devil_team, sc_114"
+						]
+					},
+					{
+						"name": "[Devil Team] 115 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"devil_team, sc_115"
+						]
+					},
+					{
+						"name": "[Devil Team] 116 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"devil_team, sc_116"
+						]
+					},
+					{
+						"name": "[Devil Team] 117 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"devil_team, sc_117"
+						]
+					},
+					{
+						"name": "[Devil Team] 118 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"devil_team, sc_118"
+						]
+					},
+					{
+						"name": "[Devil Team] 119 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"devil_team, sc_119"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 6A",
+				"visibility_rules": ["spell_practice_devil_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 584,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Devil Team] 120 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"devil_team, sc_120"
+						]
+					},
+					{
+						"name": "[Devil Team] 121 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"devil_team, sc_121"
+						]
+					},
+					{
+						"name": "[Devil Team] 122 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"devil_team, sc_122"
+						]
+					},
+					{
+						"name": "[Devil Team] 123 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"devil_team, sc_123"
+						]
+					},
+					{
+						"name": "[Devil Team] 124 - Awakened God \"Memories of the Age of the Gods\"",
+						"access_rules": [
+							"devil_team, sc_124"
+						]
+					},
+					{
+						"name": "[Devil Team] 125 - Awakened God \"Memories of the Age of the Gods\"",
+						"access_rules": [
+							"devil_team, sc_125"
+						]
+					},
+					{
+						"name": "[Devil Team] 126 - God Sign \"Genealogy of the Celestials\"",
+						"access_rules": [
+							"devil_team, sc_126"
+						]
+					},
+					{
+						"name": "[Devil Team] 127 - God Sign \"Genealogy of the Celestials\"",
+						"access_rules": [
+							"devil_team, sc_127"
+						]
+					},
+					{
+						"name": "[Devil Team] 128 - Revival \"Seimei Yugi -Life Game-\"",
+						"access_rules": [
+							"devil_team, sc_128"
+						]
+					},
+					{
+						"name": "[Devil Team] 129 - Revival \"Seimei Yugi -Life Game-\"",
+						"access_rules": [
+							"devil_team, sc_129"
+						]
+					},
+					{
+						"name": "[Devil Team] 130 - Resurrection \"Rising Game\"",
+						"access_rules": [
+							"devil_team, sc_130"
+						]
+					},
+					{
+						"name": "[Devil Team] 131 - Resurrection \"Rising Game\"",
+						"access_rules": [
+							"devil_team, sc_131"
+						]
+					},
+					{
+						"name": "[Devil Team] 132 - Leading God \"Omoikane's Device\"",
+						"access_rules": [
+							"devil_team, sc_132"
+						]
+					},
+					{
+						"name": "[Devil Team] 133 - Leading God \"Omoikane's Device\"",
+						"access_rules": [
+							"devil_team, sc_133"
+						]
+					},
+					{
+						"name": "[Devil Team] 134 - Mind of God \"Omoikane's Brain\"",
+						"access_rules": [
+							"devil_team, sc_134"
+						]
+					},
+					{
+						"name": "[Devil Team] 135 - Mind of God \"Omoikane's Brain\"",
+						"access_rules": [
+							"devil_team, sc_135"
+						]
+					},
+					{
+						"name": "[Devil Team] 136 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"devil_team, sc_136"
+						]
+					},
+					{
+						"name": "[Devil Team] 137 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"devil_team, sc_137"
+						]
+					},
+					{
+						"name": "[Devil Team] 138 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"devil_team, sc_138"
+						]
+					},
+					{
+						"name": "[Devil Team] 139 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"devil_team, sc_139"
+						]
+					},
+					{
+						"name": "[Devil Team] 140 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"devil_team, sc_140"
+						]
+					},
+					{
+						"name": "[Devil Team] 141 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"devil_team, sc_141"
+						]
+					},
+					{
+						"name": "[Devil Team] 142 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"devil_team, sc_142"
+						]
+					},
+					{
+						"name": "[Devil Team] 143 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"devil_team, sc_143"
+						]
+					},
+					{
+						"name": "[Devil Team] 144 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"devil_team, sc_144"
+						]
+					},
+					{
+						"name": "[Devil Team] 145 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"devil_team, sc_145"
+						]
+					},
+					{
+						"name": "[Devil Team] 146 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"devil_team, sc_146"
+						]
+					},
+					{
+						"name": "[Devil Team] 147 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"devil_team, sc_147"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage 6B",
+				"visibility_rules": ["spell_practice_devil_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 584,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Devil Team] 148 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"devil_team, sc_148"
+						]
+					},
+					{
+						"name": "[Devil Team] 149 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"devil_team, sc_149"
+						]
+					},
+					{
+						"name": "[Devil Team] 150 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"devil_team, sc_150"
+						]
+					},
+					{
+						"name": "[Devil Team] 151 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"devil_team, sc_151"
+						]
+					},
+					{
+						"name": "[Devil Team] 152 - Impossible Request \"Dragon's Neck's Jewel -Five-Colored Shots-\"",
+						"access_rules": [
+							"devil_team, sc_152"
+						]
+					},
+					{
+						"name": "[Devil Team] 153 - Impossible Request \"Dragon's Neck's Jewel -Five-Colored Shots-\"",
+						"access_rules": [
+							"devil_team, sc_153"
+						]
+					},
+					{
+						"name": "[Devil Team] 154 - Divine Treasure \"Brilliant Dragon Bullet\"",
+						"access_rules": [
+							"devil_team, sc_154"
+						]
+					},
+					{
+						"name": "[Devil Team] 155 - Divine Treasure \"Brilliant Dragon Bullet\"",
+						"access_rules": [
+							"devil_team, sc_155"
+						]
+					},
+					{
+						"name": "[Devil Team] 156 - Impossible Request \"Buddha's Stone Bowl -Indomitable Will-\"",
+						"access_rules": [
+							"devil_team, sc_156"
+						]
+					},
+					{
+						"name": "[Devil Team] 157 - Impossible Request \"Buddha's Stone Bowl -Indomitable Will-\"",
+						"access_rules": [
+							"devil_team, sc_157"
+						]
+					},
+					{
+						"name": "[Devil Team] 158 - Divine Treasure \"Buddhist Diamond\"",
+						"access_rules": [
+							"devil_team, sc_158"
+						]
+					},
+					{
+						"name": "[Devil Team] 159 - Divine Treasure \"Buddhist Diamond\"",
+						"access_rules": [
+							"devil_team, sc_159"
+						]
+					},
+					{
+						"name": "[Devil Team] 160 - Impossible Request \"Robe of Fire Rat -Patient Mind-\"",
+						"access_rules": [
+							"devil_team, sc_160"
+						]
+					},
+					{
+						"name": "[Devil Team] 161 - Impossible Request \"Robe of Fire Rat -Patient Mind-\"",
+						"access_rules": [
+							"devil_team, sc_161"
+						]
+					},
+					{
+						"name": "[Devil Team] 162 - Divine Treasure \"Salamander Shield\"",
+						"access_rules": [
+							"devil_team, sc_162"
+						]
+					},
+					{
+						"name": "[Devil Team] 163 - Divine Treasure \"Salamander Shield\"",
+						"access_rules": [
+							"devil_team, sc_163"
+						]
+					},
+					{
+						"name": "[Devil Team] 164 - Impossible Request \"Swallow's Cowrie Shell -Everlasting Life-\"",
+						"access_rules": [
+							"devil_team, sc_164"
+						]
+					},
+					{
+						"name": "[Devil Team] 165 - Impossible Request \"Swallow's Cowrie Shell -Everlasting Life-\"",
+						"access_rules": [
+							"devil_team, sc_165"
+						]
+					},
+					{
+						"name": "[Devil Team] 166 - Divine Treasure \"Life Spring Infinity\"",
+						"access_rules": [
+							"devil_team, sc_166"
+						]
+					},
+					{
+						"name": "[Devil Team] 167 - Divine Treasure \"Life Spring Infinity\"",
+						"access_rules": [
+							"devil_team, sc_167"
+						]
+					},
+					{
+						"name": "[Devil Team] 168 - Impossible Request \"Bullet Branch of Hourai -Rainbow Danmaku-\"",
+						"access_rules": [
+							"devil_team, sc_168"
+						]
+					},
+					{
+						"name": "[Devil Team] 169 - Impossible Request \"Bullet Branch of Hourai -Rainbow Danmaku-\"",
+						"access_rules": [
+							"devil_team, sc_169"
+						]
+					},
+					{
+						"name": "[Devil Team] 170 - Divine Treasure \"Jeweled Branch of Hourai -Dreamlike Paradise-\"",
+						"access_rules": [
+							"devil_team, sc_170"
+						]
+					},
+					{
+						"name": "[Devil Team] 171 - Divine Treasure \"Jeweled Branch of Hourai -Dreamlike Paradise-\"",
+						"access_rules": [
+							"devil_team, sc_171"
+						]
+					},
+					{
+						"name": "[Devil Team] 172 - End of Imperishable Night -New Moon-",
+						"access_rules": [
+							"devil_team, sc_172"
+						]
+					},
+					{
+						"name": "[Devil Team] 173 - End of Imperishable Night -Crescent Moon-",
+						"access_rules": [
+							"devil_team, sc_173"
+						]
+					},
+					{
+						"name": "[Devil Team] 174 - End of Imperishable Night -1st Quarter's Moon-",
+						"access_rules": [
+							"devil_team, sc_174"
+						]
+					},
+					{
+						"name": "[Devil Team] 175 - End of Imperishable Night -Matsuyoi-",
+						"access_rules": [
+							"devil_team, sc_175"
+						]
+					},
+					{
+						"name": "[Devil Team] 176 - End of Imperishable Night -11 o'Clock-",
+						"access_rules": [
+							"devil_team, sc_176"
+						]
+					},
+					{
+						"name": "[Devil Team] 177 - End of Imperishable Night -Half of Midnight-",
+						"access_rules": [
+							"devil_team, sc_177"
+						]
+					},
+					{
+						"name": "[Devil Team] 178 - End of Imperishable Night -Midnight-",
+						"access_rules": [
+							"devil_team, sc_178"
+						]
+					},
+					{
+						"name": "[Devil Team] 179 - End of Imperishable Night -Half Past Midnight-",
+						"access_rules": [
+							"devil_team, sc_179"
+						]
+					},
+					{
+						"name": "[Devil Team] 180 - End of Imperishable Night -1 o'Clock-",
+						"access_rules": [
+							"devil_team, sc_180"
+						]
+					},
+					{
+						"name": "[Devil Team] 181 - End of Imperishable Night -Half Past 1-",
+						"access_rules": [
+							"devil_team, sc_181"
+						]
+					},
+					{
+						"name": "[Devil Team] 182 - End of Imperishable Night -Dead of Night-",
+						"access_rules": [
+							"devil_team, sc_182"
+						]
+					},
+					{
+						"name": "[Devil Team] 183 - End of Imperishable Night -Half Past 2-",
+						"access_rules": [
+							"devil_team, sc_183"
+						]
+					},
+					{
+						"name": "[Devil Team] 184 - End of Imperishable Night -3 o'Clock-",
+						"access_rules": [
+							"devil_team, sc_184"
+						]
+					},
+					{
+						"name": "[Devil Team] 185 - End of Imperishable Night -Half Past 3-",
+						"access_rules": [
+							"devil_team, sc_185"
+						]
+					},
+					{
+						"name": "[Devil Team] 186 - End of Imperishable Night -4 o'Clock-",
+						"access_rules": [
+							"devil_team, sc_186"
+						]
+					},
+					{
+						"name": "[Devil Team] 187 - End of Imperishable Night -Half Past 4-",
+						"access_rules": [
+							"devil_team, sc_187"
+						]
+					},
+					{
+						"name": "[Devil Team] 188 - End of Imperishable Night -Morning Mist-",
+						"access_rules": [
+							"devil_team, sc_188"
+						]
+					},
+					{
+						"name": "[Devil Team] 189 - End of Imperishable Night -Dawn-",
+						"access_rules": [
+							"devil_team, sc_189"
+						]
+					},
+					{
+						"name": "[Devil Team] 190 - End of Imperishable Night -Morning Star-",
+						"access_rules": [
+							"devil_team, sc_190"
+						]
+					},
+					{
+						"name": "[Devil Team] 191 - End of Imperishable Night -Rising World-",
+						"access_rules": [
+							"devil_team, sc_191"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Stage Extra",
+				"visibility_rules": ["spell_practice_devil_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 584,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Devil Team] 192 - Past \"Old History of an Untrodden Land -Old History-\"",
+						"access_rules": [
+							"devil_team, sc_192"
+						]
+					},
+					{
+						"name": "[Devil Team] 193 - Reincarnation \"Ichijou Returning Bridge\"",
+						"access_rules": [
+							"devil_team, sc_193"
+						]
+					},
+					{
+						"name": "[Devil Team] 194 - Future \"New History of Fantasy -Next History-\"",
+						"access_rules": [
+							"devil_team, sc_194"
+						]
+					},
+					{
+						"name": "[Devil Team] 195 - Statute of Limitations \"Curse of Tsuki no Iwakasa\"",
+						"access_rules": [
+							"devil_team, sc_195"
+						]
+					},
+					{
+						"name": "[Devil Team] 196 - Undying \"Fire Bird -Feng Wing Ascension-\"",
+						"access_rules": [
+							"devil_team, sc_196"
+						]
+					},
+					{
+						"name": "[Devil Team] 197 - Fujiwara \"Wounds of Metsuzai Temple\"",
+						"access_rules": [
+							"devil_team, sc_197"
+						]
+					},
+					{
+						"name": "[Devil Team] 198 - Undying \"Xu Fu's Dimension\"",
+						"access_rules": [
+							"devil_team, sc_198"
+						]
+					},
+					{
+						"name": "[Devil Team] 199 - Expiation \"Honest Man's Death\"",
+						"access_rules": [
+							"devil_team, sc_199"
+						]
+					},
+					{
+						"name": "[Devil Team] 200 - Hollow Being \"Wu\"",
+						"access_rules": [
+							"devil_team, sc_200"
+						]
+					},
+					{
+						"name": "[Devil Team] 201 - Inextinguishable \"Phoenix's Tail\"",
+						"access_rules": [
+							"devil_team, sc_201"
+						]
+					},
+					{
+						"name": "[Devil Team] 202 - Hourai \"South Wind, Clear Sky -Fujiyama Volcano-\"",
+						"access_rules": [
+							"devil_team, sc_202"
+						]
+					},
+					{
+						"name": "[Devil Team] 203 - \"Possessed by Phoenix\"",
+						"access_rules": [
+							"devil_team, sc_203"
+						]
+					},
+					{
+						"name": "[Devil Team] 204 - \"Hourai Doll\"",
+						"access_rules": [
+							"devil_team, sc_204"
+						]
+					},
+					{
+						"name": "[Devil Team] 205 - \"Imperishable Shooting\"",
+						"access_rules": [
+							"devil_team, sc_205"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Devil Team] Last Word",
+				"visibility_rules": ["spell_practice_devil_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 584,
+						"y": 320,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Devil Team] 206 - \"Unseasonal Butterfly Storm\"",
+						"access_rules": [
+							"devil_team, sc_206"
+						]
+					},
+					{
+						"name": "[Devil Team] 207 - \"Blind Nightbird\"",
+						"access_rules": [
+							"devil_team, sc_207"
+						]
+					},
+					{
+						"name": "[Devil Team] 208 - \"Emperor of the Land of the Rising Sun\"",
+						"access_rules": [
+							"devil_team, sc_208"
+						]
+					},
+					{
+						"name": "[Devil Team] 209 - \"Stare of the Hazy Phantom Moon (Lunatic Red Eyes)\"",
+						"access_rules": [
+							"devil_team, sc_209"
+						]
+					},
+					{
+						"name": "[Devil Team] 210 - \"Heaven Spider's Butterfly-Capturing Web\"",
+						"access_rules": [
+							"devil_team, sc_210"
+						]
+					},
+					{
+						"name": "[Devil Team] 211 - \"Hourai's Sea of Trees\"",
+						"access_rules": [
+							"devil_team, sc_211"
+						]
+					},
+					{
+						"name": "[Devil Team] 212 - \"Phoenix Rebirth\"",
+						"access_rules": [
+							"devil_team, sc_212"
+						]
+					},
+					{
+						"name": "[Devil Team] 213 - \"Ancient Duper\"",
+						"access_rules": [
+							"devil_team, sc_213"
+						]
+					},
+					{
+						"name": "[Devil Team] 214 - \"Total Purification\"",
+						"access_rules": [
+							"devil_team, sc_214"
+						]
+					},
+					{
+						"name": "[Devil Team] 215 - \"Fantasy Nature\"",
+						"access_rules": [
+							"devil_team, sc_215"
+						]
+					},
+					{
+						"name": "[Devil Team] 216 - \"Blazing Star\"",
+						"access_rules": [
+							"devil_team, sc_216"
+						]
+					},
+					{
+						"name": "[Devil Team] 217 - \"Deflation World\"",
+						"access_rules": [
+							"devil_team, sc_217"
+						]
+					},
+					{
+						"name": "[Devil Team] 218 - \"Matsuyoi-Reflecting Satellite Slash\"",
+						"access_rules": [
+							"devil_team, sc_218"
+						]
+					},
+					{
+						"name": "[Devil Team] 219 - \"The Phantom of the Grand Guignol\"",
+						"access_rules": [
+							"devil_team, sc_219"
+						]
+					},
+					{
+						"name": "[Devil Team] 220 - \"Scarlet Destiny\"",
+						"access_rules": [
+							"devil_team, sc_220"
+						]
+					},
+					{
+						"name": "[Devil Team] 221 - \"Saigyouji Parinirvana\"",
+						"access_rules": [
+							"devil_team, sc_221"
+						]
+					},
+					{
+						"name": "[Devil Team] 222 - \"Profound Danmaku Barrier -Phantasm, Foam, and Shadow-\"",
+						"access_rules": [
+							"devil_team, sc_222"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 1",
+				"visibility_rules": ["spell_practice_nether_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 756,
+						"y": 95,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Nether Team] 001 - Firefly Sign \"Earthly Meteor\"",
+						"access_rules": [
+							"nether_team, sc_001"
+						]
+					},
+					{
+						"name": "[Nether Team] 002 - Firefly Sign \"Earthly Comet\"",
+						"access_rules": [
+							"nether_team, sc_002"
+						]
+					},
+					{
+						"name": "[Nether Team] 003 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"nether_team, sc_003"
+						]
+					},
+					{
+						"name": "[Nether Team] 004 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"nether_team, sc_004"
+						]
+					},
+					{
+						"name": "[Nether Team] 005 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"nether_team, sc_005"
+						]
+					},
+					{
+						"name": "[Nether Team] 006 - Lamp Sign \"Firefly Phenomenon\"",
+						"access_rules": [
+							"nether_team, sc_006"
+						]
+					},
+					{
+						"name": "[Nether Team] 007 - Wriggle Sign \"Little Bug\"",
+						"access_rules": [
+							"nether_team, sc_007"
+						]
+					},
+					{
+						"name": "[Nether Team] 008 - Wriggle Sign \"Little Bug Storm\"",
+						"access_rules": [
+							"nether_team, sc_008"
+						]
+					},
+					{
+						"name": "[Nether Team] 009 - Wriggle Sign \"Nightbug Storm\"",
+						"access_rules": [
+							"nether_team, sc_009"
+						]
+					},
+					{
+						"name": "[Nether Team] 010 - Wriggle Sign \"Nightbug Tornado\"",
+						"access_rules": [
+							"nether_team, sc_010"
+						]
+					},
+					{
+						"name": "[Nether Team] 011 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"nether_team, sc_011"
+						]
+					},
+					{
+						"name": "[Nether Team] 012 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"nether_team, sc_012"
+						]
+					},
+					{
+						"name": "[Nether Team] 013 - Hidden Bug \"Endless Night Seclusion\"",
+						"access_rules": [
+							"nether_team, sc_013"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 2",
+				"visibility_rules": ["spell_practice_nether_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 756,
+						"y": 120,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Nether Team] 014 - Vocal Sign \"Hooting in the Night\"",
+						"access_rules": [
+							"nether_team, sc_014"
+						]
+					},
+					{
+						"name": "[Nether Team] 015 - Vocal Sign \"Hooting in the Night\"",
+						"access_rules": [
+							"nether_team, sc_015"
+						]
+					},
+					{
+						"name": "[Nether Team] 016 - Vocal Sign \"Howl of the Horned Owl\"",
+						"access_rules": [
+							"nether_team, sc_016"
+						]
+					},
+					{
+						"name": "[Nether Team] 017 - Vocal Sign \"Howl of the Horned Owl\"",
+						"access_rules": [
+							"nether_team, sc_017"
+						]
+					},
+					{
+						"name": "[Nether Team] 018 - Moth Sign \"Hawk Moth's Insect Curse\"",
+						"access_rules": [
+							"nether_team, sc_018"
+						]
+					},
+					{
+						"name": "[Nether Team] 019 - Moth Sign \"Hawk Moth's Insect Curse\"",
+						"access_rules": [
+							"nether_team, sc_019"
+						]
+					},
+					{
+						"name": "[Nether Team] 020 - Toxin Sign \"Poisonous Moth's Scales\"",
+						"access_rules": [
+							"nether_team, sc_020"
+						]
+					},
+					{
+						"name": "[Nether Team] 021 - Deadly Toxin Sign \"Poisonous Moth's Dance in the Dark\"",
+						"access_rules": [
+							"nether_team, sc_021"
+						]
+					},
+					{
+						"name": "[Nether Team] 022 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"nether_team, sc_022"
+						]
+					},
+					{
+						"name": "[Nether Team] 023 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"nether_team, sc_023"
+						]
+					},
+					{
+						"name": "[Nether Team] 024 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"nether_team, sc_024"
+						]
+					},
+					{
+						"name": "[Nether Team] 025 - Hawk Sign \"Ill Starred Dive\"",
+						"access_rules": [
+							"nether_team, sc_025"
+						]
+					},
+					{
+						"name": "[Nether Team] 026 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"nether_team, sc_026"
+						]
+					},
+					{
+						"name": "[Nether Team] 027 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"nether_team, sc_027"
+						]
+					},
+					{
+						"name": "[Nether Team] 028 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"nether_team, sc_028"
+						]
+					},
+					{
+						"name": "[Nether Team] 029 - Night-Blindness \"Song of the Night Sparrow\"",
+						"access_rules": [
+							"nether_team, sc_029"
+						]
+					},
+					{
+						"name": "[Nether Team] 030 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"nether_team, sc_030"
+						]
+					},
+					{
+						"name": "[Nether Team] 031 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"nether_team, sc_031"
+						]
+					},
+					{
+						"name": "[Nether Team] 032 - Night-Sparrow \"Midnight Chorus Master\"",
+						"access_rules": [
+							"nether_team, sc_032"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 3",
+				"visibility_rules": ["spell_practice_nether_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 756,
+						"y": 145,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Nether Team] 033 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"nether_team, sc_033"
+						]
+					},
+					{
+						"name": "[Nether Team] 034 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"nether_team, sc_034"
+						]
+					},
+					{
+						"name": "[Nether Team] 035 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"nether_team, sc_035"
+						]
+					},
+					{
+						"name": "[Nether Team] 036 - Spiritual Birth \"First Pyramid\"",
+						"access_rules": [
+							"nether_team, sc_036"
+						]
+					},
+					{
+						"name": "[Nether Team] 037 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"nether_team, sc_037"
+						]
+					},
+					{
+						"name": "[Nether Team] 038 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"nether_team, sc_038"
+						]
+					},
+					{
+						"name": "[Nether Team] 039 - Origin Sign \"Ephemerality 137\"",
+						"access_rules": [
+							"nether_team, sc_039"
+						]
+					},
+					{
+						"name": "[Nether Team] 040 - Ambition Sign \"Buretsu Crisis\"",
+						"access_rules": [
+							"nether_team, sc_040"
+						]
+					},
+					{
+						"name": "[Nether Team] 041 - Ambition Sign \"Masakado Crisis\"",
+						"access_rules": [
+							"nether_team, sc_041"
+						]
+					},
+					{
+						"name": "[Nether Team] 042 - Ambition Sign \"Yoshimitsu Crisis\"",
+						"access_rules": [
+							"nether_team, sc_042"
+						]
+					},
+					{
+						"name": "[Nether Team] 043 - Ambition Sign \"General Headquarters Crisis\"",
+						"access_rules": [
+							"nether_team, sc_043"
+						]
+					},
+					{
+						"name": "[Nether Team] 044 - Land Sign \"Three Sacred Treasures - Sword\"",
+						"access_rules": [
+							"nether_team, sc_044"
+						]
+					},
+					{
+						"name": "[Nether Team] 045 - Land Sign \"Three Sacred Treasures - Orb\"",
+						"access_rules": [
+							"nether_team, sc_045"
+						]
+					},
+					{
+						"name": "[Nether Team] 046 - Land Sign \"Three Sacred Treasures - Mirror\"",
+						"access_rules": [
+							"nether_team, sc_046"
+						]
+					},
+					{
+						"name": "[Nether Team] 047 - Land Sign \"Three Sacred Treasures - Country\"",
+						"access_rules": [
+							"nether_team, sc_047"
+						]
+					},
+					{
+						"name": "[Nether Team] 048 - Ending Sign \"Phantasmal Emperor\"",
+						"access_rules": [
+							"nether_team, sc_048"
+						]
+					},
+					{
+						"name": "[Nether Team] 049 - Ending Sign \"Phantasmal Emperor\"",
+						"access_rules": [
+							"nether_team, sc_049"
+						]
+					},
+					{
+						"name": "[Nether Team] 050 - Pseudo-History \"The Legend of Gensokyo\"",
+						"access_rules": [
+							"nether_team, sc_050"
+						]
+					},
+					{
+						"name": "[Nether Team] 051 - Pseudo-History \"The Legend of Gensokyo\"",
+						"access_rules": [
+							"nether_team, sc_051"
+						]
+					},
+					{
+						"name": "[Nether Team] 052 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"nether_team, sc_052"
+						]
+					},
+					{
+						"name": "[Nether Team] 053 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"nether_team, sc_053"
+						]
+					},
+					{
+						"name": "[Nether Team] 054 - Future \"Gods' Realm\"",
+						"access_rules": [
+							"nether_team, sc_054"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 4A",
+				"visibility_rules": ["spell_practice_nether_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 756,
+						"y": 170,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Nether Team] 055 - Dream Sign \"Duplex Barrier\"",
+						"access_rules": [
+							"nether_team, sc_055"
+						]
+					},
+					{
+						"name": "[Nether Team] 056 - Dream Sign \"Duplex Barrier\"",
+						"access_rules": [
+							"nether_team, sc_056"
+						]
+					},
+					{
+						"name": "[Nether Team] 057 - Dream Land \"Great Duplex Barrier\"",
+						"access_rules": [
+							"nether_team, sc_057"
+						]
+					},
+					{
+						"name": "[Nether Team] 058 - Dream Land \"Great Duplex Barrier\"",
+						"access_rules": [
+							"nether_team, sc_058"
+						]
+					},
+					{
+						"name": "[Nether Team] 059 - Spirit Sign \"Fantasy Seal -Spread-\"",
+						"access_rules": [
+							"nether_team, sc_059"
+						]
+					},
+					{
+						"name": "[Nether Team] 060 - Spirit Sign \"Fantasy Seal -Spread-\"",
+						"access_rules": [
+							"nether_team, sc_060"
+						]
+					},
+					{
+						"name": "[Nether Team] 061 - Scattered Sign \"Fantasy Seal -Worn-\"",
+						"access_rules": [
+							"nether_team, sc_061"
+						]
+					},
+					{
+						"name": "[Nether Team] 062 - Scattered Sign \"Fantasy Seal -Worn-\"",
+						"access_rules": [
+							"nether_team, sc_062"
+						]
+					},
+					{
+						"name": "[Nether Team] 063 - Dream Sign \"Evil-Sealing Circle\"",
+						"access_rules": [
+							"nether_team, sc_063"
+						]
+					},
+					{
+						"name": "[Nether Team] 064 - Dream Sign \"Evil-Sealing Circle\"",
+						"access_rules": [
+							"nether_team, sc_064"
+						]
+					},
+					{
+						"name": "[Nether Team] 065 - Divine Arts \"Omnidirectional Oni-Binding Circle\"",
+						"access_rules": [
+							"nether_team, sc_065"
+						]
+					},
+					{
+						"name": "[Nether Team] 066 - Divine Arts \"Omnidirectional Dragon-Slaying Circle\"",
+						"access_rules": [
+							"nether_team, sc_066"
+						]
+					},
+					{
+						"name": "[Nether Team] 067 - Spirit Sign \"Fantasy Seal -Concentrate-\"",
+						"access_rules": [
+							"nether_team, sc_067"
+						]
+					},
+					{
+						"name": "[Nether Team] 068 - Spirit Sign \"Fantasy Seal -Concentrate-\"",
+						"access_rules": [
+							"nether_team, sc_068"
+						]
+					},
+					{
+						"name": "[Nether Team] 069 - Migrating Spirit \"Fantasy Seal -Marred-\"",
+						"access_rules": [
+							"nether_team, sc_069"
+						]
+					},
+					{
+						"name": "[Nether Team] 070 - Migrating Spirit \"Fantasy Seal -Marred-\"",
+						"access_rules": [
+							"nether_team, sc_070"
+						]
+					},
+					{
+						"name": "[Nether Team] 071 - Boundary \"Duplex Danmaku Barrier\"",
+						"access_rules": [
+							"nether_team, sc_071"
+						]
+					},
+					{
+						"name": "[Nether Team] 072 - Boundary \"Duplex Danmaku Barrier\"",
+						"access_rules": [
+							"nether_team, sc_072"
+						]
+					},
+					{
+						"name": "[Nether Team] 073 - Great Barrier \"Hakurei Danmaku Barrier\"",
+						"access_rules": [
+							"nether_team, sc_073"
+						]
+					},
+					{
+						"name": "[Nether Team] 074 - Great Barrier \"Hakurei Danmaku Barrier\"",
+						"access_rules": [
+							"nether_team, sc_074"
+						]
+					},
+					{
+						"name": "[Nether Team] 075 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"nether_team, sc_075"
+						]
+					},
+					{
+						"name": "[Nether Team] 076 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"nether_team, sc_076"
+						]
+					},
+					{
+						"name": "[Nether Team] 077 - Divine Spirit \"Fantasy Seal -Blink-\"",
+						"access_rules": [
+							"nether_team, sc_077"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 4B",
+				"visibility_rules": ["spell_practice_nether_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 756,
+						"y": 195,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Nether Team] 078 - Magic Sign \"Milky Way\"",
+						"access_rules": [
+							"nether_team, sc_078"
+						]
+					},
+					{
+						"name": "[Nether Team] 079 - Magic Sign \"Milky Way\"",
+						"access_rules": [
+							"nether_team, sc_079"
+						]
+					},
+					{
+						"name": "[Nether Team] 080 - Magic Space \"Asteroid Belt\"",
+						"access_rules": [
+							"nether_team, sc_080"
+						]
+					},
+					{
+						"name": "[Nether Team] 081 - Magic Space \"Asteroid Belt\"",
+						"access_rules": [
+							"nether_team, sc_081"
+						]
+					},
+					{
+						"name": "[Nether Team] 082 - Magic Sign \"Stardust Reverie\"",
+						"access_rules": [
+							"nether_team, sc_082"
+						]
+					},
+					{
+						"name": "[Nether Team] 083 - Magic Sign \"Stardust Reverie\"",
+						"access_rules": [
+							"nether_team, sc_083"
+						]
+					},
+					{
+						"name": "[Nether Team] 084 - Black Magic \"Event Horizon\"",
+						"access_rules": [
+							"nether_team, sc_084"
+						]
+					},
+					{
+						"name": "[Nether Team] 085 - Black Magic \"Event Horizon\"",
+						"access_rules": [
+							"nether_team, sc_085"
+						]
+					},
+					{
+						"name": "[Nether Team] 086 - Love Sign \"Non-Directional Laser\"",
+						"access_rules": [
+							"nether_team, sc_086"
+						]
+					},
+					{
+						"name": "[Nether Team] 087 - Love Sign \"Non-Directional Laser\"",
+						"access_rules": [
+							"nether_team, sc_087"
+						]
+					},
+					{
+						"name": "[Nether Team] 088 - Love Storm \"Starlight Typhoon\"",
+						"access_rules": [
+							"nether_team, sc_088"
+						]
+					},
+					{
+						"name": "[Nether Team] 089 - Love Storm \"Starlight Typhoon\"",
+						"access_rules": [
+							"nether_team, sc_089"
+						]
+					},
+					{
+						"name": "[Nether Team] 090 - Love Sign \"Master Spark\"",
+						"access_rules": [
+							"nether_team, sc_090"
+						]
+					},
+					{
+						"name": "[Nether Team] 091 - Love Sign \"Master Spark\"",
+						"access_rules": [
+							"nether_team, sc_091"
+						]
+					},
+					{
+						"name": "[Nether Team] 092 - Loving Heart \"Double Spark\"",
+						"access_rules": [
+							"nether_team, sc_092"
+						]
+					},
+					{
+						"name": "[Nether Team] 093 - Loving Heart \"Double Spark\"",
+						"access_rules": [
+							"nether_team, sc_093"
+						]
+					},
+					{
+						"name": "[Nether Team] 094 - Light Sign \"Earthlight Ray\"",
+						"access_rules": [
+							"nether_team, sc_094"
+						]
+					},
+					{
+						"name": "[Nether Team] 095 - Light Sign \"Earthlight Ray\"",
+						"access_rules": [
+							"nether_team, sc_095"
+						]
+					},
+					{
+						"name": "[Nether Team] 096 - Light Blast \"Shoot the Moon\"",
+						"access_rules": [
+							"nether_team, sc_096"
+						]
+					},
+					{
+						"name": "[Nether Team] 097 - Light Blast \"Shoot the Moon\"",
+						"access_rules": [
+							"nether_team, sc_097"
+						]
+					},
+					{
+						"name": "[Nether Team] 098 - Magicannon \"Final Spark\"",
+						"access_rules": [
+							"nether_team, sc_098"
+						]
+					},
+					{
+						"name": "[Nether Team] 099 - Magicannon \"Final Spark\"",
+						"access_rules": [
+							"nether_team, sc_099"
+						]
+					},
+					{
+						"name": "[Nether Team] 100 - Magicannon \"Final Master Spark\"",
+						"access_rules": [
+							"nether_team, sc_100"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 5",
+				"visibility_rules": ["spell_practice_nether_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 756,
+						"y": 220,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Nether Team] 101 - Wave Sign \"Red-Eyed Hypnosis (Mind Shaker)\"",
+						"access_rules": [
+							"nether_team, sc_101"
+						]
+					},
+					{
+						"name": "[Nether Team] 102 - Wave Sign \"Red-Eyed Hypnosis (Mind Shaker)\"",
+						"access_rules": [
+							"nether_team, sc_102"
+						]
+					},
+					{
+						"name": "[Nether Team] 103 - Illusion Wave \"Red-Eyed Hypnosis (Mind Blowing)\"",
+						"access_rules": [
+							"nether_team, sc_103"
+						]
+					},
+					{
+						"name": "[Nether Team] 104 - Illusion Wave \"Red-Eyed Hypnosis (Mind Blowing)\"",
+						"access_rules": [
+							"nether_team, sc_104"
+						]
+					},
+					{
+						"name": "[Nether Team] 105 - Lunatic Sign \"Hallucination Tuning (Visionary Tuning)\"",
+						"access_rules": [
+							"nether_team, sc_105"
+						]
+					},
+					{
+						"name": "[Nether Team] 106 - Lunatic Sign \"Hallucination Tuning (Visionary Tuning)\"",
+						"access_rules": [
+							"nether_team, sc_106"
+						]
+					},
+					{
+						"name": "[Nether Team] 107 - Lunatic Gaze \"Lunatic Stare Tuning (Illusion Seeker)\"",
+						"access_rules": [
+							"nether_team, sc_107"
+						]
+					},
+					{
+						"name": "[Nether Team] 108 - Lunatic Gaze \"Lunatic Stare Tuning (Illusion Seeker)\"",
+						"access_rules": [
+							"nether_team, sc_108"
+						]
+					},
+					{
+						"name": "[Nether Team] 109 - Loafing Sign \"Life & Spirit Stopping (Idling Wave)\"",
+						"access_rules": [
+							"nether_team, sc_109"
+						]
+					},
+					{
+						"name": "[Nether Team] 110 - Loafing Sign \"Life & Spirit Stopping (Idling Wave)\"",
+						"access_rules": [
+							"nether_team, sc_110"
+						]
+					},
+					{
+						"name": "[Nether Team] 111 - Indolence \"Life & Spirit Stopping (Mind Stopper)\"",
+						"access_rules": [
+							"nether_team, sc_111"
+						]
+					},
+					{
+						"name": "[Nether Team] 112 - Indolence \"Life & Spirit Stopping (Mind Stopper)\"",
+						"access_rules": [
+							"nether_team, sc_112"
+						]
+					},
+					{
+						"name": "[Nether Team] 113 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"nether_team, sc_113"
+						]
+					},
+					{
+						"name": "[Nether Team] 114 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"nether_team, sc_114"
+						]
+					},
+					{
+						"name": "[Nether Team] 115 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"nether_team, sc_115"
+						]
+					},
+					{
+						"name": "[Nether Team] 116 - Spread Sign \"Moon of Truth (Invisible Full Moon)\"",
+						"access_rules": [
+							"nether_team, sc_116"
+						]
+					},
+					{
+						"name": "[Nether Team] 117 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"nether_team, sc_117"
+						]
+					},
+					{
+						"name": "[Nether Team] 118 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"nether_team, sc_118"
+						]
+					},
+					{
+						"name": "[Nether Team] 119 - Lunar Eyes \"Lunar Rabbit's Remote Mesmerism (Tele-Mesmerism)\"",
+						"access_rules": [
+							"nether_team, sc_119"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 6A",
+				"visibility_rules": ["spell_practice_nether_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 756,
+						"y": 245,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Nether Team] 120 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"nether_team, sc_120"
+						]
+					},
+					{
+						"name": "[Nether Team] 121 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"nether_team, sc_121"
+						]
+					},
+					{
+						"name": "[Nether Team] 122 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"nether_team, sc_122"
+						]
+					},
+					{
+						"name": "[Nether Team] 123 - Spacesphere \"Earth in a Pot\"",
+						"access_rules": [
+							"nether_team, sc_123"
+						]
+					},
+					{
+						"name": "[Nether Team] 124 - Awakened God \"Memories of the Age of the Gods\"",
+						"access_rules": [
+							"nether_team, sc_124"
+						]
+					},
+					{
+						"name": "[Nether Team] 125 - Awakened God \"Memories of the Age of the Gods\"",
+						"access_rules": [
+							"nether_team, sc_125"
+						]
+					},
+					{
+						"name": "[Nether Team] 126 - God Sign \"Genealogy of the Celestials\"",
+						"access_rules": [
+							"nether_team, sc_126"
+						]
+					},
+					{
+						"name": "[Nether Team] 127 - God Sign \"Genealogy of the Celestials\"",
+						"access_rules": [
+							"nether_team, sc_127"
+						]
+					},
+					{
+						"name": "[Nether Team] 128 - Revival \"Seimei Yugi -Life Game-\"",
+						"access_rules": [
+							"nether_team, sc_128"
+						]
+					},
+					{
+						"name": "[Nether Team] 129 - Revival \"Seimei Yugi -Life Game-\"",
+						"access_rules": [
+							"nether_team, sc_129"
+						]
+					},
+					{
+						"name": "[Nether Team] 130 - Resurrection \"Rising Game\"",
+						"access_rules": [
+							"nether_team, sc_130"
+						]
+					},
+					{
+						"name": "[Nether Team] 131 - Resurrection \"Rising Game\"",
+						"access_rules": [
+							"nether_team, sc_131"
+						]
+					},
+					{
+						"name": "[Nether Team] 132 - Leading God \"Omoikane's Device\"",
+						"access_rules": [
+							"nether_team, sc_132"
+						]
+					},
+					{
+						"name": "[Nether Team] 133 - Leading God \"Omoikane's Device\"",
+						"access_rules": [
+							"nether_team, sc_133"
+						]
+					},
+					{
+						"name": "[Nether Team] 134 - Mind of God \"Omoikane's Brain\"",
+						"access_rules": [
+							"nether_team, sc_134"
+						]
+					},
+					{
+						"name": "[Nether Team] 135 - Mind of God \"Omoikane's Brain\"",
+						"access_rules": [
+							"nether_team, sc_135"
+						]
+					},
+					{
+						"name": "[Nether Team] 136 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"nether_team, sc_136"
+						]
+					},
+					{
+						"name": "[Nether Team] 137 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"nether_team, sc_137"
+						]
+					},
+					{
+						"name": "[Nether Team] 138 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"nether_team, sc_138"
+						]
+					},
+					{
+						"name": "[Nether Team] 139 - Curse of the Heavens \"Apollo 13\"",
+						"access_rules": [
+							"nether_team, sc_139"
+						]
+					},
+					{
+						"name": "[Nether Team] 140 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"nether_team, sc_140"
+						]
+					},
+					{
+						"name": "[Nether Team] 141 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"nether_team, sc_141"
+						]
+					},
+					{
+						"name": "[Nether Team] 142 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"nether_team, sc_142"
+						]
+					},
+					{
+						"name": "[Nether Team] 143 - Esoterica \"Astronomical Cover-Up\"",
+						"access_rules": [
+							"nether_team, sc_143"
+						]
+					},
+					{
+						"name": "[Nether Team] 144 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"nether_team, sc_144"
+						]
+					},
+					{
+						"name": "[Nether Team] 145 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"nether_team, sc_145"
+						]
+					},
+					{
+						"name": "[Nether Team] 146 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"nether_team, sc_146"
+						]
+					},
+					{
+						"name": "[Nether Team] 147 - Forbidden Elixir \"Hourai Elixir\"",
+						"access_rules": [
+							"nether_team, sc_147"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage 6B",
+				"visibility_rules": ["spell_practice_nether_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 756,
+						"y": 270,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Nether Team] 148 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"nether_team, sc_148"
+						]
+					},
+					{
+						"name": "[Nether Team] 149 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"nether_team, sc_149"
+						]
+					},
+					{
+						"name": "[Nether Team] 150 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"nether_team, sc_150"
+						]
+					},
+					{
+						"name": "[Nether Team] 151 - Medicine Sign \"Galaxy in a Pot\"",
+						"access_rules": [
+							"nether_team, sc_151"
+						]
+					},
+					{
+						"name": "[Nether Team] 152 - Impossible Request \"Dragon's Neck's Jewel -Five-Colored Shots-\"",
+						"access_rules": [
+							"nether_team, sc_152"
+						]
+					},
+					{
+						"name": "[Nether Team] 153 - Impossible Request \"Dragon's Neck's Jewel -Five-Colored Shots-\"",
+						"access_rules": [
+							"nether_team, sc_153"
+						]
+					},
+					{
+						"name": "[Nether Team] 154 - Divine Treasure \"Brilliant Dragon Bullet\"",
+						"access_rules": [
+							"nether_team, sc_154"
+						]
+					},
+					{
+						"name": "[Nether Team] 155 - Divine Treasure \"Brilliant Dragon Bullet\"",
+						"access_rules": [
+							"nether_team, sc_155"
+						]
+					},
+					{
+						"name": "[Nether Team] 156 - Impossible Request \"Buddha's Stone Bowl -Indomitable Will-\"",
+						"access_rules": [
+							"nether_team, sc_156"
+						]
+					},
+					{
+						"name": "[Nether Team] 157 - Impossible Request \"Buddha's Stone Bowl -Indomitable Will-\"",
+						"access_rules": [
+							"nether_team, sc_157"
+						]
+					},
+					{
+						"name": "[Nether Team] 158 - Divine Treasure \"Buddhist Diamond\"",
+						"access_rules": [
+							"nether_team, sc_158"
+						]
+					},
+					{
+						"name": "[Nether Team] 159 - Divine Treasure \"Buddhist Diamond\"",
+						"access_rules": [
+							"nether_team, sc_159"
+						]
+					},
+					{
+						"name": "[Nether Team] 160 - Impossible Request \"Robe of Fire Rat -Patient Mind-\"",
+						"access_rules": [
+							"nether_team, sc_160"
+						]
+					},
+					{
+						"name": "[Nether Team] 161 - Impossible Request \"Robe of Fire Rat -Patient Mind-\"",
+						"access_rules": [
+							"nether_team, sc_161"
+						]
+					},
+					{
+						"name": "[Nether Team] 162 - Divine Treasure \"Salamander Shield\"",
+						"access_rules": [
+							"nether_team, sc_162"
+						]
+					},
+					{
+						"name": "[Nether Team] 163 - Divine Treasure \"Salamander Shield\"",
+						"access_rules": [
+							"nether_team, sc_163"
+						]
+					},
+					{
+						"name": "[Nether Team] 164 - Impossible Request \"Swallow's Cowrie Shell -Everlasting Life-\"",
+						"access_rules": [
+							"nether_team, sc_164"
+						]
+					},
+					{
+						"name": "[Nether Team] 165 - Impossible Request \"Swallow's Cowrie Shell -Everlasting Life-\"",
+						"access_rules": [
+							"nether_team, sc_165"
+						]
+					},
+					{
+						"name": "[Nether Team] 166 - Divine Treasure \"Life Spring Infinity\"",
+						"access_rules": [
+							"nether_team, sc_166"
+						]
+					},
+					{
+						"name": "[Nether Team] 167 - Divine Treasure \"Life Spring Infinity\"",
+						"access_rules": [
+							"nether_team, sc_167"
+						]
+					},
+					{
+						"name": "[Nether Team] 168 - Impossible Request \"Bullet Branch of Hourai -Rainbow Danmaku-\"",
+						"access_rules": [
+							"nether_team, sc_168"
+						]
+					},
+					{
+						"name": "[Nether Team] 169 - Impossible Request \"Bullet Branch of Hourai -Rainbow Danmaku-\"",
+						"access_rules": [
+							"nether_team, sc_169"
+						]
+					},
+					{
+						"name": "[Nether Team] 170 - Divine Treasure \"Jeweled Branch of Hourai -Dreamlike Paradise-\"",
+						"access_rules": [
+							"nether_team, sc_170"
+						]
+					},
+					{
+						"name": "[Nether Team] 171 - Divine Treasure \"Jeweled Branch of Hourai -Dreamlike Paradise-\"",
+						"access_rules": [
+							"nether_team, sc_171"
+						]
+					},
+					{
+						"name": "[Nether Team] 172 - End of Imperishable Night -New Moon-",
+						"access_rules": [
+							"nether_team, sc_172"
+						]
+					},
+					{
+						"name": "[Nether Team] 173 - End of Imperishable Night -Crescent Moon-",
+						"access_rules": [
+							"nether_team, sc_173"
+						]
+					},
+					{
+						"name": "[Nether Team] 174 - End of Imperishable Night -1st Quarter's Moon-",
+						"access_rules": [
+							"nether_team, sc_174"
+						]
+					},
+					{
+						"name": "[Nether Team] 175 - End of Imperishable Night -Matsuyoi-",
+						"access_rules": [
+							"nether_team, sc_175"
+						]
+					},
+					{
+						"name": "[Nether Team] 176 - End of Imperishable Night -11 o'Clock-",
+						"access_rules": [
+							"nether_team, sc_176"
+						]
+					},
+					{
+						"name": "[Nether Team] 177 - End of Imperishable Night -Half of Midnight-",
+						"access_rules": [
+							"nether_team, sc_177"
+						]
+					},
+					{
+						"name": "[Nether Team] 178 - End of Imperishable Night -Midnight-",
+						"access_rules": [
+							"nether_team, sc_178"
+						]
+					},
+					{
+						"name": "[Nether Team] 179 - End of Imperishable Night -Half Past Midnight-",
+						"access_rules": [
+							"nether_team, sc_179"
+						]
+					},
+					{
+						"name": "[Nether Team] 180 - End of Imperishable Night -1 o'Clock-",
+						"access_rules": [
+							"nether_team, sc_180"
+						]
+					},
+					{
+						"name": "[Nether Team] 181 - End of Imperishable Night -Half Past 1-",
+						"access_rules": [
+							"nether_team, sc_181"
+						]
+					},
+					{
+						"name": "[Nether Team] 182 - End of Imperishable Night -Dead of Night-",
+						"access_rules": [
+							"nether_team, sc_182"
+						]
+					},
+					{
+						"name": "[Nether Team] 183 - End of Imperishable Night -Half Past 2-",
+						"access_rules": [
+							"nether_team, sc_183"
+						]
+					},
+					{
+						"name": "[Nether Team] 184 - End of Imperishable Night -3 o'Clock-",
+						"access_rules": [
+							"nether_team, sc_184"
+						]
+					},
+					{
+						"name": "[Nether Team] 185 - End of Imperishable Night -Half Past 3-",
+						"access_rules": [
+							"nether_team, sc_185"
+						]
+					},
+					{
+						"name": "[Nether Team] 186 - End of Imperishable Night -4 o'Clock-",
+						"access_rules": [
+							"nether_team, sc_186"
+						]
+					},
+					{
+						"name": "[Nether Team] 187 - End of Imperishable Night -Half Past 4-",
+						"access_rules": [
+							"nether_team, sc_187"
+						]
+					},
+					{
+						"name": "[Nether Team] 188 - End of Imperishable Night -Morning Mist-",
+						"access_rules": [
+							"nether_team, sc_188"
+						]
+					},
+					{
+						"name": "[Nether Team] 189 - End of Imperishable Night -Dawn-",
+						"access_rules": [
+							"nether_team, sc_189"
+						]
+					},
+					{
+						"name": "[Nether Team] 190 - End of Imperishable Night -Morning Star-",
+						"access_rules": [
+							"nether_team, sc_190"
+						]
+					},
+					{
+						"name": "[Nether Team] 191 - End of Imperishable Night -Rising World-",
+						"access_rules": [
+							"nether_team, sc_191"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Stage Extra",
+				"visibility_rules": ["spell_practice_nether_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 756,
+						"y": 295,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Nether Team] 192 - Past \"Old History of an Untrodden Land -Old History-\"",
+						"access_rules": [
+							"nether_team, sc_192"
+						]
+					},
+					{
+						"name": "[Nether Team] 193 - Reincarnation \"Ichijou Returning Bridge\"",
+						"access_rules": [
+							"nether_team, sc_193"
+						]
+					},
+					{
+						"name": "[Nether Team] 194 - Future \"New History of Fantasy -Next History-\"",
+						"access_rules": [
+							"nether_team, sc_194"
+						]
+					},
+					{
+						"name": "[Nether Team] 195 - Statute of Limitations \"Curse of Tsuki no Iwakasa\"",
+						"access_rules": [
+							"nether_team, sc_195"
+						]
+					},
+					{
+						"name": "[Nether Team] 196 - Undying \"Fire Bird -Feng Wing Ascension-\"",
+						"access_rules": [
+							"nether_team, sc_196"
+						]
+					},
+					{
+						"name": "[Nether Team] 197 - Fujiwara \"Wounds of Metsuzai Temple\"",
+						"access_rules": [
+							"nether_team, sc_197"
+						]
+					},
+					{
+						"name": "[Nether Team] 198 - Undying \"Xu Fu's Dimension\"",
+						"access_rules": [
+							"nether_team, sc_198"
+						]
+					},
+					{
+						"name": "[Nether Team] 199 - Expiation \"Honest Man's Death\"",
+						"access_rules": [
+							"nether_team, sc_199"
+						]
+					},
+					{
+						"name": "[Nether Team] 200 - Hollow Being \"Wu\"",
+						"access_rules": [
+							"nether_team, sc_200"
+						]
+					},
+					{
+						"name": "[Nether Team] 201 - Inextinguishable \"Phoenix's Tail\"",
+						"access_rules": [
+							"nether_team, sc_201"
+						]
+					},
+					{
+						"name": "[Nether Team] 202 - Hourai \"South Wind, Clear Sky -Fujiyama Volcano-\"",
+						"access_rules": [
+							"nether_team, sc_202"
+						]
+					},
+					{
+						"name": "[Nether Team] 203 - \"Possessed by Phoenix\"",
+						"access_rules": [
+							"nether_team, sc_203"
+						]
+					},
+					{
+						"name": "[Nether Team] 204 - \"Hourai Doll\"",
+						"access_rules": [
+							"nether_team, sc_204"
+						]
+					},
+					{
+						"name": "[Nether Team] 205 - \"Imperishable Shooting\"",
+						"access_rules": [
+							"nether_team, sc_205"
+						]
+					}
+				]
+			},
+			{
+				"name": "[Nether Team] Last Word",
+				"visibility_rules": ["spell_practice_nether_team"],
+				"map_locations": [
+					{
+						"map": "team-spell-practice",
+						"x": 756,
+						"y": 320,
+						"size": 15,
+						"border_thickness": 2
+					}
+				],
+				"sections": [
+					{
+						"name": "[Nether Team] 206 - \"Unseasonal Butterfly Storm\"",
+						"access_rules": [
+							"nether_team, sc_206"
+						]
+					},
+					{
+						"name": "[Nether Team] 207 - \"Blind Nightbird\"",
+						"access_rules": [
+							"nether_team, sc_207"
+						]
+					},
+					{
+						"name": "[Nether Team] 208 - \"Emperor of the Land of the Rising Sun\"",
+						"access_rules": [
+							"nether_team, sc_208"
+						]
+					},
+					{
+						"name": "[Nether Team] 209 - \"Stare of the Hazy Phantom Moon (Lunatic Red Eyes)\"",
+						"access_rules": [
+							"nether_team, sc_209"
+						]
+					},
+					{
+						"name": "[Nether Team] 210 - \"Heaven Spider's Butterfly-Capturing Web\"",
+						"access_rules": [
+							"nether_team, sc_210"
+						]
+					},
+					{
+						"name": "[Nether Team] 211 - \"Hourai's Sea of Trees\"",
+						"access_rules": [
+							"nether_team, sc_211"
+						]
+					},
+					{
+						"name": "[Nether Team] 212 - \"Phoenix Rebirth\"",
+						"access_rules": [
+							"nether_team, sc_212"
+						]
+					},
+					{
+						"name": "[Nether Team] 213 - \"Ancient Duper\"",
+						"access_rules": [
+							"nether_team, sc_213"
+						]
+					},
+					{
+						"name": "[Nether Team] 214 - \"Total Purification\"",
+						"access_rules": [
+							"nether_team, sc_214"
+						]
+					},
+					{
+						"name": "[Nether Team] 215 - \"Fantasy Nature\"",
+						"access_rules": [
+							"nether_team, sc_215"
+						]
+					},
+					{
+						"name": "[Nether Team] 216 - \"Blazing Star\"",
+						"access_rules": [
+							"nether_team, sc_216"
+						]
+					},
+					{
+						"name": "[Nether Team] 217 - \"Deflation World\"",
+						"access_rules": [
+							"nether_team, sc_217"
+						]
+					},
+					{
+						"name": "[Nether Team] 218 - \"Matsuyoi-Reflecting Satellite Slash\"",
+						"access_rules": [
+							"nether_team, sc_218"
+						]
+					},
+					{
+						"name": "[Nether Team] 219 - \"The Phantom of the Grand Guignol\"",
+						"access_rules": [
+							"nether_team, sc_219"
+						]
+					},
+					{
+						"name": "[Nether Team] 220 - \"Scarlet Destiny\"",
+						"access_rules": [
+							"nether_team, sc_220"
+						]
+					},
+					{
+						"name": "[Nether Team] 221 - \"Saigyouji Parinirvana\"",
+						"access_rules": [
+							"nether_team, sc_221"
+						]
+					},
+					{
+						"name": "[Nether Team] 222 - \"Profound Danmaku Barrier -Phantasm, Foam, and Shadow-\"",
+						"access_rules": [
+							"nether_team, sc_222"
+						]
+					}
+				]
+			}
+		]
+	}
+]

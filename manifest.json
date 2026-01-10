@@ -1,0 +1,13 @@
+{
+    "name": "Touhou Eiyashou ~ Imperishable Night",
+    "game_name": "Touhou IN",
+    "package_version": "1.0",
+    "package_uid": "ap_in",
+    "author": "Nepley",
+    "variants": {
+      "map": {
+        "display_name": "Tracker",
+        "flags": ["ap"]
+      }
+    }
+}
