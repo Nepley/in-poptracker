@@ -30,7 +30,7 @@
 					{
 						"name": "[Reimu] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_1, time"]
+						"access_rules": ["reimu, reimu_stage_1, time", "reimu, reimu_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Reimu] Stage 1 Clear",
@@ -64,7 +64,7 @@
 					{
 						"name": "[Reimu] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_2, time"]
+						"access_rules": ["reimu, reimu_stage_2, time", "reimu, reimu_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Reimu] Stage 2 Clear",
@@ -98,7 +98,7 @@
 					{
 						"name": "[Reimu] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_3, [$canStage34], time"]
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], time", "reimu, reimu_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Reimu] Stage 3 Clear",
@@ -133,7 +133,7 @@
 					{
 						"name": "[Reimu] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], time"]
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], time", "reimu, reimu_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Reimu] Stage 4A Clear",
@@ -167,7 +167,7 @@
 					{
 						"name": "[Reimu] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], time"]
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], time", "reimu, reimu_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Reimu] Stage 4B Clear",
@@ -201,7 +201,7 @@
 					{
 						"name": "[Reimu] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_5, [$canStage56], time"]
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], time", "reimu, reimu_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Reimu] Stage 5 Clear",
@@ -323,7 +323,7 @@
 					{
 						"name": "[Yukari] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_1, time"]
+						"access_rules": ["yukari, yukari_stage_1, time", "yukari, yukari_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Yukari] Stage 1 Clear",
@@ -357,7 +357,7 @@
 					{
 						"name": "[Yukari] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_2, time"]
+						"access_rules": ["yukari, yukari_stage_2, time", "yukari, yukari_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Yukari] Stage 2 Clear",
@@ -391,7 +391,7 @@
 					{
 						"name": "[Yukari] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_3, [$canStage34], time"]
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], time", "yukari, yukari_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Yukari] Stage 3 Clear",
@@ -426,7 +426,7 @@
 					{
 						"name": "[Yukari] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], time"]
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], time", "yukari, yukari_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Yukari] Stage 4A Clear",
@@ -460,7 +460,7 @@
 					{
 						"name": "[Yukari] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], time"]
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], time", "yukari, yukari_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Yukari] Stage 4B Clear",
@@ -494,7 +494,7 @@
 					{
 						"name": "[Yukari] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_5, [$canStage56], time"]
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], time", "yukari, yukari_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Yukari] Stage 5 Clear",
@@ -616,7 +616,7 @@
 					{
 						"name": "[Marisa] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_1, time"]
+						"access_rules": ["marisa, marisa_stage_1, time", "marisa, marisa_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Marisa] Stage 1 Clear",
@@ -650,7 +650,7 @@
 					{
 						"name": "[Marisa] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_2, time"]
+						"access_rules": ["marisa, marisa_stage_2, time", "marisa, marisa_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Marisa] Stage 2 Clear",
@@ -684,7 +684,7 @@
 					{
 						"name": "[Marisa] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_3, [$canStage34], time"]
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], time", "marisa, marisa_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Marisa] Stage 3 Clear",
@@ -718,7 +718,7 @@
 					{
 						"name": "[Marisa] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], time"]
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], time", "marisa, marisa_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Marisa] Stage 4A Clear",
@@ -753,7 +753,7 @@
 					{
 						"name": "[Marisa] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], time"]
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], time", "marisa, marisa_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Marisa] Stage 4B Clear",
@@ -787,7 +787,7 @@
 					{
 						"name": "[Marisa] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_5, [$canStage56], time"]
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], time", "marisa, marisa_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Marisa] Stage 5 Clear",
@@ -909,7 +909,7 @@
 					{
 						"name": "[Alice] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_1, time"]
+						"access_rules": ["alice, alice_stage_1, time", "alice, alice_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Alice] Stage 1 Clear",
@@ -943,7 +943,7 @@
 					{
 						"name": "[Alice] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_2, time"]
+						"access_rules": ["alice, alice_stage_2, time", "alice, alice_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Alice] Stage 2 Clear",
@@ -977,7 +977,7 @@
 					{
 						"name": "[Alice] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_3, [$canStage34], time"]
+						"access_rules": ["alice, alice_stage_3, [$canStage34], time", "alice, alice_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Alice] Stage 3 Clear",
@@ -1011,7 +1011,7 @@
 					{
 						"name": "[Alice] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_4_a, [$canStage34], time"]
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], time", "alice, alice_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Alice] Stage 4A Clear",
@@ -1046,7 +1046,7 @@
 					{
 						"name": "[Alice] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_4_b, [$canStage34], time"]
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], time", "alice, alice_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Alice] Stage 4B Clear",
@@ -1080,7 +1080,7 @@
 					{
 						"name": "[Alice] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_5, [$canStage56], time"]
+						"access_rules": ["alice, alice_stage_5, [$canStage56], time", "alice, alice_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Alice] Stage 5 Clear",
@@ -1202,7 +1202,7 @@
 					{
 						"name": "[Sakuya] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_1, time"]
+						"access_rules": ["sakuya, sakuya_stage_1, time", "sakuya, sakuya_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Sakuya] Stage 1 Clear",
@@ -1236,7 +1236,7 @@
 					{
 						"name": "[Sakuya] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_2, time"]
+						"access_rules": ["sakuya, sakuya_stage_2, time", "sakuya, sakuya_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Sakuya] Stage 2 Clear",
@@ -1270,7 +1270,7 @@
 					{
 						"name": "[Sakuya] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], time"]
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], time", "sakuya, sakuya_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Sakuya] Stage 3 Clear",
@@ -1304,7 +1304,7 @@
 					{
 						"name": "[Sakuya] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], time"]
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], time", "sakuya, sakuya_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Sakuya] Stage 4A Clear",
@@ -1339,7 +1339,7 @@
 					{
 						"name": "[Sakuya] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], time"]
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], time", "sakuya, sakuya_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Sakuya] Stage 4B Clear",
@@ -1373,7 +1373,7 @@
 					{
 						"name": "[Sakuya] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], time"]
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], time", "sakuya, sakuya_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Sakuya] Stage 5 Clear",
@@ -1495,7 +1495,7 @@
 					{
 						"name": "[Remilia] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_1, time"]
+						"access_rules": ["remilia, remilia_stage_1, time", "remilia, remilia_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Remilia] Stage 1 Clear",
@@ -1529,7 +1529,7 @@
 					{
 						"name": "[Remilia] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_2, time"]
+						"access_rules": ["remilia, remilia_stage_2, time", "remilia, remilia_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Remilia] Stage 2 Clear",
@@ -1563,7 +1563,7 @@
 					{
 						"name": "[Remilia] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_3, [$canStage34], time"]
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], time", "remilia, remilia_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Remilia] Stage 3 Clear",
@@ -1597,7 +1597,7 @@
 					{
 						"name": "[Remilia] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], time"]
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], time", "remilia, remilia_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Remilia] Stage 4A Clear",
@@ -1632,7 +1632,7 @@
 					{
 						"name": "[Remilia] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], time"]
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], time", "remilia, remilia_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Remilia] Stage 4B Clear",
@@ -1666,7 +1666,7 @@
 					{
 						"name": "[Remilia] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_5, [$canStage56], time"]
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], time", "remilia, remilia_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Remilia] Stage 5 Clear",
@@ -1788,7 +1788,7 @@
 					{
 						"name": "[Youmu] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_1, time"]
+						"access_rules": ["youmu, youmu_stage_1, time", "youmu, youmu_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Youmu] Stage 1 Clear",
@@ -1822,7 +1822,7 @@
 					{
 						"name": "[Youmu] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_2, time"]
+						"access_rules": ["youmu, youmu_stage_2, time", "youmu, youmu_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Youmu] Stage 2 Clear",
@@ -1856,7 +1856,7 @@
 					{
 						"name": "[Youmu] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_3, [$canStage34], time"]
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], time", "youmu, youmu_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Youmu] Stage 3 Clear",
@@ -1891,7 +1891,7 @@
 					{
 						"name": "[Youmu] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], time"]
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], time", "youmu, youmu_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Youmu] Stage 4A Clear",
@@ -1925,7 +1925,7 @@
 					{
 						"name": "[Youmu] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], time"]
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], time", "youmu, youmu_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Youmu] Stage 4B Clear",
@@ -1959,7 +1959,7 @@
 					{
 						"name": "[Youmu] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_5, [$canStage56], time"]
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], time", "youmu, youmu_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Youmu] Stage 5 Clear",
@@ -2081,7 +2081,7 @@
 					{
 						"name": "[Yuyuko] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_1, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_1, time", "yuyuko, yuyuko_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Yuyuko] Stage 1 Clear",
@@ -2115,7 +2115,7 @@
 					{
 						"name": "[Yuyuko] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_2, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_2, time", "yuyuko, yuyuko_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Yuyuko] Stage 2 Clear",
@@ -2149,7 +2149,7 @@
 					{
 						"name": "[Yuyuko] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], time"]
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], time", "yuyuko, yuyuko_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Yuyuko] Stage 3 Clear",
@@ -2184,7 +2184,7 @@
 					{
 						"name": "[Yuyuko] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], time"]
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], time", "yuyuko, yuyuko_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Yuyuko] Stage 4A Clear",
@@ -2218,7 +2218,7 @@
 					{
 						"name": "[Yuyuko] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], time"]
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], time", "yuyuko, yuyuko_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Yuyuko] Stage 4B Clear",
@@ -2252,7 +2252,7 @@
 					{
 						"name": "[Yuyuko] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], time"]
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], time", "yuyuko, yuyuko_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Yuyuko] Stage 5 Clear",

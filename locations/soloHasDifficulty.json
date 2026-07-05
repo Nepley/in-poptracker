@@ -40,7 +40,7 @@
 					{
 						"name": "[Normal][Reimu] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_1, $canNormal, time"]
+						"access_rules": ["reimu, reimu_stage_1, $canNormal, time", "reimu, reimu_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Reimu] Wriggle - Midboss",
@@ -55,7 +55,7 @@
 					{
 						"name": "[Hard][Reimu] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_1, $canHard, time"]
+						"access_rules": ["reimu, reimu_stage_1, $canHard, time", "reimu, reimu_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Reimu] Wriggle - Midboss",
@@ -70,7 +70,7 @@
 					{
 						"name": "[Lunatic][Reimu] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_1, time"]
+						"access_rules": ["reimu, reimu_stage_1, time", "reimu, reimu_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Reimu] Stage 1 Clear",
@@ -114,7 +114,7 @@
 					{
 						"name": "[Normal][Reimu] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_2, $canNormal, time"]
+						"access_rules": ["reimu, reimu_stage_2, $canNormal, time", "reimu, reimu_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Reimu] Mystia - Midboss",
@@ -129,7 +129,7 @@
 					{
 						"name": "[Hard][Reimu] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_2, $canHard, time"]
+						"access_rules": ["reimu, reimu_stage_2, $canHard, time", "reimu, reimu_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Reimu] Mystia - Midboss",
@@ -144,7 +144,7 @@
 					{
 						"name": "[Lunatic][Reimu] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_2, time"]
+						"access_rules": ["reimu, reimu_stage_2, time", "reimu, reimu_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Reimu] Stage 2 Clear",
@@ -188,7 +188,7 @@
 					{
 						"name": "[Normal][Reimu] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canNormal, time", "reimu, reimu_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Reimu] Keine - Midboss 1",
@@ -203,7 +203,7 @@
 					{
 						"name": "[Hard][Reimu] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], $canHard, time", "reimu, reimu_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Reimu] Keine - Midboss 1",
@@ -218,7 +218,7 @@
 					{
 						"name": "[Lunatic][Reimu] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_3, [$canStage34], time"]
+						"access_rules": ["reimu, reimu_stage_3, [$canStage34], time", "reimu, reimu_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Reimu] Stage 3 Clear",
@@ -263,7 +263,7 @@
 					{
 						"name": "[Normal][Reimu] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canNormal, time", "reimu, reimu_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Reimu] Reimu - Midboss",
@@ -278,7 +278,7 @@
 					{
 						"name": "[Hard][Reimu] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], $canHard, time", "reimu, reimu_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Reimu] Reimu - Midboss",
@@ -293,7 +293,7 @@
 					{
 						"name": "[Lunatic][Reimu] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], time"]
+						"access_rules": ["reimu, reimu_stage_4_a, [$canStage34], time", "reimu, reimu_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Reimu] Stage 4A Clear",
@@ -337,7 +337,7 @@
 					{
 						"name": "[Normal][Reimu] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canNormal, time", "reimu, reimu_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Reimu] Marisa - Midboss",
@@ -352,7 +352,7 @@
 					{
 						"name": "[Hard][Reimu] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], $canHard, time", "reimu, reimu_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Reimu] Marisa - Midboss",
@@ -367,7 +367,7 @@
 					{
 						"name": "[Lunatic][Reimu] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], time"]
+						"access_rules": ["reimu, reimu_stage_4_b, [$canStage34], time", "reimu, reimu_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Reimu] Stage 4B Clear",
@@ -411,7 +411,7 @@
 					{
 						"name": "[Normal][Reimu] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canNormal, time", "reimu, reimu_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Reimu] Tewi Defeated",
@@ -426,7 +426,7 @@
 					{
 						"name": "[Hard][Reimu] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], $canHard, time", "reimu, reimu_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Reimu] Tewi Defeated",
@@ -441,7 +441,7 @@
 					{
 						"name": "[Lunatic][Reimu] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["reimu, reimu_stage_5, [$canStage56], time"]
+						"access_rules": ["reimu, reimu_stage_5, [$canStage56], time", "reimu, reimu_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Reimu] Stage 5 Clear",
@@ -633,7 +633,7 @@
 					{
 						"name": "[Normal][Yukari] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_1, $canNormal, time"]
+						"access_rules": ["yukari, yukari_stage_1, $canNormal, time", "yukari, yukari_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Yukari] Wriggle - Midboss",
@@ -648,7 +648,7 @@
 					{
 						"name": "[Hard][Yukari] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_1, $canHard, time"]
+						"access_rules": ["yukari, yukari_stage_1, $canHard, time", "yukari, yukari_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Yukari] Wriggle - Midboss",
@@ -663,7 +663,7 @@
 					{
 						"name": "[Lunatic][Yukari] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_1, time"]
+						"access_rules": ["yukari, yukari_stage_1, time", "yukari, yukari_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Yukari] Stage 1 Clear",
@@ -707,7 +707,7 @@
 					{
 						"name": "[Normal][Yukari] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_2, $canNormal, time"]
+						"access_rules": ["yukari, yukari_stage_2, $canNormal, time", "yukari, yukari_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Yukari] Mystia - Midboss",
@@ -722,7 +722,7 @@
 					{
 						"name": "[Hard][Yukari] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_2, $canHard, time"]
+						"access_rules": ["yukari, yukari_stage_2, $canHard, time", "yukari, yukari_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Yukari] Mystia - Midboss",
@@ -737,7 +737,7 @@
 					{
 						"name": "[Lunatic][Yukari] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_2, time"]
+						"access_rules": ["yukari, yukari_stage_2, time", "yukari, yukari_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Yukari] Stage 2 Clear",
@@ -781,7 +781,7 @@
 					{
 						"name": "[Normal][Yukari] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canNormal, time", "yukari, yukari_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Yukari] Keine - Midboss 1",
@@ -796,7 +796,7 @@
 					{
 						"name": "[Hard][Yukari] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], $canHard, time", "yukari, yukari_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Yukari] Keine - Midboss 1",
@@ -811,7 +811,7 @@
 					{
 						"name": "[Lunatic][Yukari] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_3, [$canStage34], time"]
+						"access_rules": ["yukari, yukari_stage_3, [$canStage34], time", "yukari, yukari_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Yukari] Stage 3 Clear",
@@ -856,7 +856,7 @@
 					{
 						"name": "[Normal][Yukari] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canNormal, time", "yukari, yukari_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Yukari] Reimu - Midboss",
@@ -871,7 +871,7 @@
 					{
 						"name": "[Hard][Yukari] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], $canHard, time", "yukari, yukari_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Yukari] Reimu - Midboss",
@@ -886,7 +886,7 @@
 					{
 						"name": "[Lunatic][Yukari] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], time"]
+						"access_rules": ["yukari, yukari_stage_4_a, [$canStage34], time", "yukari, yukari_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Yukari] Stage 4A Clear",
@@ -930,7 +930,7 @@
 					{
 						"name": "[Normal][Yukari] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canNormal, time", "yukari, yukari_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Yukari] Marisa - Midboss",
@@ -945,7 +945,7 @@
 					{
 						"name": "[Hard][Yukari] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], $canHard, time", "yukari, yukari_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Yukari] Marisa - Midboss",
@@ -960,7 +960,7 @@
 					{
 						"name": "[Lunatic][Yukari] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], time"]
+						"access_rules": ["yukari, yukari_stage_4_b, [$canStage34], time", "yukari, yukari_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Yukari] Stage 4B Clear",
@@ -1004,7 +1004,7 @@
 					{
 						"name": "[Normal][Yukari] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canNormal, time", "yukari, yukari_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Yukari] Tewi Defeated",
@@ -1019,7 +1019,7 @@
 					{
 						"name": "[Hard][Yukari] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], $canHard, time", "yukari, yukari_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Yukari] Tewi Defeated",
@@ -1034,7 +1034,7 @@
 					{
 						"name": "[Lunatic][Yukari] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yukari, yukari_stage_5, [$canStage56], time"]
+						"access_rules": ["yukari, yukari_stage_5, [$canStage56], time", "yukari, yukari_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Yukari] Stage 5 Clear",
@@ -1226,7 +1226,7 @@
 					{
 						"name": "[Normal][Marisa] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_1, $canNormal, time"]
+						"access_rules": ["marisa, marisa_stage_1, $canNormal, time", "marisa, marisa_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Marisa] Wriggle - Midboss",
@@ -1241,7 +1241,7 @@
 					{
 						"name": "[Hard][Marisa] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_1, $canHard, time"]
+						"access_rules": ["marisa, marisa_stage_1, $canHard, time", "marisa, marisa_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Marisa] Wriggle - Midboss",
@@ -1256,7 +1256,7 @@
 					{
 						"name": "[Lunatic][Marisa] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_1, time"]
+						"access_rules": ["marisa, marisa_stage_1, time", "marisa, marisa_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Marisa] Stage 1 Clear",
@@ -1300,7 +1300,7 @@
 					{
 						"name": "[Normal][Marisa] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_2, $canNormal, time"]
+						"access_rules": ["marisa, marisa_stage_2, $canNormal, time", "marisa, marisa_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Marisa] Mystia - Midboss",
@@ -1315,7 +1315,7 @@
 					{
 						"name": "[Hard][Marisa] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_2, $canHard, time"]
+						"access_rules": ["marisa, marisa_stage_2, $canHard, time", "marisa, marisa_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Marisa] Mystia - Midboss",
@@ -1330,7 +1330,7 @@
 					{
 						"name": "[Lunatic][Marisa] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_2, time"]
+						"access_rules": ["marisa, marisa_stage_2, time", "marisa, marisa_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Marisa] Stage 2 Clear",
@@ -1374,7 +1374,7 @@
 					{
 						"name": "[Normal][Marisa] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canNormal, time", "marisa, marisa_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Marisa] Keine - Midboss 1",
@@ -1389,7 +1389,7 @@
 					{
 						"name": "[Hard][Marisa] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], $canHard, time", "marisa, marisa_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Marisa] Keine - Midboss 1",
@@ -1404,7 +1404,7 @@
 					{
 						"name": "[Lunatic][Marisa] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_3, [$canStage34], time"]
+						"access_rules": ["marisa, marisa_stage_3, [$canStage34], time", "marisa, marisa_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Marisa] Stage 3 Clear",
@@ -1448,7 +1448,7 @@
 					{
 						"name": "[Normal][Marisa] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canNormal, time", "marisa, marisa_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Marisa] Reimu - Midboss",
@@ -1463,7 +1463,7 @@
 					{
 						"name": "[Hard][Marisa] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], $canHard, time", "marisa, marisa_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Marisa] Reimu - Midboss",
@@ -1478,7 +1478,7 @@
 					{
 						"name": "[Lunatic][Marisa] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], time"]
+						"access_rules": ["marisa, marisa_stage_4_a, [$canStage34], time", "marisa, marisa_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Marisa] Stage 4A Clear",
@@ -1523,7 +1523,7 @@
 					{
 						"name": "[Normal][Marisa] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canNormal, time", "marisa, marisa_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Marisa] Marisa - Midboss",
@@ -1538,7 +1538,7 @@
 					{
 						"name": "[Hard][Marisa] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], $canHard, time", "marisa, marisa_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Marisa] Marisa - Midboss",
@@ -1553,7 +1553,7 @@
 					{
 						"name": "[Lunatic][Marisa] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], time"]
+						"access_rules": ["marisa, marisa_stage_4_b, [$canStage34], time", "marisa, marisa_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Marisa] Stage 4B Clear",
@@ -1597,7 +1597,7 @@
 					{
 						"name": "[Normal][Marisa] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canNormal, time", "marisa, marisa_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Marisa] Tewi Defeated",
@@ -1612,7 +1612,7 @@
 					{
 						"name": "[Hard][Marisa] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], $canHard, time", "marisa, marisa_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Marisa] Tewi Defeated",
@@ -1627,7 +1627,7 @@
 					{
 						"name": "[Lunatic][Marisa] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["marisa, marisa_stage_5, [$canStage56], time"]
+						"access_rules": ["marisa, marisa_stage_5, [$canStage56], time", "marisa, marisa_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Marisa] Stage 5 Clear",
@@ -1819,7 +1819,7 @@
 					{
 						"name": "[Normal][Alice] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_1, $canNormal, time"]
+						"access_rules": ["alice, alice_stage_1, $canNormal, time", "alice, alice_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Alice] Wriggle - Midboss",
@@ -1834,7 +1834,7 @@
 					{
 						"name": "[Hard][Alice] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_1, $canHard, time"]
+						"access_rules": ["alice, alice_stage_1, $canHard, time", "alice, alice_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Alice] Wriggle - Midboss",
@@ -1849,7 +1849,7 @@
 					{
 						"name": "[Lunatic][Alice] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["alice, alice_stage_1, time"]
+						"access_rules": ["alice, alice_stage_1, time", "alice, alice_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Alice] Stage 1 Clear",
@@ -1893,7 +1893,7 @@
 					{
 						"name": "[Normal][Alice] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_2, $canNormal, time"]
+						"access_rules": ["alice, alice_stage_2, $canNormal, time", "alice, alice_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Alice] Mystia - Midboss",
@@ -1908,7 +1908,7 @@
 					{
 						"name": "[Hard][Alice] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_2, $canHard, time"]
+						"access_rules": ["alice, alice_stage_2, $canHard, time", "alice, alice_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Alice] Mystia - Midboss",
@@ -1923,7 +1923,7 @@
 					{
 						"name": "[Lunatic][Alice] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["alice, alice_stage_2, time"]
+						"access_rules": ["alice, alice_stage_2, time", "alice, alice_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Alice] Stage 2 Clear",
@@ -1967,7 +1967,7 @@
 					{
 						"name": "[Normal][Alice] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["alice, alice_stage_3, [$canStage34], $canNormal, time", "alice, alice_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Alice] Keine - Midboss 1",
@@ -1982,7 +1982,7 @@
 					{
 						"name": "[Hard][Alice] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["alice, alice_stage_3, [$canStage34], $canHard, time", "alice, alice_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Alice] Keine - Midboss 1",
@@ -1997,7 +1997,7 @@
 					{
 						"name": "[Lunatic][Alice] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["alice, alice_stage_3, [$canStage34], time"]
+						"access_rules": ["alice, alice_stage_3, [$canStage34], time", "alice, alice_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Alice] Stage 3 Clear",
@@ -2041,7 +2041,7 @@
 					{
 						"name": "[Normal][Alice] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canNormal, time", "alice, alice_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Alice] Reimu - Midboss",
@@ -2056,7 +2056,7 @@
 					{
 						"name": "[Hard][Alice] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], $canHard, time", "alice, alice_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Alice] Reimu - Midboss",
@@ -2071,7 +2071,7 @@
 					{
 						"name": "[Lunatic][Alice] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["alice, alice_stage_4_a, [$canStage34], time"]
+						"access_rules": ["alice, alice_stage_4_a, [$canStage34], time", "alice, alice_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Alice] Stage 4A Clear",
@@ -2116,7 +2116,7 @@
 					{
 						"name": "[Normal][Alice] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canNormal, time", "alice, alice_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Alice] Marisa - Midboss",
@@ -2131,7 +2131,7 @@
 					{
 						"name": "[Hard][Alice] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], $canHard, time", "alice, alice_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Alice] Marisa - Midboss",
@@ -2146,7 +2146,7 @@
 					{
 						"name": "[Lunatic][Alice] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["alice, alice_stage_4_b, [$canStage34], time"]
+						"access_rules": ["alice, alice_stage_4_b, [$canStage34], time", "alice, alice_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Alice] Stage 4B Clear",
@@ -2190,7 +2190,7 @@
 					{
 						"name": "[Normal][Alice] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["alice, alice_stage_5, [$canStage56], $canNormal, time", "alice, alice_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Alice] Tewi Defeated",
@@ -2205,7 +2205,7 @@
 					{
 						"name": "[Hard][Alice] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["alice, alice_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["alice, alice_stage_5, [$canStage56], $canHard, time", "alice, alice_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Alice] Tewi Defeated",
@@ -2220,7 +2220,7 @@
 					{
 						"name": "[Lunatic][Alice] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["alice, alice_stage_5, [$canStage56], time"]
+						"access_rules": ["alice, alice_stage_5, [$canStage56], time", "alice, alice_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Alice] Stage 5 Clear",
@@ -2412,7 +2412,7 @@
 					{
 						"name": "[Normal][Sakuya] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_1, $canNormal, time"]
+						"access_rules": ["sakuya, sakuya_stage_1, $canNormal, time", "sakuya, sakuya_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Sakuya] Wriggle - Midboss",
@@ -2427,7 +2427,7 @@
 					{
 						"name": "[Hard][Sakuya] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_1, $canHard, time"]
+						"access_rules": ["sakuya, sakuya_stage_1, $canHard, time", "sakuya, sakuya_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Sakuya] Wriggle - Midboss",
@@ -2442,7 +2442,7 @@
 					{
 						"name": "[Lunatic][Sakuya] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_1, time"]
+						"access_rules": ["sakuya, sakuya_stage_1, time", "sakuya, sakuya_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Sakuya] Stage 1 Clear",
@@ -2486,7 +2486,7 @@
 					{
 						"name": "[Normal][Sakuya] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_2, $canNormal, time"]
+						"access_rules": ["sakuya, sakuya_stage_2, $canNormal, time", "sakuya, sakuya_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Sakuya] Mystia - Midboss",
@@ -2501,7 +2501,7 @@
 					{
 						"name": "[Hard][Sakuya] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_2, $canHard, time"]
+						"access_rules": ["sakuya, sakuya_stage_2, $canHard, time", "sakuya, sakuya_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Sakuya] Mystia - Midboss",
@@ -2516,7 +2516,7 @@
 					{
 						"name": "[Lunatic][Sakuya] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_2, time"]
+						"access_rules": ["sakuya, sakuya_stage_2, time", "sakuya, sakuya_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Sakuya] Stage 2 Clear",
@@ -2560,7 +2560,7 @@
 					{
 						"name": "[Normal][Sakuya] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canNormal, time", "sakuya, sakuya_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Sakuya] Keine - Midboss 1",
@@ -2575,7 +2575,7 @@
 					{
 						"name": "[Hard][Sakuya] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], $canHard, time", "sakuya, sakuya_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Sakuya] Keine - Midboss 1",
@@ -2590,7 +2590,7 @@
 					{
 						"name": "[Lunatic][Sakuya] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], time"]
+						"access_rules": ["sakuya, sakuya_stage_3, [$canStage34], time", "sakuya, sakuya_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Sakuya] Stage 3 Clear",
@@ -2634,7 +2634,7 @@
 					{
 						"name": "[Normal][Sakuya] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canNormal, time", "sakuya, sakuya_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Sakuya] Reimu - Midboss",
@@ -2649,7 +2649,7 @@
 					{
 						"name": "[Hard][Sakuya] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], $canHard, time", "sakuya, sakuya_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Sakuya] Reimu - Midboss",
@@ -2664,7 +2664,7 @@
 					{
 						"name": "[Lunatic][Sakuya] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], time"]
+						"access_rules": ["sakuya, sakuya_stage_4_a, [$canStage34], time", "sakuya, sakuya_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Sakuya] Stage 4A Clear",
@@ -2709,7 +2709,7 @@
 					{
 						"name": "[Normal][Sakuya] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canNormal, time", "sakuya, sakuya_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Sakuya] Marisa - Midboss",
@@ -2724,7 +2724,7 @@
 					{
 						"name": "[Hard][Sakuya] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], $canHard, time", "sakuya, sakuya_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Sakuya] Marisa - Midboss",
@@ -2739,7 +2739,7 @@
 					{
 						"name": "[Lunatic][Sakuya] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], time"]
+						"access_rules": ["sakuya, sakuya_stage_4_b, [$canStage34], time", "sakuya, sakuya_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Sakuya] Stage 4B Clear",
@@ -2783,7 +2783,7 @@
 					{
 						"name": "[Normal][Sakuya] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canNormal, time", "sakuya, sakuya_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Sakuya] Tewi Defeated",
@@ -2798,7 +2798,7 @@
 					{
 						"name": "[Hard][Sakuya] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], $canHard, time", "sakuya, sakuya_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Sakuya] Tewi Defeated",
@@ -2813,7 +2813,7 @@
 					{
 						"name": "[Lunatic][Sakuya] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], time"]
+						"access_rules": ["sakuya, sakuya_stage_5, [$canStage56], time", "sakuya, sakuya_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Sakuya] Stage 5 Clear",
@@ -3005,7 +3005,7 @@
 					{
 						"name": "[Normal][Remilia] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_1, $canNormal, time"]
+						"access_rules": ["remilia, remilia_stage_1, $canNormal, time", "remilia, remilia_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Remilia] Wriggle - Midboss",
@@ -3020,7 +3020,7 @@
 					{
 						"name": "[Hard][Remilia] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_1, $canHard, time"]
+						"access_rules": ["remilia, remilia_stage_1, $canHard, time", "remilia, remilia_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Remilia] Wriggle - Midboss",
@@ -3035,7 +3035,7 @@
 					{
 						"name": "[Lunatic][Remilia] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_1, time"]
+						"access_rules": ["remilia, remilia_stage_1, time", "remilia, remilia_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Remilia] Stage 1 Clear",
@@ -3079,7 +3079,7 @@
 					{
 						"name": "[Normal][Remilia] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_2, $canNormal, time"]
+						"access_rules": ["remilia, remilia_stage_2, $canNormal, time", "remilia, remilia_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Remilia] Mystia - Midboss",
@@ -3094,7 +3094,7 @@
 					{
 						"name": "[Hard][Remilia] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_2, $canHard, time"]
+						"access_rules": ["remilia, remilia_stage_2, $canHard, time", "remilia, remilia_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Remilia] Mystia - Midboss",
@@ -3109,7 +3109,7 @@
 					{
 						"name": "[Lunatic][Remilia] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_2, time"]
+						"access_rules": ["remilia, remilia_stage_2, time", "remilia, remilia_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Remilia] Stage 2 Clear",
@@ -3153,7 +3153,7 @@
 					{
 						"name": "[Normal][Remilia] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canNormal, time", "remilia, remilia_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Remilia] Keine - Midboss 1",
@@ -3168,7 +3168,7 @@
 					{
 						"name": "[Hard][Remilia] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], $canHard, time", "remilia, remilia_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Remilia] Keine - Midboss 1",
@@ -3183,7 +3183,7 @@
 					{
 						"name": "[Lunatic][Remilia] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_3, [$canStage34], time"]
+						"access_rules": ["remilia, remilia_stage_3, [$canStage34], time", "remilia, remilia_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Remilia] Stage 3 Clear",
@@ -3227,7 +3227,7 @@
 					{
 						"name": "[Normal][Remilia] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canNormal, time", "remilia, remilia_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Remilia] Reimu - Midboss",
@@ -3242,7 +3242,7 @@
 					{
 						"name": "[Hard][Remilia] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], $canHard, time", "remilia, remilia_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Remilia] Reimu - Midboss",
@@ -3257,7 +3257,7 @@
 					{
 						"name": "[Lunatic][Remilia] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], time"]
+						"access_rules": ["remilia, remilia_stage_4_a, [$canStage34], time", "remilia, remilia_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Remilia] Stage 4A Clear",
@@ -3302,7 +3302,7 @@
 					{
 						"name": "[Normal][Remilia] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canNormal, time", "remilia, remilia_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Remilia] Marisa - Midboss",
@@ -3317,7 +3317,7 @@
 					{
 						"name": "[Hard][Remilia] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], $canHard, time", "remilia, remilia_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Remilia] Marisa - Midboss",
@@ -3332,7 +3332,7 @@
 					{
 						"name": "[Lunatic][Remilia] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], time"]
+						"access_rules": ["remilia, remilia_stage_4_b, [$canStage34], time", "remilia, remilia_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Remilia] Stage 4B Clear",
@@ -3376,7 +3376,7 @@
 					{
 						"name": "[Normal][Remilia] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canNormal, time", "remilia, remilia_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Remilia] Tewi Defeated",
@@ -3391,7 +3391,7 @@
 					{
 						"name": "[Hard][Remilia] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], $canHard, time", "remilia, remilia_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Remilia] Tewi Defeated",
@@ -3406,7 +3406,7 @@
 					{
 						"name": "[Lunatic][Remilia] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["remilia, remilia_stage_5, [$canStage56], time"]
+						"access_rules": ["remilia, remilia_stage_5, [$canStage56], time", "remilia, remilia_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Remilia] Stage 5 Clear",
@@ -3598,7 +3598,7 @@
 					{
 						"name": "[Normal][Youmu] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_1, $canNormal, time"]
+						"access_rules": ["youmu, youmu_stage_1, $canNormal, time", "youmu, youmu_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Youmu] Wriggle - Midboss",
@@ -3613,7 +3613,7 @@
 					{
 						"name": "[Hard][Youmu] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_1, $canHard, time"]
+						"access_rules": ["youmu, youmu_stage_1, $canHard, time", "youmu, youmu_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Youmu] Wriggle - Midboss",
@@ -3628,7 +3628,7 @@
 					{
 						"name": "[Lunatic][Youmu] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_1, time"]
+						"access_rules": ["youmu, youmu_stage_1, time", "youmu, youmu_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Youmu] Stage 1 Clear",
@@ -3672,7 +3672,7 @@
 					{
 						"name": "[Normal][Youmu] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_2, $canNormal, time"]
+						"access_rules": ["youmu, youmu_stage_2, $canNormal, time", "youmu, youmu_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Youmu] Mystia - Midboss",
@@ -3687,7 +3687,7 @@
 					{
 						"name": "[Hard][Youmu] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_2, $canHard, time"]
+						"access_rules": ["youmu, youmu_stage_2, $canHard, time", "youmu, youmu_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Youmu] Mystia - Midboss",
@@ -3702,7 +3702,7 @@
 					{
 						"name": "[Lunatic][Youmu] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_2, time"]
+						"access_rules": ["youmu, youmu_stage_2, time", "youmu, youmu_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Youmu] Stage 2 Clear",
@@ -3746,7 +3746,7 @@
 					{
 						"name": "[Normal][Youmu] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canNormal, time", "youmu, youmu_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Youmu] Keine - Midboss 1",
@@ -3761,7 +3761,7 @@
 					{
 						"name": "[Hard][Youmu] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], $canHard, time", "youmu, youmu_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Youmu] Keine - Midboss 1",
@@ -3776,7 +3776,7 @@
 					{
 						"name": "[Lunatic][Youmu] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_3, [$canStage34], time"]
+						"access_rules": ["youmu, youmu_stage_3, [$canStage34], time", "youmu, youmu_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Youmu] Stage 3 Clear",
@@ -3821,7 +3821,7 @@
 					{
 						"name": "[Normal][Youmu] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canNormal, time", "youmu, youmu_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Youmu] Reimu - Midboss",
@@ -3836,7 +3836,7 @@
 					{
 						"name": "[Hard][Youmu] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], $canHard, time", "youmu, youmu_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Youmu] Reimu - Midboss",
@@ -3851,7 +3851,7 @@
 					{
 						"name": "[Lunatic][Youmu] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], time"]
+						"access_rules": ["youmu, youmu_stage_4_a, [$canStage34], time", "youmu, youmu_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Youmu] Stage 4A Clear",
@@ -3895,7 +3895,7 @@
 					{
 						"name": "[Normal][Youmu] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canNormal, time", "youmu, youmu_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Youmu] Marisa - Midboss",
@@ -3910,7 +3910,7 @@
 					{
 						"name": "[Hard][Youmu] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], $canHard, time", "youmu, youmu_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Youmu] Marisa - Midboss",
@@ -3925,7 +3925,7 @@
 					{
 						"name": "[Lunatic][Youmu] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], time"]
+						"access_rules": ["youmu, youmu_stage_4_b, [$canStage34], time", "youmu, youmu_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Youmu] Stage 4B Clear",
@@ -3969,7 +3969,7 @@
 					{
 						"name": "[Normal][Youmu] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canNormal, time", "youmu, youmu_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Youmu] Tewi Defeated",
@@ -3984,7 +3984,7 @@
 					{
 						"name": "[Hard][Youmu] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], $canHard, time", "youmu, youmu_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Youmu] Tewi Defeated",
@@ -3999,7 +3999,7 @@
 					{
 						"name": "[Lunatic][Youmu] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["youmu, youmu_stage_5, [$canStage56], time"]
+						"access_rules": ["youmu, youmu_stage_5, [$canStage56], time", "youmu, youmu_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Youmu] Stage 5 Clear",
@@ -4191,7 +4191,7 @@
 					{
 						"name": "[Normal][Yuyuko] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_1, $canNormal, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_1, $canNormal, time", "yuyuko, yuyuko_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Yuyuko] Wriggle - Midboss",
@@ -4206,7 +4206,7 @@
 					{
 						"name": "[Hard][Yuyuko] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_1, $canHard, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_1, $canHard, time", "yuyuko, yuyuko_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Yuyuko] Wriggle - Midboss",
@@ -4221,7 +4221,7 @@
 					{
 						"name": "[Lunatic][Yuyuko] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_1, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_1, time", "yuyuko, yuyuko_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Yuyuko] Stage 1 Clear",
@@ -4265,7 +4265,7 @@
 					{
 						"name": "[Normal][Yuyuko] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_2, $canNormal, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_2, $canNormal, time", "yuyuko, yuyuko_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Yuyuko] Mystia - Midboss",
@@ -4280,7 +4280,7 @@
 					{
 						"name": "[Hard][Yuyuko] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_2, $canHard, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_2, $canHard, time", "yuyuko, yuyuko_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Yuyuko] Mystia - Midboss",
@@ -4295,7 +4295,7 @@
 					{
 						"name": "[Lunatic][Yuyuko] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_2, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_2, time", "yuyuko, yuyuko_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Yuyuko] Stage 2 Clear",
@@ -4339,7 +4339,7 @@
 					{
 						"name": "[Normal][Yuyuko] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canNormal, time", "yuyuko, yuyuko_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Yuyuko] Keine - Midboss 1",
@@ -4354,7 +4354,7 @@
 					{
 						"name": "[Hard][Yuyuko] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], $canHard, time", "yuyuko, yuyuko_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Yuyuko] Keine - Midboss 1",
@@ -4369,7 +4369,7 @@
 					{
 						"name": "[Lunatic][Yuyuko] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], time"]
+						"access_rules": ["yuyuko, yuyuko_stage_3, [$canStage34], time", "yuyuko, yuyuko_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Yuyuko] Stage 3 Clear",
@@ -4414,7 +4414,7 @@
 					{
 						"name": "[Normal][Yuyuko] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canNormal, time", "yuyuko, yuyuko_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Yuyuko] Reimu - Midboss",
@@ -4429,7 +4429,7 @@
 					{
 						"name": "[Hard][Yuyuko] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], $canHard, time", "yuyuko, yuyuko_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Yuyuko] Reimu - Midboss",
@@ -4444,7 +4444,7 @@
 					{
 						"name": "[Lunatic][Yuyuko] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], time"]
+						"access_rules": ["yuyuko, yuyuko_stage_4_a, [$canStage34], time", "yuyuko, yuyuko_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Yuyuko] Stage 4A Clear",
@@ -4488,7 +4488,7 @@
 					{
 						"name": "[Normal][Yuyuko] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canNormal, time", "yuyuko, yuyuko_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Yuyuko] Marisa - Midboss",
@@ -4503,7 +4503,7 @@
 					{
 						"name": "[Hard][Yuyuko] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], $canHard, time", "yuyuko, yuyuko_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Yuyuko] Marisa - Midboss",
@@ -4518,7 +4518,7 @@
 					{
 						"name": "[Lunatic][Yuyuko] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], time"]
+						"access_rules": ["yuyuko, yuyuko_stage_4_b, [$canStage34], time", "yuyuko, yuyuko_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Yuyuko] Stage 4B Clear",
@@ -4562,7 +4562,7 @@
 					{
 						"name": "[Normal][Yuyuko] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canNormal, time", "yuyuko, yuyuko_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Yuyuko] Tewi Defeated",
@@ -4577,7 +4577,7 @@
 					{
 						"name": "[Hard][Yuyuko] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], $canHard, time", "yuyuko, yuyuko_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Yuyuko] Tewi Defeated",
@@ -4592,7 +4592,7 @@
 					{
 						"name": "[Lunatic][Yuyuko] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], time"]
+						"access_rules": ["yuyuko, yuyuko_stage_5, [$canStage56], time", "yuyuko, yuyuko_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Yuyuko] Stage 5 Clear",

@@ -49,3 +49,27 @@ end
 function lastSpell()
 	return Tracker:FindObjectForCode('include_last_spell').Active
 end
+
+function hasEnoughTimeFillerForStage1()
+	return Tracker:ProviderCountForCode('time_points') >= 3000
+end
+
+function hasEnoughTimeFillerForStage2()
+	return Tracker:ProviderCountForCode('time_points') >= 7200
+end
+
+function hasEnoughTimeFillerForStage3()
+	return Tracker:ProviderCountForCode('time_points') >= 8800
+end
+
+function hasEnoughTimeFillerForStage4A()
+	return Tracker:ProviderCountForCode('time_points') >= 9999
+end
+
+function hasEnoughTimeFillerForStage4B()
+	return Tracker:ProviderCountForCode('time_points') >= 8500
+end
+
+function hasEnoughTimeFillerForStage5()
+	return Tracker:ProviderCountForCode('time_points') >= 9999
+end

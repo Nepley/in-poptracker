@@ -30,7 +30,7 @@
 					{
 						"name": "[Illusion Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_1, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_1, time", "illusion_team, illusion_team_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Illusion Team] Stage 1 Clear",
@@ -64,7 +64,7 @@
 					{
 						"name": "[Illusion Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_2, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_2, time", "illusion_team, illusion_team_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Illusion Team] Stage 2 Clear",
@@ -98,7 +98,7 @@
 					{
 						"name": "[Illusion Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], time"]
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], time", "illusion_team, illusion_team_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Illusion Team] Stage 3 Clear",
@@ -133,7 +133,7 @@
 					{
 						"name": "[Illusion Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], time"]
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], time", "illusion_team, illusion_team_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Illusion Team] Stage 4A Clear",
@@ -167,7 +167,7 @@
 					{
 						"name": "[Illusion Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], time"]
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], time", "illusion_team, illusion_team_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Illusion Team] Stage 4B Clear",
@@ -201,7 +201,7 @@
 					{
 						"name": "[Illusion Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], time"]
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], time", "illusion_team, illusion_team_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Illusion Team] Stage 5 Clear",
@@ -323,7 +323,7 @@
 					{
 						"name": "[Magic Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_1, time"]
+						"access_rules": ["magic_team, magic_team_stage_1, time", "magic_team, magic_team_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Magic Team] Stage 1 Clear",
@@ -357,7 +357,7 @@
 					{
 						"name": "[Magic Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_2, time"]
+						"access_rules": ["magic_team, magic_team_stage_2, time", "magic_team, magic_team_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Magic Team] Stage 2 Clear",
@@ -391,7 +391,7 @@
 					{
 						"name": "[Magic Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], time"]
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], time", "magic_team, magic_team_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Magic Team] Stage 3 Clear",
@@ -425,7 +425,7 @@
 					{
 						"name": "[Magic Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], time"]
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], time", "magic_team, magic_team_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Magic Team] Stage 4A Clear",
@@ -460,7 +460,7 @@
 					{
 						"name": "[Magic Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], time"]
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], time", "magic_team, magic_team_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Magic Team] Stage 4B Clear",
@@ -494,7 +494,7 @@
 					{
 						"name": "[Magic Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], time"]
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], time", "magic_team, magic_team_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Magic Team] Stage 5 Clear",
@@ -616,7 +616,7 @@
 					{
 						"name": "[Devil Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_1, time"]
+						"access_rules": ["devil_team, devil_team_stage_1, time", "devil_team, devil_team_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Devil Team] Stage 1 Clear",
@@ -650,7 +650,7 @@
 					{
 						"name": "[Devil Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_2, time"]
+						"access_rules": ["devil_team, devil_team_stage_2, time", "devil_team, devil_team_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Devil Team] Stage 2 Clear",
@@ -684,7 +684,7 @@
 					{
 						"name": "[Devil Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], time"]
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], time", "devil_team, devil_team_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Devil Team] Stage 3 Clear",
@@ -718,7 +718,7 @@
 					{
 						"name": "[Devil Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], time"]
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], time", "devil_team, devil_team_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Devil Team] Stage 4A Clear",
@@ -753,7 +753,7 @@
 					{
 						"name": "[Devil Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], time"]
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], time", "devil_team, devil_team_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Devil Team] Stage 4B Clear",
@@ -787,7 +787,7 @@
 					{
 						"name": "[Devil Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], time"]
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], time", "devil_team, devil_team_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Devil Team] Stage 5 Clear",
@@ -909,7 +909,7 @@
 					{
 						"name": "[Nether Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_1, time"]
+						"access_rules": ["nether_team, nether_team_stage_1, time", "nether_team, nether_team_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Nether Team] Stage 1 Clear",
@@ -943,7 +943,7 @@
 					{
 						"name": "[Nether Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_2, time"]
+						"access_rules": ["nether_team, nether_team_stage_2, time", "nether_team, nether_team_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Nether Team] Stage 2 Clear",
@@ -977,7 +977,7 @@
 					{
 						"name": "[Nether Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], time"]
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], time", "nether_team, nether_team_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Nether Team] Stage 3 Clear",
@@ -1012,7 +1012,7 @@
 					{
 						"name": "[Nether Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], time"]
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], time", "nether_team, nether_team_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Nether Team] Stage 4A Clear",
@@ -1046,7 +1046,7 @@
 					{
 						"name": "[Nether Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], time"]
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], time", "nether_team, nether_team_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Nether Team] Stage 4B Clear",
@@ -1080,7 +1080,7 @@
 					{
 						"name": "[Nether Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], time"]
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], time", "nether_team, nether_team_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Nether Team] Stage 5 Clear",

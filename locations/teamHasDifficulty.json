@@ -40,7 +40,7 @@
 					{
 						"name": "[Normal][Illusion Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_1, $canNormal, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_1, $canNormal, time", "illusion_team, illusion_team_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Illusion Team] Wriggle - Midboss",
@@ -55,7 +55,7 @@
 					{
 						"name": "[Hard][Illusion Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_1, $canHard, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_1, $canHard, time", "illusion_team, illusion_team_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Illusion Team] Wriggle - Midboss",
@@ -70,7 +70,7 @@
 					{
 						"name": "[Lunatic][Illusion Team] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_1, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_1, time", "illusion_team, illusion_team_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Illusion Team] Stage 1 Clear",
@@ -114,7 +114,7 @@
 					{
 						"name": "[Normal][Illusion Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_2, $canNormal, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_2, $canNormal, time", "illusion_team, illusion_team_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Illusion Team] Mystia - Midboss",
@@ -129,7 +129,7 @@
 					{
 						"name": "[Hard][Illusion Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_2, $canHard, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_2, $canHard, time", "illusion_team, illusion_team_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Illusion Team] Mystia - Midboss",
@@ -144,7 +144,7 @@
 					{
 						"name": "[Lunatic][Illusion Team] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_2, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_2, time", "illusion_team, illusion_team_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Illusion Team] Stage 2 Clear",
@@ -188,7 +188,7 @@
 					{
 						"name": "[Normal][Illusion Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canNormal, time", "illusion_team, illusion_team_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Illusion Team] Keine - Midboss 1",
@@ -203,7 +203,7 @@
 					{
 						"name": "[Hard][Illusion Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], $canHard, time", "illusion_team, illusion_team_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Illusion Team] Keine - Midboss 1",
@@ -218,7 +218,7 @@
 					{
 						"name": "[Lunatic][Illusion Team] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], time"]
+						"access_rules": ["illusion_team, illusion_team_stage_3, [$canStage34], time", "illusion_team, illusion_team_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Illusion Team] Stage 3 Clear",
@@ -263,7 +263,7 @@
 					{
 						"name": "[Normal][Illusion Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canNormal, time", "illusion_team, illusion_team_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Illusion Team] Reimu - Midboss",
@@ -278,7 +278,7 @@
 					{
 						"name": "[Hard][Illusion Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], $canHard, time", "illusion_team, illusion_team_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Illusion Team] Reimu - Midboss",
@@ -293,7 +293,7 @@
 					{
 						"name": "[Lunatic][Illusion Team] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], time"]
+						"access_rules": ["illusion_team, illusion_team_stage_4_a, [$canStage34], time", "illusion_team, illusion_team_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Illusion Team] Stage 4A Clear",
@@ -337,7 +337,7 @@
 					{
 						"name": "[Normal][Illusion Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canNormal, time", "illusion_team, illusion_team_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Illusion Team] Marisa - Midboss",
@@ -352,7 +352,7 @@
 					{
 						"name": "[Hard][Illusion Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], $canHard, time", "illusion_team, illusion_team_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Illusion Team] Marisa - Midboss",
@@ -367,7 +367,7 @@
 					{
 						"name": "[Lunatic][Illusion Team] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], time"]
+						"access_rules": ["illusion_team, illusion_team_stage_4_b, [$canStage34], time", "illusion_team, illusion_team_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Illusion Team] Stage 4B Clear",
@@ -411,7 +411,7 @@
 					{
 						"name": "[Normal][Illusion Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canNormal, time", "illusion_team, illusion_team_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Illusion Team] Tewi Defeated",
@@ -426,7 +426,7 @@
 					{
 						"name": "[Hard][Illusion Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], $canHard, time", "illusion_team, illusion_team_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Illusion Team] Tewi Defeated",
@@ -441,7 +441,7 @@
 					{
 						"name": "[Lunatic][Illusion Team] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], time"]
+						"access_rules": ["illusion_team, illusion_team_stage_5, [$canStage56], time", "illusion_team, illusion_team_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Illusion Team] Stage 5 Clear",
@@ -633,7 +633,7 @@
 					{
 						"name": "[Normal][Magic Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_1, $canNormal, time"]
+						"access_rules": ["magic_team, magic_team_stage_1, $canNormal, time", "magic_team, magic_team_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Magic Team] Wriggle - Midboss",
@@ -648,7 +648,7 @@
 					{
 						"name": "[Hard][Magic Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_1, $canHard, time"]
+						"access_rules": ["magic_team, magic_team_stage_1, $canHard, time", "magic_team, magic_team_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Magic Team] Wriggle - Midboss",
@@ -663,7 +663,7 @@
 					{
 						"name": "[Lunatic][Magic Team] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_1, time"]
+						"access_rules": ["magic_team, magic_team_stage_1, time", "magic_team, magic_team_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Magic Team] Stage 1 Clear",
@@ -707,7 +707,7 @@
 					{
 						"name": "[Normal][Magic Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_2, $canNormal, time"]
+						"access_rules": ["magic_team, magic_team_stage_2, $canNormal, time", "magic_team, magic_team_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Magic Team] Mystia - Midboss",
@@ -722,7 +722,7 @@
 					{
 						"name": "[Hard][Magic Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_2, $canHard, time"]
+						"access_rules": ["magic_team, magic_team_stage_2, $canHard, time", "magic_team, magic_team_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Magic Team] Mystia - Midboss",
@@ -737,7 +737,7 @@
 					{
 						"name": "[Lunatic][Magic Team] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_2, time"]
+						"access_rules": ["magic_team, magic_team_stage_2, time", "magic_team, magic_team_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Magic Team] Stage 2 Clear",
@@ -781,7 +781,7 @@
 					{
 						"name": "[Normal][Magic Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canNormal, time", "magic_team, magic_team_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Magic Team] Keine - Midboss 1",
@@ -796,7 +796,7 @@
 					{
 						"name": "[Hard][Magic Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], $canHard, time", "magic_team, magic_team_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Magic Team] Keine - Midboss 1",
@@ -811,7 +811,7 @@
 					{
 						"name": "[Lunatic][Magic Team] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], time"]
+						"access_rules": ["magic_team, magic_team_stage_3, [$canStage34], time", "magic_team, magic_team_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Magic Team] Stage 3 Clear",
@@ -855,7 +855,7 @@
 					{
 						"name": "[Normal][Magic Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canNormal, time", "magic_team, magic_team_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Magic Team] Reimu - Midboss",
@@ -870,7 +870,7 @@
 					{
 						"name": "[Hard][Magic Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], $canHard, time", "magic_team, magic_team_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Magic Team] Reimu - Midboss",
@@ -885,7 +885,7 @@
 					{
 						"name": "[Lunatic][Magic Team] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], time"]
+						"access_rules": ["magic_team, magic_team_stage_4_a, [$canStage34], time", "magic_team, magic_team_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Magic Team] Stage 4A Clear",
@@ -930,7 +930,7 @@
 					{
 						"name": "[Normal][Magic Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canNormal, time", "magic_team, magic_team_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Magic Team] Marisa - Midboss",
@@ -945,7 +945,7 @@
 					{
 						"name": "[Hard][Magic Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], $canHard, time", "magic_team, magic_team_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Magic Team] Marisa - Midboss",
@@ -960,7 +960,7 @@
 					{
 						"name": "[Lunatic][Magic Team] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], time"]
+						"access_rules": ["magic_team, magic_team_stage_4_b, [$canStage34], time", "magic_team, magic_team_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Magic Team] Stage 4B Clear",
@@ -1004,7 +1004,7 @@
 					{
 						"name": "[Normal][Magic Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canNormal, time", "magic_team, magic_team_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Magic Team] Tewi Defeated",
@@ -1019,7 +1019,7 @@
 					{
 						"name": "[Hard][Magic Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], $canHard, time", "magic_team, magic_team_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Magic Team] Tewi Defeated",
@@ -1034,7 +1034,7 @@
 					{
 						"name": "[Lunatic][Magic Team] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], time"]
+						"access_rules": ["magic_team, magic_team_stage_5, [$canStage56], time", "magic_team, magic_team_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Magic Team] Stage 5 Clear",
@@ -1226,7 +1226,7 @@
 					{
 						"name": "[Normal][Devil Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_1, $canNormal, time"]
+						"access_rules": ["devil_team, devil_team_stage_1, $canNormal, time", "devil_team, devil_team_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Devil Team] Wriggle - Midboss",
@@ -1241,7 +1241,7 @@
 					{
 						"name": "[Hard][Devil Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_1, $canHard, time"]
+						"access_rules": ["devil_team, devil_team_stage_1, $canHard, time", "devil_team, devil_team_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Devil Team] Wriggle - Midboss",
@@ -1256,7 +1256,7 @@
 					{
 						"name": "[Lunatic][Devil Team] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_1, time"]
+						"access_rules": ["devil_team, devil_team_stage_1, time", "devil_team, devil_team_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Devil Team] Stage 1 Clear",
@@ -1300,7 +1300,7 @@
 					{
 						"name": "[Normal][Devil Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_2, $canNormal, time"]
+						"access_rules": ["devil_team, devil_team_stage_2, $canNormal, time", "devil_team, devil_team_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Devil Team] Mystia - Midboss",
@@ -1315,7 +1315,7 @@
 					{
 						"name": "[Hard][Devil Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_2, $canHard, time"]
+						"access_rules": ["devil_team, devil_team_stage_2, $canHard, time", "devil_team, devil_team_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Devil Team] Mystia - Midboss",
@@ -1330,7 +1330,7 @@
 					{
 						"name": "[Lunatic][Devil Team] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_2, time"]
+						"access_rules": ["devil_team, devil_team_stage_2, time", "devil_team, devil_team_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Devil Team] Stage 2 Clear",
@@ -1374,7 +1374,7 @@
 					{
 						"name": "[Normal][Devil Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canNormal, time", "devil_team, devil_team_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Devil Team] Keine - Midboss 1",
@@ -1389,7 +1389,7 @@
 					{
 						"name": "[Hard][Devil Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], $canHard, time", "devil_team, devil_team_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Devil Team] Keine - Midboss 1",
@@ -1404,7 +1404,7 @@
 					{
 						"name": "[Lunatic][Devil Team] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], time"]
+						"access_rules": ["devil_team, devil_team_stage_3, [$canStage34], time", "devil_team, devil_team_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Devil Team] Stage 3 Clear",
@@ -1448,7 +1448,7 @@
 					{
 						"name": "[Normal][Devil Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canNormal, time", "devil_team, devil_team_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Devil Team] Reimu - Midboss",
@@ -1463,7 +1463,7 @@
 					{
 						"name": "[Hard][Devil Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], $canHard, time", "devil_team, devil_team_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Devil Team] Reimu - Midboss",
@@ -1478,7 +1478,7 @@
 					{
 						"name": "[Lunatic][Devil Team] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], time"]
+						"access_rules": ["devil_team, devil_team_stage_4_a, [$canStage34], time", "devil_team, devil_team_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Devil Team] Stage 4A Clear",
@@ -1523,7 +1523,7 @@
 					{
 						"name": "[Normal][Devil Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canNormal, time", "devil_team, devil_team_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Devil Team] Marisa - Midboss",
@@ -1538,7 +1538,7 @@
 					{
 						"name": "[Hard][Devil Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], $canHard, time", "devil_team, devil_team_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Devil Team] Marisa - Midboss",
@@ -1553,7 +1553,7 @@
 					{
 						"name": "[Lunatic][Devil Team] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], time"]
+						"access_rules": ["devil_team, devil_team_stage_4_b, [$canStage34], time", "devil_team, devil_team_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Devil Team] Stage 4B Clear",
@@ -1597,7 +1597,7 @@
 					{
 						"name": "[Normal][Devil Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canNormal, time", "devil_team, devil_team_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Devil Team] Tewi Defeated",
@@ -1612,7 +1612,7 @@
 					{
 						"name": "[Hard][Devil Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], $canHard, time", "devil_team, devil_team_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Devil Team] Tewi Defeated",
@@ -1627,7 +1627,7 @@
 					{
 						"name": "[Lunatic][Devil Team] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], time"]
+						"access_rules": ["devil_team, devil_team_stage_5, [$canStage56], time", "devil_team, devil_team_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Devil Team] Stage 5 Clear",
@@ -1819,7 +1819,7 @@
 					{
 						"name": "[Normal][Nether Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_1, $canNormal, time"]
+						"access_rules": ["nether_team, nether_team_stage_1, $canNormal, time", "nether_team, nether_team_stage_1, $canNormal, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Hard][Nether Team] Wriggle - Midboss",
@@ -1834,7 +1834,7 @@
 					{
 						"name": "[Hard][Nether Team] Wriggle - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_1, $canHard, time"]
+						"access_rules": ["nether_team, nether_team_stage_1, $canHard, time", "nether_team, nether_team_stage_1, $canHard, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Lunatic][Nether Team] Wriggle - Midboss",
@@ -1849,7 +1849,7 @@
 					{
 						"name": "[Lunatic][Nether Team] Wriggle - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_1, time"]
+						"access_rules": ["nether_team, nether_team_stage_1, time", "nether_team, nether_team_stage_1, [time], $hasEnoughTimeFillerForStage1"]
 					},
 					{
 						"name": "[Nether Team] Stage 1 Clear",
@@ -1893,7 +1893,7 @@
 					{
 						"name": "[Normal][Nether Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_2, $canNormal, time"]
+						"access_rules": ["nether_team, nether_team_stage_2, $canNormal, time", "nether_team, nether_team_stage_2, $canNormal, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Hard][Nether Team] Mystia - Midboss",
@@ -1908,7 +1908,7 @@
 					{
 						"name": "[Hard][Nether Team] Mystia - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_2, $canHard, time"]
+						"access_rules": ["nether_team, nether_team_stage_2, $canHard, time", "nether_team, nether_team_stage_2, $canHard, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Lunatic][Nether Team] Mystia - Midboss",
@@ -1923,7 +1923,7 @@
 					{
 						"name": "[Lunatic][Nether Team] Mystia - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_2, time"]
+						"access_rules": ["nether_team, nether_team_stage_2, time", "nether_team, nether_team_stage_2, [time], $hasEnoughTimeFillerForStage2"]
 					},
 					{
 						"name": "[Nether Team] Stage 2 Clear",
@@ -1967,7 +1967,7 @@
 					{
 						"name": "[Normal][Nether Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canNormal, time"]
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canNormal, time", "nether_team, nether_team_stage_3, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Hard][Nether Team] Keine - Midboss 1",
@@ -1982,7 +1982,7 @@
 					{
 						"name": "[Hard][Nether Team] Keine - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canHard, time"]
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], $canHard, time", "nether_team, nether_team_stage_3, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Lunatic][Nether Team] Keine - Midboss 1",
@@ -1997,7 +1997,7 @@
 					{
 						"name": "[Lunatic][Nether Team] Keine - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], time"]
+						"access_rules": ["nether_team, nether_team_stage_3, [$canStage34], time", "nether_team, nether_team_stage_3, [$canStage34], [time], $hasEnoughTimeFillerForStage3"]
 					},
 					{
 						"name": "[Nether Team] Stage 3 Clear",
@@ -2042,7 +2042,7 @@
 					{
 						"name": "[Normal][Nether Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canNormal, time"]
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canNormal, time", "nether_team, nether_team_stage_4_a, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Hard][Nether Team] Reimu - Midboss",
@@ -2057,7 +2057,7 @@
 					{
 						"name": "[Hard][Nether Team] Reimu - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canHard, time"]
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], $canHard, time", "nether_team, nether_team_stage_4_a, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Lunatic][Nether Team] Reimu - Midboss",
@@ -2072,7 +2072,7 @@
 					{
 						"name": "[Lunatic][Nether Team] Reimu - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], time"]
+						"access_rules": ["nether_team, nether_team_stage_4_a, [$canStage34], time", "nether_team, nether_team_stage_4_a, [$canStage34], [time], $hasEnoughTimeFillerForStage4A"]
 					},
 					{
 						"name": "[Nether Team] Stage 4A Clear",
@@ -2116,7 +2116,7 @@
 					{
 						"name": "[Normal][Nether Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canNormal, time"]
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canNormal, time", "nether_team, nether_team_stage_4_b, [$canStage34], $canNormal, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Hard][Nether Team] Marisa - Midboss",
@@ -2131,7 +2131,7 @@
 					{
 						"name": "[Hard][Nether Team] Marisa - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canHard, time"]
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], $canHard, time", "nether_team, nether_team_stage_4_b, [$canStage34], $canHard, [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Lunatic][Nether Team] Marisa - Midboss",
@@ -2146,7 +2146,7 @@
 					{
 						"name": "[Lunatic][Nether Team] Marisa - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], time"]
+						"access_rules": ["nether_team, nether_team_stage_4_b, [$canStage34], time", "nether_team, nether_team_stage_4_b, [$canStage34], [time], $hasEnoughTimeFillerForStage4B"]
 					},
 					{
 						"name": "[Nether Team] Stage 4B Clear",
@@ -2190,7 +2190,7 @@
 					{
 						"name": "[Normal][Nether Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canNormal, time"]
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canNormal, time", "nether_team, nether_team_stage_5, [$canStage56], $canNormal, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Hard][Nether Team] Tewi Defeated",
@@ -2205,7 +2205,7 @@
 					{
 						"name": "[Hard][Nether Team] Reisen - Last Spell",
 						"visibility_rules": ["$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canHard, time"]
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], $canHard, time", "nether_team, nether_team_stage_5, [$canStage56], $canHard, [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Lunatic][Nether Team] Tewi Defeated",
@@ -2220,7 +2220,7 @@
 					{
 						"name": "[Lunatic][Nether Team] Reisen - Last Spell",
 						"visibility_rules": ["include_lunatic", "$lastSpell"],
-						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], time"]
+						"access_rules": ["nether_team, nether_team_stage_5, [$canStage56], time", "nether_team, nether_team_stage_5, [$canStage56], [time], $hasEnoughTimeFillerForStage5"]
 					},
 					{
 						"name": "[Nether Team] Stage 5 Clear",

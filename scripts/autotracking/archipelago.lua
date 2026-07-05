@@ -2,6 +2,7 @@ ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 CURRENT_INDEX = -1
+local STARTING_ID = 80000
 
 function onClear(slotData)
 	CURRENT_INDEX = -1
@@ -35,6 +36,9 @@ function onClear(slotData)
 						layoutItemObject.Active = false
 					elseif layoutItemData[2] == "consumable" then
 						layoutItemObject.AcquiredCount = 0
+					elseif layoutItemData[2] == "spell_card" then
+						layoutItemObject.CurrentStage = 0
+						layoutItemObject.Active = false
 					elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 						print(string.format("onClear: Unknown item type %s for code %s", layoutItemData[2], layoutItemData[1]))
 					end
@@ -74,7 +78,7 @@ function onClear(slotData)
 	Tracker:FindObjectForCode("extra_stage_included").CurrentStage = slotData['extra_stage']
 	Tracker:FindObjectForCode("difficulty_check").Active = slotData['difficulty_check']
 	Tracker:FindObjectForCode("include_lunatic").Active = (slotData['exclude_lunatic'] == 0)
-	Tracker:FindObjectForCode("both_stage_4").Active = slotData['both_stage_4']
+	Tracker:FindObjectForCode("both_stage_4").Active = slotData['both_stage_4'] and (slotData['mode'] ~= 2 and slotData['mode'] ~= 4)
 	Tracker:FindObjectForCode("include_last_spell").Active = slotData['time_check']
 	Tracker:FindObjectForCode("teams").Active = (slotData['characters'] == 0 or slotData['characters'] == 2)
 	Tracker:FindObjectForCode("solo").Active = (slotData['characters'] == 1 or slotData['characters'] == 2)
@@ -108,6 +112,161 @@ function onClear(slotData)
 	end
 
 	Tracker:FindObjectForCode("time").Active = time
+
+	-- If we're in normal mode, we unlock all the stages
+	if slotData['mode'] == 2 or slotData['mode'] == 4 then
+		Tracker:FindObjectForCode("illusion_team_stage_1").Active = true
+		Tracker:FindObjectForCode("illusion_team_stage_2").Active = true
+		Tracker:FindObjectForCode("illusion_team_stage_3").Active = true
+		Tracker:FindObjectForCode("illusion_team_stage_4_a").Active = true
+		Tracker:FindObjectForCode("illusion_team_stage_4_b").Active = true
+		Tracker:FindObjectForCode("illusion_team_stage_5").Active = true
+		Tracker:FindObjectForCode("illusion_team_stage_6_a").Active = true
+		Tracker:FindObjectForCode("illusion_team_stage_6_b").Active = true
+		Tracker:FindObjectForCode("magic_team_stage_1").Active = true
+		Tracker:FindObjectForCode("magic_team_stage_2").Active = true
+		Tracker:FindObjectForCode("magic_team_stage_3").Active = true
+		Tracker:FindObjectForCode("magic_team_stage_4_a").Active = true
+		Tracker:FindObjectForCode("magic_team_stage_4_b").Active = true
+		Tracker:FindObjectForCode("magic_team_stage_5").Active = true
+		Tracker:FindObjectForCode("magic_team_stage_6_a").Active = true
+		Tracker:FindObjectForCode("magic_team_stage_6_b").Active = true
+		Tracker:FindObjectForCode("devil_team_stage_1").Active = true
+		Tracker:FindObjectForCode("devil_team_stage_2").Active = true
+		Tracker:FindObjectForCode("devil_team_stage_3").Active = true
+		Tracker:FindObjectForCode("devil_team_stage_4_a").Active = true
+		Tracker:FindObjectForCode("devil_team_stage_4_b").Active = true
+		Tracker:FindObjectForCode("devil_team_stage_5").Active = true
+		Tracker:FindObjectForCode("devil_team_stage_6_a").Active = true
+		Tracker:FindObjectForCode("devil_team_stage_6_b").Active = true
+		Tracker:FindObjectForCode("nether_team_stage_1").Active = true
+		Tracker:FindObjectForCode("nether_team_stage_2").Active = true
+		Tracker:FindObjectForCode("nether_team_stage_3").Active = true
+		Tracker:FindObjectForCode("nether_team_stage_4_a").Active = true
+		Tracker:FindObjectForCode("nether_team_stage_4_b").Active = true
+		Tracker:FindObjectForCode("nether_team_stage_5").Active = true
+		Tracker:FindObjectForCode("nether_team_stage_6_a").Active = true
+		Tracker:FindObjectForCode("nether_team_stage_6_b").Active = true
+		Tracker:FindObjectForCode("reimu_stage_1").Active = true
+		Tracker:FindObjectForCode("reimu_stage_2").Active = true
+		Tracker:FindObjectForCode("reimu_stage_3").Active = true
+		Tracker:FindObjectForCode("reimu_stage_4_a").Active = true
+		Tracker:FindObjectForCode("reimu_stage_4_b").Active = true
+		Tracker:FindObjectForCode("reimu_stage_5").Active = true
+		Tracker:FindObjectForCode("reimu_stage_6_a").Active = true
+		Tracker:FindObjectForCode("reimu_stage_6_b").Active = true
+		Tracker:FindObjectForCode("yukari_stage_1").Active = true
+		Tracker:FindObjectForCode("yukari_stage_2").Active = true
+		Tracker:FindObjectForCode("yukari_stage_3").Active = true
+		Tracker:FindObjectForCode("yukari_stage_4_a").Active = true
+		Tracker:FindObjectForCode("yukari_stage_4_b").Active = true
+		Tracker:FindObjectForCode("yukari_stage_5").Active = true
+		Tracker:FindObjectForCode("yukari_stage_6_a").Active = true
+		Tracker:FindObjectForCode("yukari_stage_6_b").Active = true
+		Tracker:FindObjectForCode("marisa_stage_1").Active = true
+		Tracker:FindObjectForCode("marisa_stage_2").Active = true
+		Tracker:FindObjectForCode("marisa_stage_3").Active = true
+		Tracker:FindObjectForCode("marisa_stage_4_a").Active = true
+		Tracker:FindObjectForCode("marisa_stage_4_b").Active = true
+		Tracker:FindObjectForCode("marisa_stage_5").Active = true
+		Tracker:FindObjectForCode("marisa_stage_6_a").Active = true
+		Tracker:FindObjectForCode("marisa_stage_6_b").Active = true
+		Tracker:FindObjectForCode("alice_stage_1").Active = true
+		Tracker:FindObjectForCode("alice_stage_2").Active = true
+		Tracker:FindObjectForCode("alice_stage_3").Active = true
+		Tracker:FindObjectForCode("alice_stage_4_a").Active = true
+		Tracker:FindObjectForCode("alice_stage_4_b").Active = true
+		Tracker:FindObjectForCode("alice_stage_5").Active = true
+		Tracker:FindObjectForCode("alice_stage_6_a").Active = true
+		Tracker:FindObjectForCode("alice_stage_6_b").Active = true
+		Tracker:FindObjectForCode("sakuya_stage_1").Active = true
+		Tracker:FindObjectForCode("sakuya_stage_2").Active = true
+		Tracker:FindObjectForCode("sakuya_stage_3").Active = true
+		Tracker:FindObjectForCode("sakuya_stage_4_a").Active = true
+		Tracker:FindObjectForCode("sakuya_stage_4_b").Active = true
+		Tracker:FindObjectForCode("sakuya_stage_5").Active = true
+		Tracker:FindObjectForCode("sakuya_stage_6_a").Active = true
+		Tracker:FindObjectForCode("sakuya_stage_6_b").Active = true
+		Tracker:FindObjectForCode("remilia_stage_1").Active = true
+		Tracker:FindObjectForCode("remilia_stage_2").Active = true
+		Tracker:FindObjectForCode("remilia_stage_3").Active = true
+		Tracker:FindObjectForCode("remilia_stage_4_a").Active = true
+		Tracker:FindObjectForCode("remilia_stage_4_b").Active = true
+		Tracker:FindObjectForCode("remilia_stage_5").Active = true
+		Tracker:FindObjectForCode("remilia_stage_6_a").Active = true
+		Tracker:FindObjectForCode("remilia_stage_6_b").Active = true
+		Tracker:FindObjectForCode("youmu_stage_1").Active = true
+		Tracker:FindObjectForCode("youmu_stage_2").Active = true
+		Tracker:FindObjectForCode("youmu_stage_3").Active = true
+		Tracker:FindObjectForCode("youmu_stage_4_a").Active = true
+		Tracker:FindObjectForCode("youmu_stage_4_b").Active = true
+		Tracker:FindObjectForCode("youmu_stage_5").Active = true
+		Tracker:FindObjectForCode("youmu_stage_6_a").Active = true
+		Tracker:FindObjectForCode("youmu_stage_6_b").Active = true
+		Tracker:FindObjectForCode("yuyuko_stage_1").Active = true
+		Tracker:FindObjectForCode("yuyuko_stage_2").Active = true
+		Tracker:FindObjectForCode("yuyuko_stage_3").Active = true
+		Tracker:FindObjectForCode("yuyuko_stage_4_a").Active = true
+		Tracker:FindObjectForCode("yuyuko_stage_4_b").Active = true
+		Tracker:FindObjectForCode("yuyuko_stage_5").Active = true
+		Tracker:FindObjectForCode("yuyuko_stage_6_a").Active = true
+		Tracker:FindObjectForCode("yuyuko_stage_6_b").Active = true
+
+		if slotData['extra_stage'] == 1 then
+			Tracker:FindObjectForCode("illusion_team_extra_stage").Active = true
+			Tracker:FindObjectForCode("magic_team_extra_stage").Active = true
+			Tracker:FindObjectForCode("devil_team_extra_stage").Active = true
+			Tracker:FindObjectForCode("nether_team_extra_stage").Active = true
+			Tracker:FindObjectForCode("reimu_extra_stage").Active = true
+			Tracker:FindObjectForCode("yukari_extra_stage").Active = true
+			Tracker:FindObjectForCode("marisa_extra_stage").Active = true
+			Tracker:FindObjectForCode("alice_extra_stage").Active = true
+			Tracker:FindObjectForCode("sakuya_extra_stage").Active = true
+			Tracker:FindObjectForCode("remilia_extra_stage").Active = true
+			Tracker:FindObjectForCode("youmu_extra_stage").Active = true
+			Tracker:FindObjectForCode("yuyuko_extra_stage").Active = true
+		end
+	end
+
+	-- If we have spell practice on, we check the locations in order to know which one to display
+	if slotData['mode'] ~= 0 and slotData['mode'] ~= 2 then
+		local missing_locations = Archipelago.MissingLocations
+		local checked_locations = Archipelago.CheckedLocations
+
+		for _, item in pairs(missing_locations) do
+			if item > STARTING_ID + 60000 then
+				local spell_id = item - (STARTING_ID + 60000)
+
+				spell_id = tostring(spell_id) 
+				spell_id = spell_id:sub(#spell_id-2)
+
+				if string.len(spell_id) == 1 then
+					spell_id = "00"..spell_id
+				elseif string.len(spell_id) == 2 then
+					spell_id = "0"..spell_id
+				end
+
+				Tracker:FindObjectForCode("sc_"..spell_id).Active = true
+			end
+		end
+
+		for _, item in pairs(checked_locations) do
+			if item > STARTING_ID + 60000 then
+				local spell_id = item - (STARTING_ID + 60000)
+
+				spell_id = tostring(spell_id) 
+				spell_id = spell_id:sub(#spell_id-2)
+
+				if string.len(spell_id) == 1 then
+					spell_id = "00"..spell_id
+				elseif string.len(spell_id) == 2 then
+					spell_id = "0"..spell_id
+				end
+
+				Tracker:FindObjectForCode("sc_"..spell_id).Active = true
+			end
+		end
+	end
 end
 
 function onItem(index, itemId, itemName, playerNumber)
@@ -426,6 +585,10 @@ function onItem(index, itemId, itemName, playerNumber)
 				trackerItemObject.Active = true
 			elseif item[2] == "progressive" then
 				trackerItemObject.CurrentStage = trackerItemObject.CurrentStage + 1
+			elseif item[2] == "spell_card" then
+				if trackerItemObject.Active == true then
+					trackerItemObject.CurrentStage = 1
+				end
 			elseif item[2] == "consumable" then
 				trackerItemObject.AcquiredCount = trackerItemObject.AcquiredCount + item[3]
 			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
